@@ -45,4 +45,6 @@ html {
     --badge-offline-color: #f00639;
     /* badge away color */
     --badge-away-color: #f9a826;
+    /* badge notification color */
+    --badge-notification-color: #14f88e;
 }
