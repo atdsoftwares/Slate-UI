@@ -39,4 +39,10 @@ html {
     --universal-border-color: #3b3a3a;
     /* avatar background color */
     --avatar-background-color: #891399;
+    /* badge online color */
+    --badge-online-color: #09422e;
+    /* badge offline color  */
+    --badge-offline-color: #f00639;
+    /* badge away color */
+    --badge-away-color: #f9a826;
 }
