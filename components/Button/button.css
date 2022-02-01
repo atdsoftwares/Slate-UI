@@ -1,21 +1,26 @@
+/* universal css seet for fonts and colors */
 @import '/css/main.css';
-
-.btn{
-height: 2rem;
-width: 6rem;
-margin: 0.2rem;
-border-radius: 0.5rem;
-}
-.btn-solid{
-height: 5rem;
-width: 35rem;
-background-color: aqua;
-display: flex;
-justify-content: center;
-align-items: center;
+/* main HTML5 button */
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.btn-outline{
+
+/* head button class */
+.btn {
+    height: 2rem;
+    width: 6rem;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: var(--button-font-color);
+}
+
+/* solid head button class */
+.btn-solid {
     height: 5rem;
     width: 35rem;
     background-color: aqua;
@@ -23,7 +28,8 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
-.btn-with-icons{
+/* outline button class */
+.btn-outline {
     height: 5rem;
     width: 35rem;
     background-color: aqua;
@@ -31,4 +37,116 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+/* button with icon class */
+.btn-with-icons {
+    height: 5rem;
+    width: 35rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: var(--button-primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--button-secondary-color);
+}
+
+.btn-success {
+    background-color: var(--button-success-color);
+
+}
+
+.btn-danger {
+    background-color: var(--button-danger-color);
+}
+
+.btn-warning {
+    background-color: var(--button-warning-color);
+}
+
+.btn-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+.btn-primary-outline {
+    color: var(--button-primary-color);
+}
+
+.btn-primary-outline:hover {
+    background-color: var(--button-primary-color);
+    color: var(--button-font-color);
+}
+
+.btn-secondary-outline {
+    color: var(--button-secondary-color);
+}
+
+.btn-secondary-outline:hover {
+    background-color: var(--button-secondary-color);
+    color: var(--button-font-color);
+}
+
+.btn-success-outline {
+    color: var(--button-success-color);
+}
+
+.btn-success-outline:hover {
+    background-color: var(--button-success-color);
+    color: var(--button-font-color);
+}
+
+.btn-danger-outline {
+    color: var(--button-danger-color);
+}
+
+.btn-danger-outline:hover {
+    background-color: var(--button-danger-color);
+    color: var(--button-font-color);
+}
+
+.btn-warning-outline {
+    color: var(--button-warning-color);
+}
+
+.btn-warning-outline:hover {
+    background-color: var(--button-warning-color);
+    color: var(--button-font-color);
+}
+
+.btn-primary-icon {
+    background-color: var(--button-primary-color);
+    color: var(--button-warning-color);
+}
+
+.btn-secondary-icon {
+    background-color: var(--button-success-color);
+    color: var(--button-warning-color);
+}
+
+.btn-sm-icon-add {
+    border-radius: 50%;
+    background-color: var(--button-secondary-color);
+    color: var(--button-font-color);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.btn-lg-icon-add {
+    border-radius: 50%;
+    background-color: var(--button-secondary-color);
+    color: var(--button-font-color);
+    height: 3rem;
+    width: 3rem;
+}
+
 
