@@ -1,0 +1,34 @@
+@import '/css/main.css';
+
+.btn{
+height: 2rem;
+width: 6rem;
+margin: 0.2rem;
+border-radius: 0.5rem;
+}
+.btn-solid{
+height: 5rem;
+width: 35rem;
+background-color: aqua;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-outline{
+    height: 5rem;
+    width: 35rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-with-icons{
+    height: 5rem;
+    width: 35rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
