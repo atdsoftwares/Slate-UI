@@ -25,7 +25,9 @@ img {
 .card-with-badge,
 .btn-icons,
 .card-dismiss,
-.card-with-text-overlay {
+.card-with-text-overlay,
+.card-with-text-only,
+.card-horizontal {
     display: flex;
 }
 
@@ -57,15 +59,15 @@ button {
 }
 
 .badge-close {
-    position: absolute;
-    right: 3rem;
-    bottom: 1rem;
-    color: green;
+    position: relative;
+    left: 35rem;
+    top: 3rem;
+    color: red;
     cursor: pointer;
 }
 
 .card-with-text-overlay {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .badge-outofstock {
@@ -95,4 +97,21 @@ button {
     top: -10rem;
     right: 5rem;
     opacity: 0.8;
+}
+
+.card-vertical,.card-with-shadow {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+.vcard {
+    height: 26rem;
+    width: 16rem;
+    border: 2px solid var(--universal-border-color); 
+}
+.card-with-shadow {
+    /* box-shadow: 2px 2px 2px 2px #888484; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
 }
