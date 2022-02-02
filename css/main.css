@@ -61,4 +61,6 @@ html {
     --button-link-color: #6c70e0;
     /* font color for button */
     --button-font-color: #fff;
+    /* shopping button background color */
+    --shopping-button-color: #ad1c2f;
 }

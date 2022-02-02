@@ -12,11 +12,15 @@ button {
 
 /* head button class */
 .btn {
-    height: 2rem;
-    width: 6rem;
+    height: 3rem;
+    width: 8rem;
     margin: 0.2rem;
     border-radius: 0.4rem;
     color: var(--button-font-color);
+    font-size: 1rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
 }
 
 /* solid head button class */
@@ -143,14 +147,14 @@ button {
 
 /* button with icon for primary class */
 .btn-primary-icon {
-    background-color: var(--button-primary-color);
-    color: var(--button-warning-color);
+    background-color: var(--shopping-button-color);
+    color: var(--button-font-color);
 }
 
 /* button with icon for secondary class */
 .btn-secondary-icon {
-    background-color: var(--button-success-color);
-    color: var(--button-warning-color);
+    background-color: var(--shopping-button-color);
+    color: var(--button-font-color);
 }
 
 /* add icon for small size */
@@ -169,4 +173,10 @@ button {
     color: var(--button-font-color);
     height: 3rem;
     width: 3rem;
+}
+
+/* material icons css */
+.material-icons{
+    font-size: 2rem;
+    margin:1rem;
 }
