@@ -62,7 +62,7 @@ button {
     position: relative;
     left: 35rem;
     top: 3rem;
-    color: red;
+    color: var(--danger-alert-icon-color);
     cursor: pointer;
 }
 
@@ -70,25 +70,11 @@ button {
     opacity: 0.5;
 }
 
-.badge-outofstock {
-    left: -1rem;
-    bottom: -0.2rem;
-    color: red;
-    cursor: pointer;
-    font-size: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    bottom: 5rem;
-}
-
 .text-overlay-over-card::after {
     height: 9rem;
     width: 15rem;
-    background-color: rgb(126, 134, 122);
     display: flex;
     align-items: center;
-    justify-content: center;
     content: 'Out of Stock';
     background-image: linear-gradient(to right, red, rgb(214, 214, 34));
     font-weight: bold;
@@ -99,7 +85,8 @@ button {
     opacity: 0.8;
 }
 
-.card-vertical,.card-with-shadow {
+.card-vertical,
+.card-with-shadow {
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
@@ -108,10 +95,9 @@ button {
 .vcard {
     height: 26rem;
     width: 16rem;
-    border: 2px solid var(--universal-border-color); 
+    border: 2px solid var(--universal-border-color);
 }
-.card-with-shadow {
-    /* box-shadow: 2px 2px 2px 2px #888484; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
+.card-with-shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
