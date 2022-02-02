@@ -1,13 +1,21 @@
+/* global css sheet for fonts and icons */
 @import '/css/main.css';
 
-img{
-width: 100%;
-height: auto;
-margin:1rem;
+/* global image HTML5 tag */
+img {
+    width: 600;
+    height: 400;
+    margin: 1rem;
+    border: 1px solid tomato;
 }
-
-.round-image img{
-   width: 10rem;
-   height: 10rem;
-   border-radius: 50%;
+/* repsonsive class */
+.responsive-image img {
+    max-width: 100%;
+    height: auto;
+}
+/*  round image class tag*/
+.round-image img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
 }
