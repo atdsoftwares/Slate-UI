@@ -1,0 +1,94 @@
+@import "/css/main.css";
+
+.card {
+  height: 14rem;
+  width: 37rem;
+  border: 2px solid var(--universal-border-color);
+  margin: 0.5rem;
+  /* overflow: auto; */
+}
+
+img {
+  height: 13rem;
+  width: 15rem;
+  border: 2px solid var(--universal-border-color);
+  margin: 0.3rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.3rem;
+  margin-left: 0.2rem;
+}
+
+.card-with-badge,.btn-icons,.card-dismiss,.card-with-text-overlay{
+  display: flex;
+}
+.card-with-text-overlay{
+
+}
+
+button {
+  height: 2rem;
+  margin: 0.3rem 0.3rem 0 0;
+  display: flex;
+  align-items: center;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+.btn-add-to-cart,
+.btn-add-to-wishlist {
+  background-color: var(--shopping-card-button-bgcolor);
+  color: var(--background-universal-color);
+}
+
+.text-light {
+  font-size: 0.8rem;
+}
+
+.badge-verify {
+  position: absolute;
+  left: 14rem;
+  top:3.5rem;
+  color: green;
+  cursor: pointer;
+}
+
+.badge-close{
+    position: absolute;
+    right: 3rem;
+    bottom: -0.2rem;
+    color: green;
+    cursor: pointer;
+}
+
+.card-with-text-overlay{
+    opacity: 0.3;
+}
+.card-with-text-overlay::content{
+    /* content: 'out of stock'; */
+}
+.badge-outofstock{
+    position: relative;
+    left: 19.5rem;
+    bottom: -0.2rem;
+    color: red;;
+    cursor: pointer;
+}
+
+.text-overlay-over-card{
+    height: 5rem;
+    width: 5rem;
+   background-color: aqua;
+   display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.badge-outofstock{
+
+
+
+}
