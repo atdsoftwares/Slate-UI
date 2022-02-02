@@ -1,13 +1,16 @@
+/* global css sheet for fonts and icons */
 @import "/css/main.css";
 
+/* main card component */
 .card {
     height: 14rem;
-    width: 37rem;
+    width: 40rem;
     border: 2px solid var(--universal-border-color);
     margin: 0.5rem;
     /* overflow: auto; */
 }
 
+/* image HTML5 tag */
 img {
     height: 13rem;
     width: 15rem;
@@ -15,6 +18,7 @@ img {
     margin: 0.3rem;
 }
 
+/* card content class */
 .card-content {
     display: flex;
     flex-direction: column;
@@ -22,6 +26,7 @@ img {
     margin-left: 0.2rem;
 }
 
+/* all important classes groped togther */
 .card-with-badge,
 .btn-icons,
 .card-dismiss,
@@ -31,6 +36,7 @@ img {
     display: flex;
 }
 
+/* HTML5 btton element */
 button {
     height: 2rem;
     margin: 0.3rem 0.3rem 0 0;
@@ -40,21 +46,24 @@ button {
     cursor: pointer;
 }
 
+/* button class for cart and wishlist */
 .btn-add-to-cart,
 .btn-add-to-wishlist {
     background-color: var(--shopping-card-button-bgcolor);
     color: var(--background-universal-color);
 }
 
+/* small text class */
 .text-light {
     font-size: 0.8rem;
 }
 
+/* badge class */
 .badge-verify {
     position: absolute;
     left: 14rem;
     top: 3.5rem;
-    color: green;
+    color: var(--success-alert-icon-color);
     cursor: pointer;
 }
 
@@ -66,6 +75,7 @@ button {
     cursor: pointer;
 }
 
+/* card textoverlay class */
 .card-with-text-overlay {
     opacity: 0.5;
 }
@@ -85,6 +95,7 @@ button {
     opacity: 0.8;
 }
 
+/* other card classes */
 .card-vertical,
 .card-with-shadow {
     display: flex;
@@ -92,12 +103,14 @@ button {
     margin: 0.5rem;
 }
 
+/* vertical card class */
 .vcard {
     height: 26rem;
     width: 16rem;
     border: 2px solid var(--universal-border-color);
 }
 
+/* shadow class */
 .card-with-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
