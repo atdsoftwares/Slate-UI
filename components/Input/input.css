@@ -1,5 +1,7 @@
+/* global css file for fonts and icons  */
 @import '/css/main.css';
 
+/* input class main*/
 .input-types {
     display: flex;
     flex-direction: column;
@@ -12,39 +14,28 @@
     background-color: var(--background-universal-color);
 
 }
-
+/* global html5 input element */
 input {
     width: 20rem;
     height: 2rem;
     margin: 0.3rem;
     padding: 0.2rem;
     border-radius: 0.4rem;
+    color: white;
 }
+/* html5 input type submit button */
 input[type='submit'] {
     height: 2rem;
     width: 5rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    background-color:var(--underline-text-color);
-    color:var(--danger-alert-bgcolor);
     cursor: pointer;
     font-size: 1.2rem;
     font-weight: bold;
+    color: white;
+   
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -60,9 +51,11 @@ input + span {
   
   input:invalid {
     border: 2px solid red;
+    background-color: red;
   }
   input:valid{
       border: 2px solid greenyellow;
+      background-color: green;
   }
   
   
