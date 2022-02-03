@@ -35,6 +35,13 @@
 .small-text {
     font-size: 0.60rem;
 }
-div{
-    margin:1rem;
+
+div {
+    margin: 1rem;
+}
+.gray-text {
+    color: #828282;
+}
+.center-text{
+    text-align: center;
 }
