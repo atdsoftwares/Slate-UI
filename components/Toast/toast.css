@@ -15,6 +15,7 @@
 .material-icons {
     font-size: 2rem;
     color: var(--background-universal-color);
+    cursor: pointer;
 }
 
 /* toast classes */
