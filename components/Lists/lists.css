@@ -1,0 +1,48 @@
+@import '/css/main.css';
+
+.list-style-circle{
+    list-style: circle;
+}
+.list-style-square{
+    list-style: square;
+}
+.list-style-none{
+    list-style: none;
+}
+
+.list-container{
+    margin: 1rem;
+    display: flex;
+    margin:2rem;
+    height: 5rem;
+    width: 36rem;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+.ordered-list-examples{
+    display: flex;
+        margin: 2rem;
+        height: 14rem;
+        width: 36rem;
+        background-color: aqua;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 1rem;
+}
+.list-style-decimal-leading-zero{
+    list-style: decimal-leading-zero;
+}
+.list-style-lower-alphabets{
+    list-style: lower-alpha;
+}
+.list-style-upper-alphabets{
+    list-style: upper-alpha;
+}
+.list-style-lower-roman{
+    list-style: lower-roman;
+}
+.list-style-upper-roman{
+    list-style: upper-roman;
+}
