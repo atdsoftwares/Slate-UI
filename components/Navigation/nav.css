@@ -1,30 +1,41 @@
 /* global css file for icons and fonts */
 @import '/css/main.css';
 
-.navigation-menu{
-height: 8rem;
-width: 25rem;
-background-color: burlywood;
-display: flex;
-
+/* main navigation menu class */
+.navigation-menu {
+    height: 5rem;
+    width: 45rem;
+    background-color: var(--success-alert-icon-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
-.material-icons{
-  font-size: 1.5rem;
-  display: flex;
-}
-.menu-icon{
-
-}
-.search{
-
-
+/* left side panel */
+.left-side-panel {
+    display: flex;
 }
 
-.cart{
-
+/* right side panel */
+.right-side-panel {
+    display: flex;
 }
 
-.favorites{
-
+/* main material icons class */
+.material-icons {
+    font-size: 2rem;
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+    color: var(--background-universal-color);
 }
+/* html5  global input element */
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
