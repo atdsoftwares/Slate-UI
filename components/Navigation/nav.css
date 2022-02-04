@@ -1,0 +1,30 @@
+/* global css file for icons and fonts */
+@import '/css/main.css';
+
+.navigation-menu{
+height: 8rem;
+width: 25rem;
+background-color: burlywood;
+display: flex;
+
+}
+
+.material-icons{
+  font-size: 1.5rem;
+  display: flex;
+}
+.menu-icon{
+
+}
+.search{
+
+
+}
+
+.cart{
+
+}
+
+.favorites{
+
+}
