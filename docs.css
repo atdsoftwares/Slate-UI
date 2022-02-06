@@ -34,12 +34,12 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 10rem;
+    width: 9rem;
     height: 100%;
-    background-color: tomato;
+    background-color: rgb(241, 229, 227);
     overflow: scroll;
     position: fixed;
-    display: block;
+    display: inline-block;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -47,12 +47,15 @@ a {
 
 .nav-items {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    margin: 2rem;
 }
 
 .content-container {
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 15% auto;
 }
 
+li ,a {
+    list-style: none;
+    text-decoration: none;
+}
