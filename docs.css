@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-  
+
 }
 
 .logo-icon {
@@ -39,11 +39,12 @@ a {
     height: 100%;
     background-color: rgb(241, 229, 227);
     overflow: scroll;
-    position: fixed;
+    position: absolute;
     display: inline-block;
     list-style: none;
     margin: 0px;
     padding: 0px;
+
 }
 
 .nav-items {
@@ -54,23 +55,26 @@ a {
 .content-container {
     display: grid;
     grid-template-columns: 15% auto;
+    max-width: 100%;
+    overflow: auto;
+    grid-gap: 2rem;
+    overflow: scroll;
 }
 
-li ,a {
+li,
+a {
     list-style: none;
     text-decoration: none;
 }
-.example-container{
-    height: 18rem;
-    width: 55rem;
-    /* background-color: rebeccapurple; */
-    margin: 2rem;
-    top: 1rem;
-    margin-left: 17rem;
-    border: 2px solid black;
 
-    display: flex; 
-    justify-content: center;
-     align-items: center;
-     flex-direction: column;
+.example-container,.code-container {
+    width: 96.5%;
+    max-width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: auto; */
 }
