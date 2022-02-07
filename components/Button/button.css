@@ -13,7 +13,7 @@ button {
 /* head button class */
 .btn {
     height: 3rem;
-    width: 8rem;
+    width: 10rem;
     margin: 0.2rem;
     border-radius: 0.4rem;
     color: var(--button-font-color);
