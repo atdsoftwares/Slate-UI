@@ -12,9 +12,17 @@
     <link rel="stylesheet" href="/docs.css">
     <link rel="stylesheet" href="/components/Avatar/avatar.css">
     <link rel="stylesheet" href="/components/Alerts/alerts.css">
+    <link rel="stylesheet" href="/path/to/styles/default.min.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
+        integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+
+
     <header class="header-container">
 
         <div class="left-items">
@@ -87,105 +95,125 @@
 
             </div>
             <div class="code-container">
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint quia corporis aut. Praesentium, ipsa. Aliquid saepe itaque molestias dicta, quae libero aspernatur unde sequi sed! Id sed soluta repellat.</p>
-            </div>
-            <section id="Avatar">
-
-                <h1>Avatar</h1>
-                <article>
-                    <p>
-                        Avatars are used to represent a user or a company.
-                    </p>
-                    <p>
-                        <strong> Example of Avatar close button</strong>
-                    </p>
-                    <p>
-                        To use this avatar just use class name avatar-box and also add class according to avatar type-
-                        avatar-primary, avatar-secondary, avatar-danger, avatar-success, avatar-warning.
-                        (e.g.class="avatar-box
-                        avatar-primary"). You can copy html part from below code snippet.
-                    </p>
-                </article>
-                <div class="example-container">
-
-                    <div class="avatar">
-
-                        <div class="avatar lg-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                class="image-round image-responsive"><img /> </div>
-                        <div class="avatar md-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                class="image-round image-responsive"><img /> </div>
-                        <div class="avatar sm-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                class="image-round image-responsive"><img /> </div>
-                        <div class="avatar xs-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                class="image-round image-responsive"><img /></div>
-                    </div>
-                    <div class="text-responsive">
-
-                        <div class="avatar lg-avatar-size text-round">PP</div>
-                        <div class="avatar md-avatar-size text-round">PP</div>
-                        <div class="avatar sm-avatar-size text-round">PP</div>
-                        <div class="avatar xs-avatar-size text-round">PP</div>
-                    </div>
-
-                </div>
-                <div class="code-container">
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repudiandae maxime, saepe voluptatibus est dolor aliquam asperiores, fugiat eaque tempora a commodi placeat laborum debitis dolorem eveniet fugit? Dolor, recusandae!</p>
-                </div>
-
-
-                <section id="Badge">
-
-                    <h1>Badge</h1>
-                    <article>
-                        <p>
-                           Badge are used to represent a number of notifications.
-                        </p>
-                        <p>
-                            <strong> Example of Badge </strong>
-                        </p>
-                        <p>
-                            To use this badge just use class name badge-box and also add class according to badge type-
-                            badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
-                            (e.g.class="badge-box
-                            badge-primary"). You can copy html part from below code snippet.
-                        </p>
-                    </article>
-                    <div class="example-container">
-    
-                        <div class="avatar">
-    
-                            <div class="avatar lg-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                    class="image-round image-responsive"><img /> </div>
-                            <div class="avatar md-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                    class="image-round image-responsive"><img /> </div>
-                            <div class="avatar sm-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                    class="image-round image-responsive"><img /> </div>
-                            <div class="avatar xs-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
-                                    class="image-round image-responsive"><img /></div>
-                        </div>
-                        <div class="text-responsive">
-    
-                            <div class="avatar lg-avatar-size text-round">PP</div>
-                            <div class="avatar md-avatar-size text-round">PP</div>
-                            <div class="avatar sm-avatar-size text-round">PP</div>
-                            <div class="avatar xs-avatar-size text-round">PP</div>
-                        </div>
-    
-                    </div>
-                    <div class="code-container">
-                        <!-- <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=3024-night&wt=none&l=css&width=700&ds=true&dsyoff=52px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520lg-avatar-size%2522%253E%2520%253Cimg%2520src%253D%2522%252Fimages%252Fscorpio-sign.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image-round%2520image-responsive%2522%253E%253Cimg%252F%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520md-avatar-size%2522%253E%2520%253Cimg%2520src%253D%2522%252Fimages%252Fscorpio-sign.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image-round%2520image-responsive%2522%253E%253Cimg%252F%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar-size%2522%253E%2520%253Cimg%2520src%253D%2522%252Fimages%252Fscorpio-sign.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image-round%2520image-responsive%2522%253E%253Cimg%252F%253E%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520xs-avatar-size%2522%253E%2520%253Cimg%2520src%253D%2522%252Fimages%252Fscorpio-sign.jpg%2522%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522image-round%2520image-responsive%2522%253E%253Cimg%252F%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-responsive%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520lg-avatar-size%2520text-round%2522%253EPP%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520md-avatar-size%2520text-round%2522%253EPP%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520sm-avatar-size%2520text-round%2522%253EPP%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar%2520xs-avatar-size%2520text-round%2522%253EPP%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520"
-                            style="width: 1024px; height: 378px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe> -->
-                    </div>
-    
-
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint quia corporis aut. Praesentium, ipsa. Aliquid saepe itaque molestias dicta, quae libero aspernatur unde sequi sed! Id sed soluta repellat.</p> -->
+                <pre><code class="language-html">
+            &ltdiv class="alert primary-alert">A primary alert example with a text link.<span class="link link-active">Check it out</a><span>&lt/div>
+            &ltdiv class="alert secondary-alert">A secondary alert example.&lt/div>
+            &ltdiv class="alert success-alert"><span class="m material-icons">check_circle</span>A success alert example./&lt/div>
+            &ltdiv class="alert danger-alert"><span class="m material-icons">dangerous</span>A danger alert example.&lt/div>
+            &ltdiv class="alert warning-alert"><span class="m material-icons">warning</span> A warning alert example.&lt/div>
 
 
                 
-            </section>
+               </code></pre>
+
     </div>
+    <section id="Avatar">
+
+        <h1>Avatar</h1>
+        <article>
+            <p>
+                Avatars are used to represent a user or a company.
+            </p>
+            <p>
+                <strong> Example of Avatar close button</strong>
+            </p>
+            <p>
+                To use this avatar just use class name avatar-box and also add class according to avatar type-
+                avatar-primary, avatar-secondary, avatar-danger, avatar-success, avatar-warning.
+                (e.g.class="avatar-box
+                avatar-primary"). You can copy html part from below code snippet.
+            </p>
+        </article>
+        <div class="example-container">
+
+            <div class="avatar">
+
+                <div class="avatar lg-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                        class="image-round image-responsive"><img /> </div>
+                <div class="avatar md-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                        class="image-round image-responsive"><img /> </div>
+                <div class="avatar sm-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                        class="image-round image-responsive"><img /> </div>
+                <div class="avatar xs-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                        class="image-round image-responsive"><img /></div>
+            </div>
+            <div class="text-responsive">
+
+                <div class="avatar lg-avatar-size text-round">PP</div>
+                <div class="avatar md-avatar-size text-round">PP</div>
+                <div class="avatar sm-avatar-size text-round">PP</div>
+                <div class="avatar xs-avatar-size text-round">PP</div>
+            </div>
+
+        </div>
+        <div class="code-container">
+            <pre><code class="language-html">
+                
+            
+           </pre>
+        </div>
+
+
+        <section id="Badge">
+
+            <h1>Badge</h1>
+            <article>
+                <p>
+                    Badge are used to represent a number of notifications.
+                </p>
+                <p>
+                    <strong> Example of Badge </strong>
+                </p>
+                <p>
+                    To use this badge just use class name badge-box and also add class according to badge type-
+                    badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
+                    (e.g.class="badge-box
+                    badge-primary"). You can copy html part from below code snippet.
+                </p>
+            </article>
+            <div class="example-container">
+
+                <div class="avatar">
+
+                    <div class="avatar lg-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                            class="image-round image-responsive"><img /> </div>
+                    <div class="avatar md-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                            class="image-round image-responsive"><img /> </div>
+                    <div class="avatar sm-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                            class="image-round image-responsive"><img /> </div>
+                    <div class="avatar xs-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                            class="image-round image-responsive"><img /></div>
+                </div>
+                <div class="text-responsive">
+
+                    <div class="avatar lg-avatar-size text-round">PP</div>
+                    <div class="avatar md-avatar-size text-round">PP</div>
+                    <div class="avatar sm-avatar-size text-round">PP</div>
+                    <div class="avatar xs-avatar-size text-round">PP</div>
+                </div>
+
+            </div>
+            <div class="code-container">
+                
+                        
+
+
+            </div>
+
+
+
+
+
+        </section>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
+            integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
 </body>
 
 </html>
