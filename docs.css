@@ -1,0 +1,80 @@
+@import '/css/main.css';
+/* @import '/components/Alerts/alerts.css' */
+
+.header-container {
+    height: 5rem;
+    width: 100%;
+    background: linear-gradient(to bottom right, #ebe9ec, #e96541);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.logo-icon {
+    height: 7rem;
+    width: 7rem;
+}
+
+.left-items,
+.right-items {
+    display: flex;
+}
+
+a {
+
+    color: black;
+    margin: 3rem;
+}
+
+#nav-bar {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 100%;
+    background-color: rgb(241, 229, 227);
+    overflow: scroll;
+    position: absolute;
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-items {
+    display: flex;
+    margin: 2rem;
+}
+
+.content-container {
+    display: grid;
+    grid-template-columns: 15% auto;
+    max-width: 100%;
+    overflow: auto;
+    grid-gap: 2rem;
+    overflow: scroll;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.example-container,.code-container {
+    width: 96.5%;
+    max-width: 100%;
+    margin: 1rem 0rem 1rem 0rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: auto; */
+}

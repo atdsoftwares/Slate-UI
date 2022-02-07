@@ -1,0 +1,42 @@
+/* Universal fonts for project*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+/* Universal icons for project */
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* universal color and font properties*/
+* {
+    word-wrap: break-word;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* body font size */
+html {
+    font-size: 85%;
+}
+
+/* colors  */
+:root {
+
+    /* universal background color for all components */
+    --background-universal-color: #f7fafb;
+    /* background colors for alert components */
+    --primary-alert-bgcolor: #7FD2E6;
+    --secondary-alert-bgcolor: #eaeaec;
+    --success-alert-bgcolor: #84F1C9;
+    --danger-alert-bgcolor: #fcc5c5;
+    --warning-alert-bgcolor: #ffe7c5;
+    /* icons/fonts colors for alert components */
+    --primary-alert-icon-color: #29438b;
+    --secondary-alert-icon-color: #696b79;
+    --success-alert-icon-color: #1b7052;
+    --danger-alert-icon-color: #dc3545;
+    --warning-alert-icon-color: #ff9204;
+    /*  text colors */
+    --underline-text-color: #d35b2f;
+    /* universal border color */
+    --universal-border-color: #3b3a3a;
+    /* avatar background color */
+    --avatar-background-color: #891399;
+}
