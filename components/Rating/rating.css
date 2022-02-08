@@ -2,7 +2,7 @@
 @import '/css/main.css';
 
 /* main rating components */
-.rating-container {
+.rating{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 
 /* material icon for icons */
 .material-icons {
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 

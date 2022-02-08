@@ -6,7 +6,7 @@
     height: 5rem;
     width: 100%;
     max-width: 100%;
-    background-color: var(--success-alert-icon-color);
+    background-color: var(--background-universal-color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,11 +26,11 @@
 
 /* main material icons class */
 .material-icons {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
-    margin: 2rem;
+    margin: 1rem;
     align-items: center;
-    color: var(--background-universal-color);
+    color: var(--underline-text-color:);
 }
 /* html5  global input element */
 input {

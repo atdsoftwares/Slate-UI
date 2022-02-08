@@ -2,7 +2,7 @@
 /* common alert oocss  */
 .alert {
     display: flex;
-    height:2.5rem;
+    height:3rem;
     width:95%;
 
     flex-direction: row;
