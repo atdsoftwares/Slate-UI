@@ -2,7 +2,7 @@
 @import '/css/main.css';
 
 /* global image HTML5 tag */
-img {
+.image-item {
     width: 600;
     height: 400;
     margin: 1rem;
