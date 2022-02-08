@@ -1,11 +1,9 @@
 /* Universal fonts for project*/
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 /* Universal icons for project */
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /* font awesome library */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
-
 /* universal color and font properties*/
 * {
     word-wrap: break-word;
@@ -42,6 +40,9 @@ html {
     --universal-border-color: #3b3a3a;
     /* avatar background color */
     --avatar-background-color: #891399;
+    /* shopping card button background color */
+    --shopping-card-button-bgcolor: #eb4b58;
+
     /* badge online color */
     --badge-online-color: #09422e;
     /* badge offline color  */
