@@ -1,0 +1,59 @@
+/* universal css sheet for icons and fonts */
+@import '/css/main.css';
+
+/* different unordered list styles */
+.list-style-circle {
+    list-style: circle;
+}
+
+.list-style-square {
+    list-style: square;
+}
+
+.list-style-none {
+    list-style: none;
+}
+/* list main container */
+.list-container {
+    margin: 1rem;
+    display: flex;
+    margin: 2rem;
+    height: 5rem;
+    width: 36rem;
+    background-color: var(--background-universal-color);
+    justify-content: center;
+    align-items: center;
+}
+
+/* different ordered list styles */
+.ordered-list-examples {
+    display: flex;
+    margin: 2rem;
+    height: 14rem;
+    width: 36rem;
+    background-color: var(--background-universal-color);
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.list-style-decimal-leading-zero {
+    list-style: decimal-leading-zero;
+}
+
+.list-style-lower-alphabets {
+    list-style: lower-alpha;
+}
+
+.list-style-upper-alphabets {
+    list-style: upper-alpha;
+}
+
+.list-style-lower-roman {
+    list-style: lower-roman;
+}
+
+.list-style-upper-roman {
+    list-style: upper-roman;
+}

@@ -1,0 +1,123 @@
+@import '/css/main.css';
+
+.header-container {
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo-icon {
+    height: 7rem;
+    width: 7rem;
+}
+
+.left-items,
+.right-items {
+    display: flex;
+
+}
+
+a {
+
+    color: black;
+    margin: 3rem;
+}
+
+.section-1-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.content {
+    height: 25rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(143 141 141);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.hero-image {
+    height: 25rem;
+    width: 35rem;
+}
+
+img {
+    width: 100%;
+}
+
+.section-2-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.text-content {
+    height: 25rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(143 141 141);
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.code-box {
+    height: 25rem;
+    width: 35rem;
+    background-color: rgb(150, 150, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-items {
+
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+button {
+    margin: 1rem;
+    height: 3rem;
+    width: 6rem;
+    border: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+iframe {
+    margin-top: 7rem;
+    width: 100%;
+
+}
+
+h1 {
+    margin-left: 1.2rem;
+}
