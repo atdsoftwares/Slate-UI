@@ -9,12 +9,12 @@
     border: 1px solid tomato;
 }
 /* repsonsive class */
-.responsive-image img {
+.responsive-image  {
     max-width: 100%;
     height: auto;
 }
 /*  round image class tag*/
-.round-image img {
+.round-image {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
