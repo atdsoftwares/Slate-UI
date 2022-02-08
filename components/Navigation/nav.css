@@ -4,11 +4,12 @@
 /* main navigation menu class */
 .navigation-menu {
     height: 5rem;
-    width: 45rem;
+    width: 100%;
+    max-width: 100%;
     background-color: var(--success-alert-icon-color);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     cursor: pointer;
 }
