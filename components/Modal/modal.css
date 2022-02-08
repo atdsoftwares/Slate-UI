@@ -1,0 +1,59 @@
+@import '/css/main.css';
+
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+
+
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 14px;
+  border: 1px solid #888;
+  width: 28%;
+ background: rgb(2, 0, 36);
+  background-image: linear-gradient(red, yellow, blue)
+}
+
+/* The Close Button */
+.close {
+  color: #e00e0e;
+  
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -4px;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  height: 3rem;
+  width: 10rem;
+  margin: 0.2rem;
+  border-radius: 0.4rem;
+  /* color: var(--button-font-color); */
+  font-size: 1rem;
+  /* background-color: #888; */
+  
+}

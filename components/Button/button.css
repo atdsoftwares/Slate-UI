@@ -1,0 +1,182 @@
+/* universal css sheet for fonts and colors */
+@import '/css/main.css';
+
+/* main HTML5 button */
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* head button class */
+.btn {
+    height: 3rem;
+    width: 10rem;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: var(--button-font-color);
+    font-size: 1rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+}
+
+/* solid head button class */
+.btn-solid {
+    height: 5rem;
+    width: 35rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* outline button class */
+.btn-outline {
+    height: 5rem;
+    width: 35rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button with icon class */
+.btn-with-icons {
+    height: 5rem;
+    width: 35rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* primary solid button class */
+.btn-primary {
+    background-color: var(--button-primary-color);
+}
+
+/* secondary solid button class */
+.btn-secondary {
+    background-color: var(--button-secondary-color);
+}
+
+/* success solid button class */
+.btn-success {
+    background-color: var(--button-success-color);
+
+}
+
+/* danger solid button class */
+.btn-danger {
+    background-color: var(--button-danger-color);
+}
+
+/* warning solid button class */
+.btn-warning {
+    background-color: var(--button-warning-color);
+}
+
+/* link solid button class */
+.btn-link {
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* hover uderline feature for link button */
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* primary outline button class */
+.btn-primary-outline {
+    color: var(--button-primary-color);
+}
+
+/* primary outline button class hover background and main color */
+.btn-primary-outline:hover {
+    background-color: var(--button-primary-color);
+    color: var(--button-font-color);
+}
+
+/* secondary outline button class */
+.btn-secondary-outline {
+    color: var(--button-secondary-color);
+}
+
+/* secondary outline button class hover background and main color */
+.btn-secondary-outline:hover {
+    background-color: var(--button-secondary-color);
+    color: var(--button-font-color);
+}
+
+/*success outline button class */
+.btn-success-outline {
+    color: var(--button-success-color);
+}
+
+/* success outline button class hover background and main color */
+.btn-success-outline:hover {
+    background-color: var(--button-success-color);
+    color: var(--button-font-color);
+}
+
+/*danger outline button class */
+.btn-danger-outline {
+    color: var(--button-danger-color);
+}
+
+/* danger outline button class hover background and main color */
+.btn-danger-outline:hover {
+    background-color: var(--button-danger-color);
+    color: var(--button-font-color);
+}
+
+/*warning outline button class */
+.btn-warning-outline {
+    color: var(--button-warning-color);
+}
+
+/* warning outline button class hover background and main color */
+.btn-warning-outline:hover {
+    background-color: var(--button-warning-color);
+    color: var(--button-font-color);
+}
+
+/* button with icon for primary class */
+.btn-primary-icon {
+    background-color: var(--shopping-button-color);
+    color: var(--button-font-color);
+}
+
+/* button with icon for secondary class */
+.btn-secondary-icon {
+    background-color: var(--shopping-button-color);
+    color: var(--button-font-color);
+}
+
+/* add icon for small size */
+.btn-sm-icon-add {
+    border-radius: 50%;
+    background-color: var(--button-secondary-color);
+    color: var(--button-font-color);
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+/* add icon for large size */
+.btn-lg-icon-add {
+    border-radius: 50%;
+    background-color: var(--button-secondary-color);
+    color: var(--button-font-color);
+    height: 3rem;
+    width: 3rem;
+}
+
+/* material icons css */
+.material-icons{
+    font-size: 2rem;
+    margin:1rem;
+}
