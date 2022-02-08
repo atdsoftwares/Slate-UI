@@ -3,21 +3,26 @@
 
 /* main card component */
 .card {
-    height: 14rem;
-    width: 40rem;
+  
     border: 2px solid var(--universal-border-color);
     margin: 0.5rem;
-    /* overflow: auto; */
+    /* max-width: 100%; */
+    width: 40rem;
+    height: auto;
+    /* max-height: 100%; */
+ 
 }
 
 /* image HTML5 tag */
-img {
-    height: 13rem;
+.image-inside{
+    height: 15rem;
     width: 15rem;
     border: 2px solid var(--universal-border-color);
-    margin: 0.3rem;
+    margin: 0.2rem;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* max-height: 100% */
 }
-
 /* card content class */
 .card-content {
     display: flex;
@@ -37,7 +42,7 @@ img {
 }
 
 /* HTML5 btton element */
-button {
+.btn-class {
     height: 2rem;
     margin: 0.3rem 0.3rem 0 0;
     display: flex;
@@ -61,15 +66,15 @@ button {
 /* badge class */
 .badge-verify {
     position: absolute;
-    left: 14rem;
-    top: 3.5rem;
+    left: 33rem;
+    
     color: var(--success-alert-icon-color);
     cursor: pointer;
 }
 
 .badge-close {
     position: relative;
-    left: 38rem;
+    left: 19rem;
     top: 3rem;
     color: var(--danger-alert-icon-color);
     cursor: pointer;
@@ -77,22 +82,24 @@ button {
 
 /* card textoverlay class */
 .card-with-text-overlay {
-    opacity: 0.5;
+    opacity: rgba(0, 0, 0, 0.5);
 }
 
 .text-overlay-over-card::after {
-    height: 9rem;
-    width: 15rem;
+    height: 11rem;
+    width: 13rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     content: 'Out of Stock';
-    background-image: linear-gradient(to right, red, rgb(214, 214, 34));
+    background-image: linear-gradient(to right, #a7a6a6, rgb(255 255 255));
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2rem;
     position: relative;
-    top: -10rem;
-    right: 5rem;
-    opacity: 0.8;
+    top: -21rem;
+    right: 1rem;
+    color: red;
+    opacity: 0.6;
 }
 
 /* other card classes */
@@ -106,11 +113,20 @@ button {
 /* vertical card class */
 .vcard {
     height: 26rem;
-    width: 16rem;
+    width: 24%;
     border: 2px solid var(--universal-border-color);
+    padding: 1rem;
+    /* max-width: 100%;
+    max-height: 100% */
 }
 
 /* shadow class */
 .card-with-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.vcard-.image-inside{
+
+
+
 }
