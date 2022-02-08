@@ -1,5 +1,4 @@
 /* Universal fonts for project*/
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 /* Universal icons for project */
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
@@ -40,7 +39,6 @@ html {
     --universal-border-color: #3b3a3a;
     /* avatar background color */
     --avatar-background-color: #891399;
-
     /* badge online color */
     --badge-online-color: #09422e;
     /* badge offline color  */
@@ -65,5 +63,4 @@ html {
     --button-font-color: #fff;
     /* shopping button background color */
     --shopping-button-color: #ad1c2f;
-
 }
