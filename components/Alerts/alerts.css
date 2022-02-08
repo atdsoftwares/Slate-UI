@@ -1,0 +1,64 @@
+@import '/css/main.css';
+/* common alert oocss  */
+.alert {
+    display: flex;
+    height:3rem;
+    width:95%;
+
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    border: 1px solid black;
+   
+    margin: 0.5rem;
+    padding-left: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/* material icons */
+.material-icons{
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+/*  primary alert button  */
+.primary-alert {
+    background-color: var(--primary-alert-bgcolor);
+    color:var(--primary-alert-icon-color)
+}
+
+/* secondary alert button */
+.secondary-alert {
+    background-color: var(--secondary-alert-bgcolor);
+    color: var(--secondary-alert-icon-color);
+}
+
+/* success alert button */
+.success-alert {
+    background-color: var(--success-alert-bgcolor);
+    color: var(--success-alert-icon-color);
+}
+
+/* danger alert button */
+.danger-alert {
+    background-color: var(--danger-alert-bgcolor);
+    color: var(--danger-alert-icon-color);
+}
+
+/* warning alert button */
+.warning-alert {
+    background-color: var(--warning-alert-bgcolor);
+    color: var(--warning-alert-icon-color);
+}
+
+.link-active
+{
+    text-decoration: underline;
+    font-weight: 500;
+    text-underline-position: under;
+    margin-left: 0.3rem;
+}
+.link-active:hover{
+    color: var(--underline-text-color);
+    cursor: pointer;
+}

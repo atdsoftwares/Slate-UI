@@ -1,0 +1,42 @@
+/* global css file for icons and fonts */
+@import '/css/main.css';
+
+/* main navigation menu class */
+.navigation-menu {
+    height: 5rem;
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--background-universal-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* left side panel */
+.left-side-panel {
+    display: flex;
+}
+
+/* right side panel */
+.right-side-panel {
+    display: flex;
+}
+
+/* main material icons class */
+.material-icons {
+    font-size: 1.5rem;
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    color: var(--underline-text-color:);
+}
+/* html5  global input element */
+input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
