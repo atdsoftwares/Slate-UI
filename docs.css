@@ -33,27 +33,22 @@ a {
 
 .nav-bar {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+ 
     align-items: center;
-    width: 9rem;
+   
     height: 100%;
     background-color: rgb(241, 229, 227);
     overflow: scroll;
     position: fixed;
     display: inline-block;
-    list-style: none;
-    margin: 0px;
     padding: 0px;
-    /* top: 90px; */
-    /* bottom: 0; */
 
 }
 
 .nav-items {
     display: flex;
-    margin: 2rem;
+    justify-content: space-around;
+    margin: 22px;
 }
 
 .content-container {
@@ -67,24 +62,17 @@ a {
 
 li,
 a {
-    list-style: none;
-    text-decoration: none;
+    /* list-style: none;
+    text-decoration: none; */
 }
 
 .example-container,.code-container {
     width: 96.5%;
     max-width: 100%;
-    margin: 1rem 0rem 1rem 0rem;
+    margin: 1rem 0rem;
     border: 2px solid black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    /* overflow: scroll; */
 }
-h1{
-    /* margin:5rem 0 0 0; */
-}
+
 .code-container{
     overflow: scroll;
     max-width: 100%;
