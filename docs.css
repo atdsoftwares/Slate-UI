@@ -80,5 +80,13 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    overflow: auto;
+    /* overflow: scroll; */
+}
+h1{
+    /* margin:5rem 0 0 0; */
+}
+.code-container{
+    overflow: scroll;
+    max-width: 100%;
+    max-height: 15rem;
 }

@@ -5,18 +5,19 @@
 .avatar {
     border-radius: 50%;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     margin: 1rem;
-    
 }
+
+
 
 /* avatar container */
 .container {
     height: 28rem;
-    width: 35rem;
+    */ width: 35rem;
     border: 2px solid var(--universal-border-color);
-    
+
 }
 
 /* avatar size class */
@@ -122,7 +123,7 @@
     bottom: 0.25rem;
 }
 
-.number-badge{
+.number-badge {
     background: var(--badge-notification-color);
     height: 1.5rem;
     width: 1.5rem;
@@ -130,31 +131,37 @@
     border-radius: 50%;
     text-align: center;
     position: relative;
+    overflow: auto;
 }
-.number-badge:before{
+
+.number-badge::before {
     content: '8';
 }
 
-.badge-numbers{
+.badge-numbers {
     display: flex;
     justify-content: center;
     align-items: center;
-    height:10rem;
+    height: 10rem;
     width: 25rem;
     border: 1px solid var(--universal-border-color);
 }
-.material-icons{
-    font-size: 3rem;
+
+.material-icons {
+    font-size: 2rem;
 }
-.lg-number-badge{
-    bottom:0.5rem;
+
+.lg-number-badge {
+    bottom: 0.5rem;
     right: 1.5rem;
 }
-.md-number-badge{
-    bottom:0.8rem;
+
+.md-number-badge {
+    bottom: 0.8rem;
     right: 1rem;
 }
-.sm-number-badge{
-    bottom:1rem;
+
+.sm-number-badge {
+    bottom: 1rem;
     right: 1rem;
 }
