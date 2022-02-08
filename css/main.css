@@ -1,5 +1,5 @@
 /* Universal fonts for project*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
 /* Universal icons for project */
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
@@ -39,4 +39,28 @@ html {
     --universal-border-color: #3b3a3a;
     /* avatar background color */
     --avatar-background-color: #891399;
+    /* badge online color */
+    --badge-online-color: #09422e;
+    /* badge offline color  */
+    --badge-offline-color: #f00639;
+    /* badge away color */
+    --badge-away-color: #f9a826;
+    /* badge notification color */
+    --badge-notification-color: #14f88e;
+    /* button primary color */
+    --button-primary-color: #2D3092;
+    /* button secondary color */
+    --button-secondary-color: #1E2063;
+    /* button success color */
+    --button-success-color: #1a7052;
+    /* button warning color */
+    --button-warning-color: #ff9204;
+    /* button danger color */
+    --button-danger-color: #dc3545;
+    /* button Link color */
+    --button-link-color: #6c70e0;
+    /* font color for button */
+    --button-font-color: #fff;
+    /* shopping button background color */
+    --shopping-button-color: #ad1c2f;
 }
