@@ -60,13 +60,13 @@ input + span {
   
   
   input:invalid + span::before {
-    content: '✖';
+    /* content: '✖'; */
     color: red;
     font-size: 1.5rem;
   }
   
   input:valid + span::before {
-    content: '✓';
+    /* content: '✓'; */
     color: green;
     font-size: 1.5rem;
   }
