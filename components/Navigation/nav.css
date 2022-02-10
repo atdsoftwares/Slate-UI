@@ -34,7 +34,7 @@
     /* color: var(--underline-text-color); */
 }
 /* html5  global input element */
-input {
+.input-in-nav {
     width: 20rem;
     height: 2rem;
     border-radius: 0.4rem;

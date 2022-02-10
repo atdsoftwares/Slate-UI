@@ -14,7 +14,7 @@
   background-color: var(--background-universal-color);
 }
 
-input {
+.input-in-input{
   width: 20rem;
   height: 2rem;
   border-radius: 0.4rem;
