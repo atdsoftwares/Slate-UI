@@ -12,8 +12,8 @@ button {
 
 /* head button class */
 .btn {
-    height: 3rem;
-    width: 10rem;
+    height: 2rem;
+    width: 7rem;
     margin: 0.2rem;
     border-radius: 0.4rem;
     color: var(--button-font-color);
