@@ -10,12 +10,10 @@
     margin: 1rem;
 }
 
-
-
 /* avatar container */
 .container {
     height: 28rem;
-    */ width: 35rem;
+    width: 35rem;
     border: 2px solid var(--universal-border-color);
 
 }
@@ -165,3 +163,4 @@
     bottom: 1rem;
     right: 1rem;
 }
+
