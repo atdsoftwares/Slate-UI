@@ -19,18 +19,19 @@
     display: flex;
 }
 
+
 /* right side panel */
 .right-side-panel {
     display: flex;
 }
-
 /* main material icons class */
 .material-icons {
-    font-size: 1.5rem;
+    font-size: 2rem;
     display: flex;
     margin: 1rem;
     align-items: center;
-    color: var(--underline-text-color:);
+    justify-content: center;
+    /* color: var(--underline-text-color); */
 }
 /* html5  global input element */
 input {
@@ -39,4 +40,5 @@ input {
     border-radius: 0.4rem;
     cursor: pointer;
 }
+
 
