@@ -27,7 +27,7 @@ button {
 .btn-solid {
     height: 5rem;
     width: 35rem;
-    /* background-color: aqua; */
+  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +37,7 @@ button {
 .btn-outline {
     height: 5rem;
     width: 35rem;
-    /* background-color: aqua; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ button {
 .btn-with-icons {
     height: 5rem;
     width: 35rem;
-    /* background-color: aqua; */
+
     display: flex;
     justify-content: space-around;
     align-items: center;
