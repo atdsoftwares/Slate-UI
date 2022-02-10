@@ -40,5 +40,10 @@ input {
     border-radius: 0.4rem;
     cursor: pointer;
 }
+.logo-icon-head{
+    height: 4.5rem;
+    width: 4.5rem;
+    /* display: flex; */
+}
 
 
