@@ -1,28 +1,42 @@
-/* global css sheet for fonts and icons */
-@import "/css/main.css";
+@import '/css/main.css';
+/* main card component */
+* {
+    word-wrap: break-word;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* body font size */
+html {
+
+    font-size: 90%;
+}
+
 
 /* main card component */
 .card {
-  
-    border: 2px solid var(--universal-border-color);
+
+    border: 2px solid black;
     margin: 0.5rem;
-    /* max-width: 100%; */
+    max-width: 100%;
     width: 40rem;
     height: auto;
     /* max-height: 100%; */
- 
+
 }
 
 /* image HTML5 tag */
-.image-inside{
+.image-inside {
     height: 15rem;
     width: 15rem;
-    border: 2px solid var(--universal-border-color);
+    border: 2px solid black;
     margin: 0.2rem;
     /* max-width: 100%; */
     /* height: auto; */
     /* max-height: 100% */
 }
+
 /* card content class */
 .card-content {
     display: flex;
@@ -33,7 +47,6 @@
 
 /* all important classes groped togther */
 .card-with-badge,
-.btn-icons,
 .card-dismiss,
 .card-with-text-overlay,
 .card-with-text-only,
@@ -49,6 +62,8 @@
     align-items: center;
     border-radius: 0.3rem;
     cursor: pointer;
+    /* position: fixed; */
+    display: block;
 }
 
 /* button class for cart and wishlist */
@@ -65,13 +80,17 @@
 
 /* badge class */
 .badge-verify {
-    position: absolute;
-    left: 33rem;
+    position: relative;
     
+   left: 22rem;
+    bottom: 1rem;
     color: var(--success-alert-icon-color);
     cursor: pointer;
 }
 
+.badge-verify:hover{
+    color: green;
+}
 .badge-close {
     position: relative;
     left: 19rem;
@@ -80,22 +99,26 @@
     cursor: pointer;
 }
 
+.badge-close:hover{
+    color: red;
+}
+
 /* card textoverlay class */
 .card-with-text-overlay {
     opacity: rgba(0, 0, 0, 0.5);
 }
 
 .text-overlay-over-card::after {
-    height: 11rem;
-    width: 13rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    width: auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
     content: 'Out of Stock';
     background-image: linear-gradient(to right, #a7a6a6, rgb(255 255 255));
     font-weight: bold;
     font-size: 2rem;
-    position: relative;
+    position: relative; 
     top: -21rem;
     right: 1rem;
     color: red;
@@ -112,9 +135,10 @@
 
 /* vertical card class */
 .vcard {
-    height: 26rem;
-    width: 24%;
-    border: 2px solid var(--universal-border-color);
+    height: auto;
+    width: 16rem;
+    max-width: 100%;
+    border: 2px solid black;
     padding: 1rem;
     /* max-width: 100%;
     max-height: 100% */
@@ -125,8 +149,118 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.vcard-.image-inside{
+.btn-class-vcard {
+    height: 2rem;
+    margin: 0.3rem 0.3rem 0 0;
+    display: flex;
+    align-items: center;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    /* position: fixed; */
+    /* display: block; */
 
+}
 
+.btn-icons-vcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+
+.btn-add-to-vcart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    width: 11rem;
+    max-width: 100%;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: purple;
+    font-size: 1rem;
+    background-color: antiquewhite;
+}
+
+.btn-add-to-vwishlist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    width: 4rem;
+    max-width: 100%;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: purple;
+    font-size: 1rem;
+    background-color: antiquewhite;
+}
+.btn-icons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-add-to-hcart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    width: 8rem;
+    max-width: 100%;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: purple;
+    font-size: 1rem;
+    background-color: antiquewhite;
+
+}
+.btn-add-to-hwishlist{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    width: 4rem;
+    max-width: 100%;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: purple;
+    font-size: 1rem;
+    background-color: antiquewhite;
+}
+
+.ratings-in-card{
+    /* display: flex; */
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+.checked{
+    color: yellow;
+}
+.price{
+    display: inline;
+    font-size: 1.2rem;
+    font-weight: bold;
+    left: 5rem;
+
+}
+.item-rate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-icon{
+    height: 3rem;
+    max-width: 100%;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
 }
