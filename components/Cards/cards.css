@@ -16,14 +16,19 @@ html {
 
 .card {
     width: 28rem;
-    height: 12rem;
+    height: 13rem;
     background-color: rgb(240, 132, 132);
+    border-radius: 0.2rem;
 }
 
 .cimage {
     width: 12rem;
     height: 10rem;
     padding: 1rem;
+}
+.amount{
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .input-cart{
@@ -91,6 +96,12 @@ html {
     display: flex;
     flex-direction: column;
     margin: 0.5rem;
+}
+.input-cart{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 0.3rem;
+    text-align: center;
 }
 
 /* vertical card class */
