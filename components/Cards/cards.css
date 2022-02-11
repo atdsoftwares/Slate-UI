@@ -1,106 +1,66 @@
 @import '/css/main.css';
+
 /* main card component */
 * {
     word-wrap: break-word;
     margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
 /* body font size */
 html {
-
     font-size: 90%;
 }
 
-
-/* main card component */
 .card {
-
-    border: 2px solid black;
-    margin: 0.5rem;
-    max-width: 100%;
-    width: 40rem;
-    height: auto;
-    /* max-height: 100%; */
-
+    width: 28rem;
+    height: 12rem;
+    background-color: rgb(240, 132, 132);
 }
 
-/* image HTML5 tag */
-.image-inside {
-    height: 15rem;
-    width: 15rem;
-    border: 2px solid black;
-    margin: 0.2rem;
-    /* max-width: 100%; */
-    /* height: auto; */
-    /* max-height: 100% */
+.cimage {
+    width: 12rem;
+    height: 10rem;
+    padding: 1rem;
 }
 
-/* card content class */
-.card-content {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0.3rem;
-    margin-left: 0.2rem;
-}
-
-/* all important classes groped togther */
-.card-with-badge,
-.card-dismiss,
-.card-with-text-overlay,
-.card-with-text-only,
-.card-horizontal {
-    display: flex;
-}
-
-/* HTML5 btton element */
-.btn-class {
+.input-cart{
     height: 2rem;
-    margin: 0.3rem 0.3rem 0 0;
+    width: 2rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+.button-cart,.button-like,.increase,.decrease{
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: fit-content;
     border-radius: 0.3rem;
+    background-color: rgb(178, 68, 241);
     cursor: pointer;
-    /* position: fixed; */
-    display: block;
+    padding: 0.3rem;
+    color: rgb(255, 251, 255);
+}
+.button-cart{
+    height: 2rem;
+    width: fit-content;
+}
+.hcard-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem;
 }
 
-/* button class for cart and wishlist */
-.btn-add-to-cart,
-.btn-add-to-wishlist {
-    background-color: var(--shopping-card-button-bgcolor);
-    color: var(--background-universal-color);
+.hcard-text {
+    padding: 1rem 0 0 0;
 }
 
-/* small text class */
-.text-light {
-    font-size: 0.8rem;
-}
-
-/* badge class */
-.badge-verify {
-    position: relative;
-    
-   left: 22rem;
-    bottom: 1rem;
-    color: var(--success-alert-icon-color);
-    cursor: pointer;
-}
-
-.badge-verify:hover{
-    color: green;
-}
-.badge-close {
-    position: relative;
-    left: 19rem;
-    top: 3rem;
-    color: var(--danger-alert-icon-color);
-    cursor: pointer;
-}
-
-.badge-close:hover{
-    color: red;
+.card-image {
+    display: flex;
 }
 
 /* card textoverlay class */
@@ -118,7 +78,7 @@ html {
     background-image: linear-gradient(to right, #a7a6a6, rgb(255 255 255));
     font-weight: bold;
     font-size: 2rem;
-    position: relative; 
+    position: relative;
     top: -21rem;
     right: 1rem;
     color: red;
@@ -195,14 +155,16 @@ html {
     font-size: 1rem;
     background-color: antiquewhite;
 }
-.btn-icons{
+
+.btn-icons {
 
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-.btn-add-to-hcart{
+
+.btn-add-to-hcart {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -216,7 +178,8 @@ html {
     background-color: antiquewhite;
 
 }
-.btn-add-to-hwishlist{
+
+.btn-add-to-hwishlist {
 
     display: flex;
     justify-content: space-around;
@@ -231,29 +194,33 @@ html {
     background-color: antiquewhite;
 }
 
-.ratings-in-card{
+.ratings-in-card {
     /* display: flex; */
     font-size: 1.2rem;
     cursor: pointer;
 
 }
-.checked{
+
+.checked {
     color: yellow;
 }
-.price{
+
+.price {
     display: inline;
     font-size: 1.2rem;
     font-weight: bold;
     left: 5rem;
 
 }
-.item-rate{
+
+.item-rate {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.new-icon{
+
+.new-icon {
     height: 3rem;
     max-width: 100%;
     width: 3rem;
@@ -263,5 +230,5 @@ html {
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    
+
 }
