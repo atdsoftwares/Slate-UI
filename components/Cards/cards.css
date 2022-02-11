@@ -16,9 +16,11 @@ html {
 
 .card {
     width: 28rem;
-    height: 13rem;
+    /* height: 13rem; */
     background-color: rgb(240, 132, 132);
     border-radius: 0.2rem;
+    height: auto;
+    max-width: 100%;
 }
 
 .cimage {
@@ -50,14 +52,12 @@ html {
     color: rgb(255, 251, 255);
 }
 .button-cart{
-    height: 2rem;
-    width: fit-content;
+    /* height: 2rem;
+    width: fit-content; */
 }
 .hcard-btn {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.2rem;
+    padding: 0.5rem;
 }
 
 .hcard-text {
