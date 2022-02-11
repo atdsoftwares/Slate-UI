@@ -145,17 +145,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    top: -3px;
 }
 
 
-/* .md-number-badge {
-    bottom: 0.8rem;
-    right: 1rem;
-} */
 
-/* .sm-number-badge {
-    bottom: 1rem;
-    right: 1rem;
-} */
 
