@@ -47,7 +47,7 @@
   cursor: pointer;
 }
 
-button {
+.modal-btn {
   height: 3rem;
   width: 10rem;
   margin: 0.2rem;
