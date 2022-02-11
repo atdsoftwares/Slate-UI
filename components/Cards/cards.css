@@ -58,6 +58,8 @@ html {
 .hcard-btn {
     display: flex;
     padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .hcard-text {
