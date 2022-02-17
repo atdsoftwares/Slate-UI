@@ -21,6 +21,7 @@ html {
     border-radius: 0.2rem;
     height: auto;
     max-width: 100%;
+    /* margin: 1rem; */
 }
 
 .cimage {
@@ -49,11 +50,11 @@ html {
     background-color: rgb(178, 68, 241);
     cursor: pointer;
     padding: 0.3rem;
+    margin: 0.2rem;
     color: rgb(255, 251, 255);
 }
 .button-cart{
-    /* height: 2rem;
-    width: fit-content; */
+    /* width: 5rem; */
 }
 .hcard-btn {
     display: flex;
@@ -109,7 +110,7 @@ html {
 /* vertical card class */
 .vcard {
     height: auto;
-    width: 16rem;
+    width: 13rem;
     max-width: 100%;
     border: 2px solid black;
     padding: 1rem;
@@ -145,8 +146,8 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 3rem;
-    width: 11rem;
+    height: 2rem;
+    width: 5rem;
     max-width: 100%;
     margin: 0.2rem;
     border-radius: 0.4rem;
@@ -159,8 +160,8 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 3rem;
-    width: 4rem;
+    height: 2rem;
+    width: 3rem;
     max-width: 100%;
     margin: 0.2rem;
     border-radius: 0.4rem;
@@ -245,3 +246,7 @@ html {
     font-weight: bold;
 
 }
+.card-container{
+   display: flex;
+} 
+ 
