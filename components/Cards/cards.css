@@ -29,18 +29,23 @@ html {
     height: 10rem;
     padding: 1rem;
 }
-.amount{
+
+.amount {
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-.input-cart{
+.input-cart {
     height: 2rem;
     width: 2rem;
     border-radius: 0.3rem;
     text-align: center;
 }
-.button-cart,.button-like,.increase,.decrease{
+
+.button-cart,
+.button-like,
+.increase,
+.decrease {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,9 +58,11 @@ html {
     margin: 0.2rem;
     color: rgb(255, 251, 255);
 }
-.button-cart{
+
+.button-cart {
     /* width: 5rem; */
 }
+
 .hcard-btn {
     display: flex;
     padding: 0.5rem;
@@ -71,27 +78,7 @@ html {
     display: flex;
 }
 
-/* card textoverlay class */
-.card-with-text-overlay {
-    opacity: rgba(0, 0, 0, 0.5);
-}
 
-.text-overlay-over-card::after {
-    height: auto;
-    width: auto;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    content: 'Out of Stock';
-    background-image: linear-gradient(to right, #a7a6a6, rgb(255 255 255));
-    font-weight: bold;
-    font-size: 2rem;
-    position: relative;
-    top: -21rem;
-    right: 1rem;
-    color: red;
-    opacity: 0.6;
-}
 
 /* other card classes */
 .card-vertical,
@@ -100,7 +87,8 @@ html {
     flex-direction: column;
     margin: 0.5rem;
 }
-.input-cart{
+
+.input-cart {
     height: 2rem;
     width: 2rem;
     border-radius: 0.3rem;
@@ -246,7 +234,43 @@ html {
     font-weight: bold;
 
 }
-.card-container{
-   display: flex;
-} 
- 
+
+.card-container {
+    display: flex;
+}
+
+.head-with-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mright {
+    color: green;
+}
+
+.dismiss {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text-overlay {
+     /* height: 5rem; */
+    /* width: 11rem; */
+    background-color: #757272;
+    text-align: center;
+    opacity: 0.7;
+    display: flex;
+    position: relative;
+    left: 7rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(247, 10, 10);
+    overflow: hidden;
+    cursor: not-allowed;
+    
+}
+
+.main-hv-card-container{
+    display: flex;
+}

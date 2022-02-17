@@ -16,7 +16,7 @@
 }
 
 .main {
-    width: 40rem;
+    width: 50rem;
     height: 100%;
     margin-top: 2rem;
     overflow: auto;
@@ -25,8 +25,10 @@
 
 .code-section {
     margin-top: 2rem;
-    width: 30rem;
+    width: 25rem;
+    height: 30rem;
     margin-left: 1rem;
+    overflow: scroll;
 }
 li{
     margin: 1rem;
@@ -47,6 +49,3 @@ li{
     width: 100%;
     background-color: yellow;
 }
-
-
-    
