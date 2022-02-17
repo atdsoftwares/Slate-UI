@@ -30,11 +30,11 @@
     margin-left: 1rem;
     overflow: scroll;
 }
-li{
+
+li {
     margin: 1rem;
-    list-style: none;
-    
 }
+
 .aside {
     width: 8rem;
     margin-top: 1rem;
@@ -48,4 +48,16 @@ li{
 .footer {
     width: 100%;
     background-color: yellow;
+}
+
+.example-container {
+    /* height: auto; */
+    /* width: 50rem; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgba(161, 161, 161, 0.473);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
