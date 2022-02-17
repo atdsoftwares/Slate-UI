@@ -1,0 +1,52 @@
+@import '/css/main.css';
+/* @import '/docs.css'; */
+
+.header {
+    width: 100%;
+    background-color: yellow;
+    position: fixed;
+}
+
+.code-content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: auto;
+    max-width: 100%;
+}
+
+.main {
+    width: 40rem;
+    height: 100%;
+    margin-top: 2rem;
+    overflow: auto;
+    margin-left: 1rem;
+}
+
+.code-section {
+    margin-top: 2rem;
+    width: 30rem;
+    margin-left: 1rem;
+}
+li{
+    margin: 1rem;
+    list-style: none;
+    
+}
+.aside {
+    width: 8rem;
+    margin-top: 1rem;
+    height: 100%;
+    /* overflow:scroll; */
+    /* width: 10rem; */
+    background-color: silver;
+    /* padding: 1rem; */
+}
+
+.footer {
+    width: 100%;
+    background-color: yellow;
+}
+
+
+    
