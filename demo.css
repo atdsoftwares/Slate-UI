@@ -17,7 +17,6 @@
     justify-content: flex-start;
     height: auto;
     max-width: 100%;
-    /* overflow: scroll; */
 }
 
 .main {
@@ -39,9 +38,7 @@
 
 li,a {
     text-decoration: none;
-    list-style: none;
-    text-decoration: none;
-    list-style: none;
+    /* list-style: none; */
     padding-right: 1rem;
     font-weight: bold;
     color: black;
@@ -80,11 +77,9 @@ li{
 
 .example-container {
     height: auto;
-    /* width: 45rem; */
     display: flex;
     align-items: center;
     background-color: rgb(253, 251, 251);
- 
     flex-wrap: wrap;
     padding: 1rem;
 }
@@ -100,4 +95,12 @@ li{
 .text{
     display: flex;
     flex-direction: column;
+}
+.code-highlighter{
+    height: 2rem;
+    width: 2rem;
+    background-color: skyblue;
+    box-shadow: 0 0 0 1px rgb(240, 82, 82);
+    border-radius: 0.3rem;
+    padding: 0.2rem;
 }
