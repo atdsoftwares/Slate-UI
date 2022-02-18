@@ -4,8 +4,8 @@
 /* main navigation menu class */
 .navigation-menu {
     height: 5rem;
-    width: 100%;
-    max-width: 100%;
+    /* width: 100%;
+    max-width: 100%; */
     background-color: var(--background-universal-color);
     display: flex;
     flex-direction: row;
@@ -17,12 +17,14 @@
 /* left side panel */
 .left-side-panel {
     display: flex;
+    align-items: center;
 }
 
 
 /* right side panel */
 .right-side-panel {
     display: flex;
+    /* width: 100%; */
 }
 /* main material icons class */
 .navmtrl {

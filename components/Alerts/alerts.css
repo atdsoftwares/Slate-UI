@@ -3,7 +3,7 @@
 .alert {
     display: flex;
     height:3rem;
-    width:95%;
+    width:18rem;
 
     flex-direction: row;
     align-items: center;
@@ -14,7 +14,7 @@
     margin: 0.5rem;
     padding-left: 20px;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 /* material icons */
 .m{
