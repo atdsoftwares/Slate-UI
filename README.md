@@ -89,7 +89,3 @@ Live Hosted Link - **[Agri UI](https://agri-component.netlify.app/)**
 ![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283880384.png)
 
 ![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
