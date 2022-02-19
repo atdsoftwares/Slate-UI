@@ -10,12 +10,10 @@
     margin: 1rem;
 }
 
-
-
 /* avatar container */
 .container {
     height: 28rem;
-    */ width: 35rem;
+    width: 35rem;
     border: 2px solid var(--universal-border-color);
 
 }
@@ -124,44 +122,32 @@
 }
 
 .number-badge {
-    background: var(--badge-notification-color);
-    height: 1.5rem;
-    width: 1.5rem;
+    background: rgb(241, 127, 127);
+    height: 2.5rem;
+    width: 2.5rem;
     font-weight: bold;
     border-radius: 50%;
-    text-align: center;
     position: relative;
-    overflow: auto;
 }
 
-.number-badge::before {
-    content: '8';
-}
-
-.badge-numbers {
+.number-badges-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10rem;
-    width: 25rem;
-    border: 1px solid var(--universal-border-color);
+    width: 15rem;
 }
 
-.material-icons {
-    font-size: 2rem;
-}
 
 .lg-number-badge {
     bottom: 0.5rem;
-    right: 1.5rem;
+    right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -3px;
 }
 
-.md-number-badge {
-    bottom: 0.8rem;
-    right: 1rem;
-}
 
-.sm-number-badge {
-    bottom: 1rem;
-    right: 1rem;
-}
+
+

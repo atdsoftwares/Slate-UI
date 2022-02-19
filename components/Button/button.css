@@ -2,7 +2,7 @@
 @import '/css/main.css';
 
 /* main HTML5 button */
-button {
+.btn,.btni {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -11,9 +11,9 @@ button {
 }
 
 /* head button class */
-.btn {
-    height: 3rem;
-    width: 10rem;
+.btn{
+    height: 2rem;
+    width: 7rem;
     margin: 0.2rem;
     border-radius: 0.4rem;
     color: var(--button-font-color);
@@ -23,11 +23,18 @@ button {
     justify-content: flex-start; */
 }
 
+.btni{
+    height: 2rem;
+    width: fit-content;
+    margin: 0.2rem;
+    border-radius: 0.4rem;
+    color: var(--button-font-color);
+    font-size: 1rem;
+}
 /* solid head button class */
 .btn-solid {
     height: 5rem;
     width: 35rem;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,7 +44,6 @@ button {
 .btn-outline {
     height: 5rem;
     width: 35rem;
-    background-color: aqua;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +53,7 @@ button {
 .btn-with-icons {
     height: 5rem;
     width: 35rem;
-    background-color: aqua;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -158,25 +164,25 @@ button {
 }
 
 /* add icon for small size */
-.btn-sm-icon-add {
+.btni-sm-icon-add {
     border-radius: 50%;
     background-color: var(--button-secondary-color);
-    color: var(--button-font-color);
-    height: 1.5rem;
-    width: 1.5rem;
-}
-
-/* add icon for large size */
-.btn-lg-icon-add {
-    border-radius: 50%;
-    background-color: var(--button-secondary-color);
-    color: var(--button-font-color);
+    color: var(--button-success-color);
     height: 3rem;
     width: 3rem;
 }
 
+/* add icon for large size */
+.btni-lg-icon-add {
+    border-radius: 50%;
+    background-color: var(--button-secondary-color);
+    color: var(--button-success-color);
+    height: 4rem;
+    width: 4rem;
+}
+
 /* material icons css */
-.material-icons{
+.mtrli{
     font-size: 2rem;
     margin:1rem;
 }

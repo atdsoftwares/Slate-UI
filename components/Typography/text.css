@@ -1,0 +1,44 @@
+@import '/css/main.css';
+
+.h1 {
+    font-size: 2rem;
+}
+
+.h2 {
+    font-size: 1.5rem;
+}
+
+.h3 {
+    font-size: 1.3rem;
+}
+
+.h4 {
+    font-size: 1rem;
+}
+
+.h5 {
+    font-size: 0.8rem;
+}
+
+.h6 {
+    font-size: 0.7rem;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.striked-text {
+    text-decoration: line-through;
+}
+
+.small-text {
+    font-size: 0.60rem;
+}
+
+.gray-text {
+    color: #828282;
+}
+.center-text{
+    text-align: center;
+}

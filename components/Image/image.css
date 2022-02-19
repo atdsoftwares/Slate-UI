@@ -2,19 +2,19 @@
 @import '/css/main.css';
 
 /* global image HTML5 tag */
-img {
-    width: 600;
-    height: 400;
-    margin: 1rem;
+.image-item {
+    width: 600px;
+    height: 400px;
+    /* margin: 1rem; */
     border: 1px solid tomato;
 }
 /* repsonsive class */
-.responsive-image img {
+.responsive-image  {
     max-width: 100%;
     height: auto;
 }
 /*  round image class tag*/
-.round-image img {
+.round-image {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;

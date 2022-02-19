@@ -5,36 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="HandheldFriendly" content="true">
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/docs.css">
     <link rel="stylesheet" href="/css/components.css">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css"
-        integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Docs</title>
-
 </head>
 
 <body>
-
-
     <header class="header-container">
-
         <div class="left-items">
             <img src="/images/logo_transparent.png " alt="Logo" class="logo-icon">
         </div>
         <div class="right-items">
-
             <a href="/main.html">Home</a>
-
             <a href="/docs.html">Docs</a>
         </div>
     </header>
-
     <div class="content-container">
-
         <nav>
             <ul class="nav-bar">
                 <li><a class="nav-items" href="#Alert">Alert</a></li>
@@ -51,17 +38,12 @@
                 <li><a class="nav-items" href="#Rating">Rating</a></li>
                 <li><a class="nav-items" href="#Grid">Grid</a></li>
                 <li><a class="nav-items" href="#Toast">Toast</a></li>
-
             </ul>
         </nav>
-
-
         <section>
-
             <h1 id="Alert">Alert</h1>
             <article>
                 <p>
-                    Alerts are used to notify the user of important information.
                     Alerts are used to attract user's attention for important information without interrupting the
                     user's flow.
                 </p>
@@ -78,7 +60,8 @@
             <div class="example-container">
                 <div class="alert primary-alert">A primary alert example with a text link. <span
                         class="link link-active">Check
-                        it out</a><span></div>
+                        it out</a><span>
+                </div>
                 <div class="alert secondary-alert">A secondary alert example.</div>
                 <div class="alert success-alert"><span class="m material-icons">check_circle</span>A success alert
                     example.
@@ -87,42 +70,33 @@
                 </div>
                 <div class="alert warning-alert"><span class="m material-icons">warning</span> A warning alert example.
                 </div>
-
             </div>
             <div class="code-container">
-                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus sint quia corporis aut. Praesentium, ipsa. Aliquid saepe itaque molestias dicta, quae libero aspernatur unde sequi sed! Id sed soluta repellat.</p> -->
-                <pre><code class="language-html">
-            &ltdiv class="alert primary-alert">A primary alert example with a text link.<span class="link link-active">Check it out</a><span>&lt/div>
-            &ltdiv class="alert secondary-alert">A secondary alert example.&lt/div>
-            &ltdiv class="alert success-alert"><span class="m material-icons">check_circle</span>A success alert example./&lt/div>
-            &ltdiv class="alert danger-alert"><span class="m material-icons">dangerous</span>A danger alert example.&lt/div>
-            &ltdiv class="alert warning-alert"><span class="m material-icons">warning</span> A warning alert example.&lt/div>
-
-
-                
-               </code></pre>
+                <script src="https://gist.github.com/iprankurpandey/9bcc73d78f5ddbf863f2dfede254a0df.js"></script>
             </div>
             <section id="Avatar">
-
                 <h1>Avatar</h1>
                 <article>
                     <p>
-                        Avatars are used to represent a user or a company.
+                        Avatar can be used to show user's profile picture on profile information page, on navigation
+                        bar, in blogs grid items.
                     </p>
                     <p>
-                        <strong> Example of Avatar close button</strong>
+                        <strong> Example of Image Avatar</strong>
                     </p>
                     <p>
-                        To use this avatar just use class name avatar-box and also add class according to avatar type-
-                        avatar-primary, avatar-secondary, avatar-danger, avatar-success, avatar-warning.
-                        (e.g.class="avatar-box
-                        avatar-primary"). You can copy html part from below code snippet.
+                        Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class
+                        avatar and for size add class according to size avatar-lg-size, avatar-md-size, avatar-sm-size,
+                        avatar-xs-size (e.g. class="avatar avatar-lg-size")
+                        Don't forget to add Responsive Image class names for img element.
+                    </p>
+                    <p> <strong> Example of Text Avatar</strong></p>
+                    <p>You can use initial letters of user in Avatar as well. You need to include class avatar-text
+                        along with avatar and size class. (e.g. class="avatar avatar-lg-size avatar-text")
                     </p>
                 </article>
                 <div class="example-container">
-
                     <div class="avatar">
-
                         <div class="avatar lg-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
                                 class="image-round image-responsive"><img /> </div>
                         <div class="avatar md-avatar-size"> <img src="/images/scorpio-sign.jpg" alt="avatar"
@@ -133,131 +107,71 @@
                                 class="image-round image-responsive"><img /></div>
                     </div>
                     <div class="text-responsive">
-
                         <div class="avatar lg-avatar-size text-round">PP</div>
                         <div class="avatar md-avatar-size text-round">PP</div>
                         <div class="avatar sm-avatar-size text-round">PP</div>
                         <div class="avatar xs-avatar-size text-round">PP</div>
                     </div>
-
                 </div>
                 <div class="code-container">
-                    <pre><code class="language-html">
-            &ltdiv class="avatar">
-
-            &ltdiv class="avatar lg-avatar-size"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/> 
-            &lt/div>
-            &ltdiv class="avatar md-avatar-size"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/> 
-            &lt/div>
-            &ltdiv class="avatar sm-avatar-size"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/> &lt/div>
-            &ltdiv class="avatar xs-avatar-size"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/> &lt/div>
-            &lt/div>
-            
-            &ltdiv class="text-responsive">
-
-            &ltdiv class="avatar lg-avatar-size text-round">PP &lt/div>
-            &ltdiv class="avatar md-avatar-size text-round">PP &lt/div>
-            &ltdiv class="avatar sm-avatar-size text-round">PP &lt/div>
-            &ltdiv class="avatar xs-avatar-size text-round">PP &lt/div>
-            
-            &lt/div>
-            &lt/div>
-           </pre>
+                    <script src="https://gist.github.com/iprankurpandey/32455c181029be441e44982a16f9f8e9.js"></script>
                 </div>
-
-
                 <section id="Badge">
-
                     <h1>Badge</h1>
                     <article>
                         <p>
-                            Badge are used to represent a number of notifications.
+                            Badges are being used to display a notification count or status information
                         </p>
                         <p>
-                            <strong> Example of Badge </strong>
+                            <strong> Example of Badges </strong>
                         </p>
                         <p>
-                            To use this badge just use class name badge-box and also add class according to badge type-
-                            badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
-                            (e.g.class="badge-box
-                            badge-primary"). You can copy html part from below code snippet.
+                            We have 2 types of status badges that can be integrated with Avatars. You can show colors to
+                            show the online status of user. And to show cart or notification count, you can use number
+                            badge. Check code below to copy the html part as is.
                         </p>
                     </article>
                     <div class="example-container">
-
                         <div class="avatar">
                             <!-- large image with  online badge -->
-                            <div class="avatar lg-avatar-size  badge-status"> <img src="/images/scorpio-sign.jpg"
-                                    alt="avatar" class="image-round image-responsive"><img />
-                                <span class=" badge lg-badge badge-online"></span>
+                            <div class="avatar lg-avatar-size  badge-status"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                                            class="image-round image-responsive"><img />
+                                    <span class=" badge lg-badge badge-online"></span>
                             </div>
                             <!-- medium image with  offline badge -->
-                            <div class="avatar md-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg"
-                                    alt="avatar" class="image-round image-responsive"><img />
-                                <span class=" badge md-badge badge-offline"></span>
-                            </div>
+                            <div class="avatar md-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                                            class="image-round image-responsive"><img />
+                                    <span class=" badge md-badge badge-offline"></span> </div>
                             <!-- small image with  ready badge -->
-                            <div class="avatar sm-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg"
-                                    alt="avatar" class="image-round image-responsive"><img />
-                                <span class=" badge sm-badge badge-away"></span>
-                            </div>
+                            <div class="avatar sm-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                                            class="image-round image-responsive"><img />
+                                    <span class=" badge sm-badge badge-away"></span></div>
                             <!-- extra small image with  blue badge -->
-                            <div class="avatar xs-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg"
-                                    alt="avatar" class="image-round image-responsive"><img />
-                                <span class=" badge xs-badge badge-offline"></span>
+                            <div class="avatar xs-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg" alt="avatar"
+                                            class="image-round image-responsive"><img />
+                                    <span class=" badge xs-badge badge-offline"></span></div>
+                    </div>
+                    <div class="number-badges-container">
+                            <div class="call">
+                                    <span class="material-icons mtrl">
+                                            shopping_cart
+                                    </span>
                             </div>
-                        </div>
-
-                        <div class="badge-numbers">
-                            <span class="material-icons">
-                                call
-                            </span>
-                            <span class="number-badge lg-number-badge"></span>
-
-
-                            <span class="material-icons">
-                                email
-                            </span>
-                            <span class="number-badge md-number-badge"></span>
-
-                            <span class="material-icons">
-                                shopping_bag
-                            </span>
-                            <span class="number-badge sm-number-badge"></span>
-                        </div>
-
-
+                            <span class="number-badge lg-number-badge">5</span>
+                            <div class="email">
+                                    <span class="material-icons mtrl">
+                                            favorite_border
+                                    </span>
+                            </div>
+                            <span class="number-badge lg-number-badge">99+</span>
+                    </div>
                     </div>
                     <div class="code-container">
-                        <pre><code class="language-html">
-            &ltdiv class="avatar">
-            &ltdiv class="avatar lg-avatar-size badge-status"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/>
-            &ltspan class=" badge lg-badge badge-online">&lt/span>
-            &lt/div>
-            &ltdiv class="avatar md-avatar-size badge-status"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/>
-            &ltspan class=" badge md-badge badge-offline">&lt/span> &lt/div>
-            &ltdiv class="avatar sm-avatar-size badge-status"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/>
-            &ltspan class=" badge sm-badge badge-away">&lt/span> &lt/div>
-            &ltdiv class="avatar xs-avatar-size badge-status"> &ltimg src="/" alt="avatar" class="image-round image-responsive">&ltimg/>
-            &ltspan class=" badge xs-badge badge-offline">&lt/span> &lt/div>
-            &lt/div>
-            &ltdiv class="badge-numbers">
-            &ltspan class="material-icons">call&lt/span>
-            &ltspan class="number-badge lg-number-badge">&lt/span>
-            &ltspan class="material-icons">email&lt/span>
-            &ltspan class="number-badge md-number-badge">&lt/span>
-            &ltspan class="material-icons">shopping_bag&lt/span>
-            &ltspan class="number-badge sm-number-badge">&lt/span>
-
-            &lt/div>
-            &lt/div>
-            </pre>
+                        
+                            <script src="https://gist.github.com/iprankurpandey/2149546082d2312c5fde92fba293b086.js"></script>
+                        </script>
                     </div>
-
-
-
                     <section id="Button">
-
                         <h1>Button</h1>
                         <article>
                             <p>
@@ -267,15 +181,27 @@
                                 <strong> Example of Buttons </strong>
                             </p>
                             <p>
-                                To use this badge just use class name badge-box and also add class according to badge
-                                type-
-                                badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
-                                (e.g.class="badge-box
-                                badge-primary"). You can copy html part from below code snippet.
+                                <p> <strong>Example of Primary Button Styles </strong></p>
+                                <p>
+                                    Whenever you want your user to click on a link or button, use primary style buttons.
+                                </p>
+                                <p><strong>Example of Secondary Button Styles </strong></p>
+                                <p>If you want user not to pay attention to buttons then use Secondary buttons. You can
+                                    directly copy below html code and use it in your app.
+                                </p>
+                            </p>
+                            <p>
+                                <strong>
+                                    Example of Toggle Button and Floating action Button
+                                </strong>
+                            </p>
+                            <p>
+                                Toggle buttons can be used to change the theme. For class and html, check below code.
+                                Floating-action buttons can be customized by adding the font-awesome icon of your
+                                choice. This button will be fixed to right-bottom corner.
                             </p>
                         </article>
                         <div class="example-container">
-
                             <div class="btn btn-solid">
                                 <button class="btn btn-primary">Primary</button>
                                 <button class="btn btn-secondary">Secondary</button>
@@ -284,7 +210,6 @@
                                 <button class="btn btn-danger">Danger</button>
                                 <a href="/" class="btn-link">Link</a>
                             </div>
-
                             <div class="btn btn-outline">
                                 <button class="btn btn-primary-outline">Primary</button>
                                 <button class="btn btn-secondary-outline">Secondary</button>
@@ -292,13 +217,11 @@
                                 <button class="btn btn-warning-outline">Warning</button>
                                 <button class="btn btn-danger-outline">Danger</button>
                             </div>
-
                             <div class="btn btn-with-icons">
                                 <button class="btn btn-primary-icon">Add to cart<span class="material-icons">
                                         shopping_cart
                                     </span>
                                 </button>
-
                                 <button class="btn btn-secondary-icon">Add to list
                                     <span class="material-icons">
                                         favorite_border
@@ -317,358 +240,303 @@
                             </div>
                         </div>
                         <div class="code-container">
-                            <pre><code class="language-html">
-               
-               
-               
-                                &ltdiv class="btn btn-solid">
-                    &ltbutton class="btn btn-primary">Primary&lt/button>
-                    &ltbutton class="btn btn-secondary">Secondary&lt/button>
-                    &ltbutton class="btn btn-success">Success&lt/button>
-                    &ltbutton class="btn btn-warning">Warning&lt/button>
-                    &ltbutton class="btn btn-danger">Danger&lt/button>
-                        &lta href="/" class="btn-link">Link&lt/a>
-                    &lt/div>
-                
-                &ltdiv class="btn btn-outline">
-                    &ltbutton class="btn btn-primary-outline">Primary&lt/button>
-                    &ltbutton class="btn btn-secondary-outline">Secondary&lt/button>
-                    &ltbutton class="btn btn-success-outline">Success&lt/button>
-                    &ltbutton class="btn btn-warning-outline">Warning&lt/button>
-                    &ltbutton class="btn btn-danger-outline">Danger&lt/button>
-                    &lt/div>
-                
-                &ltdiv class="btn btn-with-icons">
-                        &ltbutton class="btn btn-primary-icon">Add to cart&ltspan class="material-icons">
-                                shopping_cart
-                            &lt/span>
-                        &lt/button>
-                            
-                &ltbutton class="btn btn-secondary-icon">Add to list &ltspan class="material-icons">
-                        favorite_border
-                    &lt/span>
-                &lt/button>
-                &ltbutton class="btn-lg-icon-add">&ltspan class="material-icons">add &lt/span>&lt/button>
-                &ltbutton class="btn-sm-icon-add">&ltspan class="material-icons">remove&lt/span>&lt/button>
-                &lt/div>
-
-                
-                </pre>
+                            <script src="https://gist.github.com/iprankurpandey/f2931094346cd22b46b5445a9ff004c4.js">
+                            </script>
                         </div>
-
-
-
-
                         <section id="Card">
-
-                            <h1>Card</h1>
+                            <h1>Cards</h1>
                             <article>
                                 <p>
-                                    Badge are used to represent a number of notifications.
+                                    Card are used to show user related data collectively, like product details.
                                 </p>
                                 <p>
                                     <strong> Example of Cards </strong>
                                 </p>
+                                <p><strong>Example of Horizontal Card- Text+Image </strong></p>
                                 <p>
-                                    To use this badge just use class name badge-box and also add class according to
-                                    badge type-
-                                    badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
-                                    (e.g.class="badge-box
-                                    badge-primary"). You can copy html part from below code snippet.
+                                    Card's image may have a margin or it can be full-bleed. By default card's images are
+                                    full-bleed. If you want image to have margin, you can use default-container class.
+                                    Copy below code and put your desired text and image and you are good to go.
+                                </p>
+                                <p><strong>Example of Vertical Card- Text+Image </strong></p>
+                                <p>
+                                    Below are 2 variations, card with badge, card with image default-container, card
+                                    with close button. All the cards have like button.
+                                </p>
+                                <p><strong>Example of Horizontal + Vertical card text overlay</strong></p>
+                                <p>
+                                    Below are 2 variations, card with badge, card with image default-container, card
+                                    with close button. All the cards have like button.
                                 </p>
                             </article>
                             <div class="example-container">
-
-                                <div class="avatar">
-                                    <!-- large image with  online badge -->
-                                    <div class="avatar lg-avatar-size  badge-status"> <img
-                                            src="/images/scorpio-sign.jpg" alt="avatar"
-                                            class="image-round image-responsive"><img />
-                                        <span class=" badge lg-badge badge-online"></span>
+                                <h1>card with badge</h1>
+                                <div class="card card-with-badge">
+                                    <img class="image-inside" src="/images/green.jpg" alt="scorpio">
+                                    <div class="badge-verify" title="verified">
+                                        <span class="material-icons">
+                                            verified
+                                        </span>
                                     </div>
-                                    <!-- medium image with  offline badge -->
-                                    <div class="avatar md-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg"
-                                            alt="avatar" class="image-round image-responsive"><img />
-                                        <span class=" badge md-badge badge-offline"></span>
-                                    </div>
-                                    <!-- small image with  ready badge -->
-                                    <div class="avatar sm-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg"
-                                            alt="avatar" class="image-round image-responsive"><img />
-                                        <span class=" badge sm-badge badge-away"></span>
-                                    </div>
-                                    <!-- extra small image with  blue badge -->
-                                    <div class="avatar xs-avatar-size badge-status"> <img src="/images/scorpio-sign.jpg"
-                                            alt="avatar" class="image-round image-responsive"><img />
-                                        <span class=" badge xs-badge badge-offline"></span>
+                                    <div class="card-content">
+                                        <h3>Scorpio</h3>
+                                        <div class="text">The Car</div>
+                                        <span class="text-light">By : Astro</span>
+                                        <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                                            sit amet conse sectetur adipisicing elit. it amet hiccocconsequatusic
+                                            secteicing hiccon Lorem ipsum
+                                            dolor tetur adipi sit amet conse sectetur a
+                                            hiccsdsrat qorruptidolor tetur adcorrupti.
+                                        </div>
+                                        <div class="btn-icons">
+                                            <button class="btn-add-to-hcart btn-class ">cart<span
+                                                    class="material-icons">shopping_cart</span></button>
+                                            <button class="btn-add-to-hwishlist btn-class"><span
+                                                    class="material-icons">favorite_border</span></button>
+                                        </div>
                                     </div>
                                 </div>
-
-                                <div class="badge-numbers">
+                                <h1>card with dismiss</h1>
+                                <div class="badge-close" title="dismiss">
                                     <span class="material-icons">
-                                        call
+                                        close
                                     </span>
-                                    <span class="number-badge lg-number-badge"></span>
-
-
-                                    <span class="material-icons">
-                                        email
-                                    </span>
-                                    <span class="number-badge md-number-badge"></span>
-
-                                    <span class="material-icons">
-                                        shopping_bag
-                                    </span>
-                                    <span class="number-badge sm-number-badge"></span>
                                 </div>
-
-
+                                <div class="card card-dismiss">
+                                    <img class="image-inside" src="/images/wheat.jpg" alt="scorpio">
+                                    <div class="card-content">
+                                        <h3>Scorpio</h3>
+                                        <div class="text">The Car</div>
+                                        <span class="text-light">By : Astro</span>
+                                        <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                                            sit amet conse sectetur adipisicing elit. it amet hiccocconsequatusic
+                                            secteicing hiccon Lorem ipsum
+                                            dolor tetur adipi sit amet conse sectetur a
+                                            hiccsdsrat qorruptidolor tetur adcorrupti.
+                                        </div>
+                                        <div class="btn-icons">
+                                            <button class="btn-add-to-hcart btn-class"">cart<span
+                class=" material-icons ">shopping_cart</span></button>
+              <button class=" btn-add-to-hwishlist btn-class""><span
+                                                    class="material-icons">favorite_border</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1> card with text only</h1>
+                                <div class="card card-with-text-only">
+                                    <div class="card-content">
+                                        <h3>Scorpio</h3>
+                                        <div class="text">The Car</div>
+                                        <span class="text-light">By : Astro</span>
+                                        <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                                            sit amet conse sectetur adipisicing elit. it amet hiccocconsequatusic
+                                            secteicing hiccon Lorem
+                                            ipsumadipisicing ehiccocconsequ secteicing hi ipsum dolor tetur a conse
+                                            sectetu hiccsdsrat qotetur
+                                            adcorru dolor tetur adipi sit amet conse sectetur ahiccsdsrat qorruptidolor
+                                            tetur adcorrupti.
+                                        </div>
+                                        <div class="btn-icons">
+                                            <button class="btn-add-to-hcart btn-class"">cart<span
+                class=" material-icons">shopping_cart</span></button>
+                                            <button class="btn-add-to-hwishlist btn-class""><span
+                class=" material-icons">favorite_border</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1>card vertical</h1>
+                                <div class=" vcard card-vertical">
+                                    <img class="vcard-image-inside" src="/images/green.jpg" alt="scorpio">
+                                    <div class="card-content">
+                                        <h3>Scorpio</h3>
+                                        <div class="text">The Car</div>
+                                        <span class="text-light">By : Astro</span>
+                                        <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                                            sit amet conse sectetur adipisicing elit. it amet ips
+                                            hiccsdsrat qorruptidolor tetur adcorrupti.
+                                        </div>
+                                        <div class="btn-icons-vcard">
+                                            <button class="btn-add-to-vcart btn-class-vcard">cart
+                                                <span class="material-icons ">shopping_cart</span>
+                                            </button>
+                                            <button class="btn-add-to-vwishlist btn-class-vcard""><span
+                class=" material-icons">favorite_border</span></button>
+                                        </div>
+                                        <div class="text-overlay-over-card">
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1> card box shadow</h1>
+                                <div class="vcard card-with-shadow">
+                                    <img class="vcard-image-inside" src="/images/green.jpg" alt="scorpio">
+                                    <div class="card-content">
+                                        <h3>Scorpio</h3>
+                                        <div class="text">The Car</div>
+                                        <span class="text-light">By : Astro</span>
+                                        <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                                            sit amet conse sectetur adipisicing elit. it amet ips
+                                            hiccsdsrat qorruptidolor tetur adcorrupti.
+                                        </div>
+                                        <div class="btn-icons-vcard">
+                                            <button class="btn-add-to-vcart btn-class-vcard">cart<span
+                                                    class="material-icons">shopping_cart</span></button>
+                                            <button class="btn-add-to-vwishlist btn-class-vcard"><span
+                                                    class="material-icons">favorite_border</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h1> card with rating and price</h1>
+                                <div class="vcard card-with-shadow">
+                                    <img class="vcard-image-inside" src="/images/wheat.jpg" alt="scorpio">
+                                    <div class="card-content">
+                                        <h3>Scorpio</h3>
+                                        <div class="text">The Car</div>
+                                        <span class="text-light">By : Astro</span>
+                                        <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                                            sit amet conse sectetur adipisicing elit. it amet ips
+                                            hiccsdsrat qorruptidolor tetur adcorrupti.
+                                        </div>
+                                        <div class="item-rate">
+                                            <span>
+                                                &#8377
+                                                <div class="price"> 5000</div>
+                                            </span>
+                                            <div class="ratings-in-card">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <div class="btn-icons-vcard">
+                                            <button class="btn-add-to-vcart btn-class-vcard">cart<span
+                                                    class="material-icons">shopping_cart</span></button>
+                                            <button class="btn-add-to-vwishlist btn-class-vcard"><span
+                                                    class="material-icons">favorite_border</span></button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="code-container">
-                                <pre><code class="language-html">
-                    
-                    </pre>
+                                <script
+                                    src="https://gist.github.com/iprankurpandey/2248c375975c682754e6196241710237.js">
+                                </script>
                             </div>
-
-
-
-
-                            <section id="Images">
-
+                            <section id="Image">
                                 <h1>Images</h1>
                                 <article>
                                     <p>
-                                        Buttons are used to represent a number of notifications.
+                                        Images can be responsive to fit the parent's width, and also can be customised
+                                        to be round shaped
                                     </p>
                                     <p>
-                                        <strong> Example of Buttons </strong>
+                                        <strong> Example of Responsive Images </strong>
                                     </p>
                                     <p>
-                                        To use this badge just use class name badge-box and also add class according to
-                                        badge
-                                        type-
-                                        badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
-                                        (e.g.class="badge-box
-                                        badge-primary"). You can copy html part from below code snippet.
+                                        You can add class responsive-image to make your image fit the width of
+                                        container. It's height will get adjusted by keeping the aspect ratio same. If
+                                        you want to change the aspect ratio, you will have to crop the image
+                                    </p>
+                                    <p>
+                                        <strong> Example of Round Images </strong>
+                                    </p>
+                                    <p>
+                                        <p>
+                                            <strong> Example of Responsive Images </strong>
+                                        </p>
+                                        You can add class round-image to make your image round shaped.
                                     </p>
                                 </article>
                                 <div class="example-container">
-
-                                    <div class="btn btn-solid">
-                                        <button class="btn btn-primary">Primary</button>
-                                        <button class="btn btn-secondary">Secondary</button>
-                                        <button class="btn btn-success">Success</button>
-                                        <button class="btn btn-warning">Warning</button>
-                                        <button class="btn btn-danger">Danger</button>
-                                        <a href="/" class="btn-link">Link</a>
-                                    </div>
-
-                                    <div class="btn btn-outline">
-                                        <button class="btn btn-primary-outline">Primary</button>
-                                        <button class="btn btn-secondary-outline">Secondary</button>
-                                        <button class="btn btn-success-outline">Success</button>
-                                        <button class="btn btn-warning-outline">Warning</button>
-                                        <button class="btn btn-danger-outline">Danger</button>
-                                    </div>
-
-                                    <div class="btn btn-with-icons">
-                                        <button class="btn btn-primary-icon">Add to cart<span class="material-icons">
-                                                shopping_cart
-                                            </span>
-                                        </button>
-
-                                        <button class="btn btn-secondary-icon">Add to list
-                                            <span class="material-icons">
-                                                favorite_border
-                                            </span>
-                                        </button>
-                                        <button class="btn-lg-icon-add">
-                                            <span class="material-icons">
-                                                add
-                                            </span>
-                                        </button>
-                                        <button class="btn-sm-icon-add">
-                                            <span class="material-icons">
-                                                add
-                                            </span>
-                                        </button>
-                                    </div>
+                                    <img class="image-item responsive-image" src="/images/scorpio-car.jpg"
+                                        alt="scorpio">
+                                    <img class="image-item round-image" src="/images/scorpio-car.jpg" alt="scorpio">
                                 </div>
                                 <div class="code-container">
-                                    <pre><code class="language-html">
-                       
-                       
-                        </pre>
+                                    <script
+                                        src="https://gist.github.com/iprankurpandey/26841f60b3d150c95f9169e2f2786f8b.js">
+                                    </script>
                                 </div>
-
-
-
-
-
-                                <section id="Inputs">
-
+                                <section id="Input">
                                     <h1>Inputs</h1>
                                     <article>
                                         <p>
-                                            Buttons are used to represent a number of notifications.
+                                            inputs
                                         </p>
                                         <p>
-                                            <strong> Example of Buttons </strong>
+                                            <strong> Example of Inputs </strong>
                                         </p>
                                         <p>
-                                            To use this badge just use class name badge-box and also add class according
-                                            to badge
-                                            type-
-                                            badge-primary, badge-secondary, badge-danger, badge-success, badge-warning.
-                                            (e.g.class="badge-box
-                                            badge-primary"). You can copy html part from below code snippet.
+                                            inputs
                                         </p>
                                     </article>
                                     <div class="example-container">
-
-                                        <div class="btn btn-solid">
-                                            <button class="btn btn-primary">Primary</button>
-                                            <button class="btn btn-secondary">Secondary</button>
-                                            <button class="btn btn-success">Success</button>
-                                            <button class="btn btn-warning">Warning</button>
-                                            <button class="btn btn-danger">Danger</button>
-                                            <a href="/" class="btn-link">Link</a>
-                                        </div>
-
-                                        <div class="btn btn-outline">
-                                            <button class="btn btn-primary-outline">Primary</button>
-                                            <button class="btn btn-secondary-outline">Secondary</button>
-                                            <button class="btn btn-success-outline">Success</button>
-                                            <button class="btn btn-warning-outline">Warning</button>
-                                            <button class="btn btn-danger-outline">Danger</button>
-                                        </div>
-
-                                        <div class="btn btn-with-icons">
-                                            <button class="btn btn-primary-icon">Add to cart<span
-                                                    class="material-icons">
-                                                    shopping_cart
-                                                </span>
-                                            </button>
-
-                                            <button class="btn btn-secondary-icon">Add to list
-                                                <span class="material-icons">
-                                                    favorite_border
-                                                </span>
-                                            </button>
-                                            <button class="btn-lg-icon-add">
-                                                <span class="material-icons">
-                                                    add
-                                                </span>
-                                            </button>
-                                            <button class="btn-sm-icon-add">
-                                                <span class="material-icons">
-                                                    add
-                                                </span>
-                                            </button>
-                                        </div>
+                                        <input type="text" id="name" name="name" value="" placeholder="Name" required>
+                                        <input type="email" id="email" name="email" value="" placeholder="Email"
+                                            required>
+                                        <input type="tel" id="input-telnumber" name="input telnumber"
+                                            inputmode="numeric" pattern="[0-9]*" autocomplete="one-time-code"
+                                            placeholder="Phone Number" required>
+                                        <input type="password" id="input-password" name="input password"
+                                            placeholder="Password" required minlength="6">
+                                        <input type="submit" id="input-submit" name="input submit" required>
+                                        <label for="input-submit"> </label>
                                     </div>
                                     <div class="code-container">
-                                        <pre><code class="language-html">
-                           
-                           
-                           
-                            
-                            </pre>
+                                        <script
+                                            src="https://gist.github.com/iprankurpandey/154aaa7ebe3e940efb89bab0a3f2c62c.js">
+                                        </script>
                                     </div>
-
                                     <section id="Typography">
-
                                         <h1>Typography</h1>
                                         <article>
                                             <p>
-                                                Buttons are used to represent a number of notifications.
+                                                Check out below text utilities.
                                             </p>
                                             <p>
-                                                <strong> Example of Buttons </strong>
+                                                <strong> Example of Heading text</strong>
                                             </p>
                                             <p>
-                                                To use this badge just use class name badge-box and also add class
-                                                according to badge
-                                                type-
-                                                badge-primary, badge-secondary, badge-danger, badge-success,
-                                                badge-warning.
-                                                (e.g.class="badge-box
-                                                badge-primary"). You can copy html part from below code snippet.
+                                                For heading u can use h1, h2, h3, h4, h5, h6 elements.
+                                                The same font-styling is present for class names h1, h2, h3, h4, h5, h6
+                                                class. You can add one of these classes to style the text.
                                             </p>
                                         </article>
                                         <div class="example-container">
-
-                                            <div class="btn btn-solid">
-                                                <button class="btn btn-primary">Primary</button>
-                                                <button class="btn btn-secondary">Secondary</button>
-                                                <button class="btn btn-success">Success</button>
-                                                <button class="btn btn-warning">Warning</button>
-                                                <button class="btn btn-danger">Danger</button>
-                                                <a href="/" class="btn-link">Link</a>
-                                            </div>
-
-                                            <div class="btn btn-outline">
-                                                <button class="btn btn-primary-outline">Primary</button>
-                                                <button class="btn btn-secondary-outline">Secondary</button>
-                                                <button class="btn btn-success-outline">Success</button>
-                                                <button class="btn btn-warning-outline">Warning</button>
-                                                <button class="btn btn-danger-outline">Danger</button>
-                                            </div>
-
-                                            <div class="btn btn-with-icons">
-                                                <button class="btn btn-primary-icon">Add to cart<span
-                                                        class="material-icons">
-                                                        shopping_cart
-                                                    </span>
-                                                </button>
-
-                                                <button class="btn btn-secondary-icon">Add to list
-                                                    <span class="material-icons">
-                                                        favorite_border
-                                                    </span>
-                                                </button>
-                                                <button class="btn-lg-icon-add">
-                                                    <span class="material-icons">
-                                                        add
-                                                    </span>
-                                                </button>
-                                                <button class="btn-sm-icon-add">
-                                                    <span class="material-icons">
-                                                        add
-                                                    </span>
-                                                </button>
-                                            </div>
+                                            <div class="h1">Heading-1</div>
+                                            <div class="h2">Heading-2</div>
+                                            <div class="h3">Heading-3</div>
+                                            <div class="h4">Heading-4</div>
+                                            <div class="h5">Heading-5</div>
+                                            <div class="h6">Heading-6</div>
+                                            <div class="bold-text">This is bold text</div>
+                                            <div class="striked-text">This is stricked text</div>
+                                            <div class="small-text">This is extra small text</div>
+                                            <div class="gray-text">This is gray text</div>
+                                            <div class="center-text">This is center text</div>
                                         </div>
                                         <div class="code-container">
-                                            <pre><code class="language-html">
-                               
-                               
-                               
-                                                
-                                </pre>
+                                            <script
+                                                src="https://gist.github.com/iprankurpandey/fb65780793cae62c6318bc93f2eac09f.js">
+                                            </script>
                                         </div>
-
                                         <section id="List">
-
                                             <h1>List</h1>
                                             <article>
                                                 <p>
-                                                    Buttons are used to represent a number of notifications.
+                                                    Lists can be used at so many places, navigation bar, stacked
+                                                    notifications, article pages, etc.
                                                 </p>
                                                 <p>
                                                     <strong> Example of Buttons </strong>
                                                 </p>
                                                 <p>
-                                                    To use this badge just use class name badge-box and also add class
-                                                    according to badge
-                                                    type-
-                                                    badge-primary, badge-secondary, badge-danger, badge-success,
-                                                    badge-warning.
-                                                    (e.g.class="badge-box
-                                                    badge-primary"). You can copy html part from below code snippet.
+                                                    Add class according to bullet style. Copy html code below and add
+                                                    your desired list items.
                                                 </p>
                                             </article>
                                             <div class="example-container">
-
                                                 <div class="list-container">
                                                     <ul>
                                                         <li>Item-1</li>
@@ -723,241 +591,97 @@
                                                         <li>List item with upper roman</li>
                                                         <li>List item with upper roman</li>
                                                     </ol>
-
-
-
                                                 </div>
                                             </div>
                                             <div class="code-container">
-                                                <pre><code class="language-html">          
-                       &ltul>
-                               &ltli>Item-1&lt/li>
-                               &ltli>Item-2&lt/li>
-                               &ltli>Item-3&lt/li>
-                           &lt/ul>
-                       &ltul class="list-style-circle">
-                               &ltli>Item-1&lt/li>
-                               &ltli>Item-2&lt/li>
-                               &ltli>Item-3&lt/li>
-                           &lt/ul>
-                       &ltul class="list-style-square">
-                               &ltli>Item-1&lt/li>
-                               &ltli>Item-2&lt/li>
-                               &ltli>Item-3&lt/li>
-                           &lt/ul>
-                       &ltul class="list-style-none">
-                               &ltli>Item-1&lt/li>
-                               &ltli>Item-2&lt/li>
-                               &ltli>Item-3&lt/li>
-                           &lt/ul>
-
-                       &ltdiv class="ordered-list-examples">
-                           <!-- This is default list -->
-                       &ltol>
-                               &ltli>List item with numbers&lt/li>
-                               &ltli>List item with numbers&lt/li>
-                               &ltli>List item with numbers&lt/li>
-                           &lt/ol>
-                       &ltol class="list-style-decimal-leading-zero">
-                               &ltli>List item with numbers&lt/li>
-                               &ltli>List item with numbers&lt/li>
-                               &ltli>List item with numbers&lt/li>
-                           &lt/ol>
-                       &ltol class="list-style-lower-alphabets">
-                               &ltli>List item with lower alphabets&lt/li>
-                               &ltli>List item with lower alphabets&lt/li>
-                               &ltli>List item with lower alphabets&lt/li>
-                           &lt/ol>
-                       &ltol class="list-style-upper-alphabets">
-                               &ltli>List item with upper alphabets&lt/li>
-                               &ltli>List item with upper alphabets&lt/li>
-                               &ltli>List item with upper alphabets&lt/li>
-                           &lt/ol>
-                       &ltol class="list-style-lower-roman">
-                               &ltli>List item with lower roman&lt/li>
-                               &ltli>List item with lower roman&lt/li>
-                               &ltli>List item with lower roman&lt/li>
-                           &lt/ol>
-                       &ltol class="list-style-upper-roman">
-                               &ltli>List item with upper roman&lt/li>
-                               &ltli>List item with upper roman&lt/li>
-                               &ltli>List item with upper roman&lt/li>
-                           &lt/ol> 
-                        &lt/div>
-                                    </pre>
+                                                <script
+                                                    src="https://gist.github.com/iprankurpandey/6b294fb0f31b3af0df3546f378e6e840.js">
+                                                </script>
                                             </div>
-
                                             <section id="Nav">
-
                                                 <h1>Nav</h1>
                                                 <article>
-                                                    <p>
-                                                        Navigation are used to represent a number of notifications.
-                                                    </p>
-                                                    <p>
-                                                        <strong> Navigation of Buttons </strong>
-                                                    </p>
-                                                    <p>
-                                                        To use this badge just use class name badge-box and also add
-                                                        class according to badge
-                                                        type-
-                                                        badge-primary, badge-secondary, badge-danger, badge-success,
-                                                        badge-warning.
-                                                        (e.g.class="badge-box
-                                                        badge-primary"). You can copy html part from below code snippet.
+                                                    <p> Navigation bar is used to navigate through the web apps or
+                                                        websites. This navigation component is responsive. It is a
+                                                        hamburger menu in medium and small devices
                                                     </p>
                                                 </article>
                                                 <div class="example-container">
-
                                                     <div class="navigation-menu">
                                                         <div class="left-side-panel" title="menu-item">
                                                             <div class="menu"> <span class="material-icons">
                                                                     menu
-                                                                </span></div>
+                                                                </span>
+                                                            </div>
+                                                            <span class="home">
+                                                                <span class="material-icons">
+                                                                    home
+                                                                </span>
+                                                            </span>
                                                         </div>
                                                         <div class="search-panel" title="search items">
-
                                                             <input type="search" name="search" id="search">
                                                         </div>
-
                                                         <div class="right-side-panel">
-
                                                             <div class="shopping-cart" title="shopping cart"> <span
                                                                     class="material-icons">
                                                                     shopping_cart
-                                                                </span></div>
+                                                                </span>
+                                                            </div>
                                                             <div class="favorites-item" title="favorite items"><span
                                                                     class="material-icons">
                                                                     favorite_border
-                                                                </span></div>
+                                                                </span>
+                                                            </div>
                                                             <div class="user-account" title="your account details"><span
                                                                     class="material-icons">
                                                                     account_circle
-                                                                </span> </div>
+                                                                </span>
+                                                            </div>
                                                         </div>
                                                     </div>
-
                                                 </div>
                                                 <div class="code-container">
-                                                    <pre><code class="language-html">
-                                       
-                                                    &ltdiv class="navigation-menu">
-                                                        &ltdiv class="left-side-panel" title="menu-item">
-                                                            &ltdiv class="menu"> <span class="material-icons">
-                                                                        menu
-                                                                    </span>&lt/div>
-                                                            &lt/div>
-                                                        &ltdiv class="search-panel" title="search items">
-    
-                                                                &ltinput type="search" name="search" id="search">
-                                                            &lt/div>
-    
-                                                        &ltdiv class="right-side-panel">
-    
-                                                            &ltdiv class="shopping-cart" title="shopping cart"> <span
-                                                                        class="material-icons">
-                                                                        shopping_cart
-                                                                    </span>&lt/div>
-                                                            &ltdiv class="favorites-item" title="favorite items"><span
-                                                                        class="material-icons">
-                                                                        favorite_border
-                                                                    </span>&lt/div>
-                                                            &ltdiv class="user-account" title="your account details"><span
-                                                                        class="material-icons">
-                                                                        account_circle
-                                                                    </span> &lt/div>
-                                                            &lt/div>
-
-                                        </pre>
+                                                    <script
+                                                        src="https://gist.github.com/iprankurpandey/6b44e8c04fce8c11821f09f17692cc17.js">
+                                                    </script>
                                                 </div>
-
-
-
                                                 <section id="Model">
-
                                                     <h1>Model</h1>
                                                     <article>
                                                         <p>
-                                                            Model are
+                                                            Modals are positioned over everything else in the document
+                                                            and remove scroll from the page. It gets closed only with
+                                                            close button on modal pop-up.
                                                         </p>
                                                         <p>
                                                             <strong> Example of Model </strong>
                                                         </p>
                                                         <p>
-                                                            To use this badge just use class name badge-box and also add
-                                                            class according to badge
-                                                            type-
-                                                            badge-primary, badge-secondary, badge-danger, badge-success,
-                                                            badge-warning.
-                                                            (e.g.class="badge-box
-                                                            badge-primary"). You can copy html part from below code
-                                                            snippet.
+                                                            You need to have wrapper div example-container class. Inside
+                                                            that, you can wrap content inside div.modal-content that you
+                                                            need to show in pop-up.
+                                                            Check out below code.
                                                         </p>
                                                     </article>
                                                     <div class="example-container">
                                                         <button id="myBtn">Open Modal</button>
-
                                                         <!-- The Modal -->
                                                         <div id="myModal" class="modal">
-
                                                             <!-- Modal content -->
                                                             <div class="modal-content">
                                                                 <span class="close">&times;</span>
                                                                 <p>this is a demo model example</p>
                                                             </div>
-
                                                         </div>
                                                         <!-- JS Code  -->
-
-
                                                     </div>
                                                     <div class="code-container">
-                                                        <pre><code class="language-html">
-                                                            &ltbutton id="myBtn">Open Modal&lt/button>
-
-                                                            <!-- The Modal -->
-                                                            &ltdiv id="myModal" class="modal">
-                                                          
-                                                              <!-- Modal content -->
-                                                              &ltdiv class="modal-content">
-                                                                &ltspan class="close">&times; &lt/span>
-                                                                &ltp>this is a demo model example. &lt/p>
-                                                              &lt/div>
-                                                          
-                                                            &lt/div>
-
-
-                                                            <!-- JS Code  -->
-                                                            var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function () {
-    modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-                                                            
-                                            </pre>
+                                                        <script
+                                                            src="https://gist.github.com/iprankurpandey/58be0f97a9dec9706c7997696ba78991.js">
+                                                        </script>
                                                     </div>
-
                                                     <section id="Rating">
-
                                                         <h1>Rating</h1>
                                                         <article>
                                                             <p>
@@ -967,32 +691,29 @@ window.onclick = function (event) {
                                                                 <strong> Example of Rating </strong>
                                                             </p>
                                                             <p>
-                                                                To use this badge just use class name badge-box and also
-                                                                add class according to badge
-                                                                type-
-                                                                badge-primary, badge-secondary, badge-danger,
-                                                                badge-success, badge-warning.
-                                                                (e.g.class="badge-box
-                                                                badge-primary"). You can copy html part from below code
-                                                                snippet.
+                                                                Rating components can be used as read-only badge or in
+                                                                reviews section. Can be used in reviews section as form
+                                                                too.
                                                             </p>
                                                         </article>
                                                         <div class="example-container">
-
                                                             <h4>Mood Rating</h4>
                                                             <div class="rating">
                                                                 <div class="good-rating" title="Good"><span
                                                                         class="material-icons">
                                                                         mood
-                                                                    </span></div>
+                                                                    </span>
+                                                                </div>
                                                                 <div class="average-rating" title="Average"><span
                                                                         class="material-icons">
                                                                         sentiment_satisfied
-                                                                    </span></div>
+                                                                    </span>
+                                                                </div>
                                                                 <div class="bad-rating" title="Bad"> <span
                                                                         class="material-icons">
                                                                         mood_bad
-                                                                    </span></div>
+                                                                    </span>
+                                                                </div>
                                                             </div>
                                                             <h4>Star Rating </h4>
                                                             <span class="fa fa-star checked"></span>
@@ -1000,152 +721,83 @@ window.onclick = function (event) {
                                                             <span class="fa fa-star checked"></span>
                                                             <span class="fa fa-star"></span>
                                                             <span class="fa fa-star"></span>
-
                                                         </div>
                                                         <div class="code-container">
-                                                            <pre><code class="language-html">
-                                               
-                                                                &lth4>Mood Rating&lt/h4>
-                                                                &ltdiv class="rating">
-                                                                    &ltdiv class="good-rating" title="Good"><span
-                                                                            class="material-icons">
-                                                                            mood
-                                                                        </span>&lt/div>
-                                                                    &ltdiv class="average-rating" title="Average"><span
-                                                                            class="material-icons">
-                                                                            sentiment_satisfied
-                                                                        </span>&lt/div>
-                                                                    &ltdiv class="bad-rating" title="Bad"> <span
-                                                                            class="material-icons">
-                                                                            mood_bad
-                                                                        </span>&lt/div>
-                                                                &lt/div>
-                                                                &lth4>Star Rating &lt/h4>
-                                                                &ltspan class="fa fa-star checked">&lt/span>
-                                                                &ltspan class="fa fa-star checked">&lt/span>
-                                                                &ltspan class="fa fa-star checked">&lt/span>
-                                                                &ltspan class="fa fa-star">&lt/span>
-                                                                &ltspan class="fa fa-star">&lt/span>
-    
-                                                            &lt/div>
-                            
-                                                
-                                                </pre>
+                                                            <script
+                                                                src="https://gist.github.com/iprankurpandey/1532ffbbd812836eef52f126873c6db0.js">
+                                                            </script>
                                                         </div>
-
                                                         <section id="Grid">
-
                                                             <h1>Grid</h1>
                                                             <article>
                                                                 <p>
-                                                                    Buttons are used to represent a number of
-                                                                    notifications.
+                                                                    Use grid when you want sections in view. Check below
+                                                                    some examples of side by side cards.
                                                                 </p>
                                                                 <p>
-                                                                    <strong> Example of Buttons </strong>
+                                                                    <strong> Example of Grids </strong>
                                                                 </p>
                                                                 <p>
-                                                                    To use this badge just use class name badge-box and
-                                                                    also add class according to badge
-                                                                    type-
-                                                                    badge-primary, badge-secondary, badge-danger,
-                                                                    badge-success, badge-warning.
-                                                                    (e.g.class="badge-box
-                                                                    badge-primary"). You can copy html part from below
-                                                                    code snippet.
+                                                                    <p><strong>Example of 50:50 Grid </strong></p>
+                                                                    <p><strong>Example of 70:30 Grid </strong></p>
+                                                                    <p><strong>Example of 30:70 Grid </strong></p>
                                                                 </p>
                                                             </article>
                                                             <div class="example-container">
                                                                 <h3>50:50 Grid example</h3>
                                                                 <div class="grid-50-50">
-                                                                    <img src="/images/scorpio-sign.jpg" alt="">
-                                                                    <img src="/images/scorpio-sign.jpg" alt="">
+                                                                    <img class="image-items"
+                                                                        src="/images/scorpio-sign.jpg" alt="image">
+                                                                    <img class="image-items"
+                                                                        src="/images/scorpio-sign.jpg" alt="image">
                                                                 </div>
-
                                                                 <h3>70:30 grid</h3>
                                                                 <div class="container-70-30">
                                                                     <div class="grid-container-70-30">
-                                                                        <img src="/images/scorpio-jpg-500x500.jpg"
-                                                                            alt="image" class="image-1">
-                                                                        <img src="/images/scorpio-jpg-500x500.jpg"
-                                                                            alt="image" class="image-2">
+                                                                        <img class="image-items"
+                                                                            src="/images/scorpio-jpg-500x500.jpg"
+                                                                            alt="image">
+                                                                        <img class="image-items"
+                                                                            src="/images/scorpio-jpg-500x500.jpg"
+                                                                            alt="image">
                                                                     </div>
                                                                 </div>
-
-
                                                                 <h3>30:70 grid</h3>
                                                                 <div class="container-30-70">
                                                                     <div class="grid-container-30-70">
-                                                                        <img src="/images/scorpio-jpg-500x500.jpg"
-                                                                            alt="image" class="image-1">
-                                                                        <img src="/images/scorpio-jpg-500x500.jpg"
-                                                                            alt="image" class="image-2">
+                                                                        <img class="image-items"
+                                                                            src="/images/scorpio-jpg-500x500.jpg"
+                                                                            alt="image">
+                                                                        <img class="image-items"
+                                                                            src="/images/scorpio-jpg-500x500.jpg"
+                                                                            alt="image">
                                                                     </div>
                                                                 </div>
-
-
-
                                                             </div>
                                                             <div class="code-container">
-                                                                <pre><code class="language-html">
-                                                   
-                                                   
-                                                                    <h3>50:50 Grid example</h3>
-                                                                    &ltdiv class="grid-50-50">
-                                                                        &ltimg src="/images/scorpio-sign.jpg" alt="image">
-                                                                        &ltimg src="/images/scorpio-sign.jpg" alt="image">
-                                                                    &lt/div>
-    
-                                                                    <h3>70:30 grid</h3>
-                                                                    &ltdiv class="container-70-30">
-                                                                        &ltdiv class="grid-container-70-30">
-                                                                            &ltimg src="/images/scorpio-jpg-500x500.jpg"
-                                                                                alt="image" class="image-1">
-                                                                            &ltimg src="/images/scorpio-jpg-500x500.jpg"
-                                                                                alt="image" class="image-2">
-                                                                        &lt/div>
-                                                                    &lt/div>
-    
-    
-                                                                    <h3>30:70 grid</h3>
-                                                                    &ltdiv class="container-30-70">
-                                                                        &ltdiv class="grid-container-30-70">
-                                                                            &ltimg src="/images/scorpio-jpg-500x500.jpg"
-                                                                                alt="image" class="image-1">
-                                                                            &ltimg src="/images/scorpio-jpg-500x500.jpg"
-                                                                                alt="image" class="image-2">
-                                                                        &lt/div>
-                                                                    &lt/div>
-    
-                                    
-                                                    
-                                                    </pre>
+                                                                <script
+                                                                    src="https://gist.github.com/iprankurpandey/a6dddbdaa8f4ba33654ed2ded449b38c.js">
+                                                                </script>
                                                             </div>
-
                                                             <section id="Toast">
-
                                                                 <h1>Toast</h1>
                                                                 <article>
                                                                     <p>
-                                                                        Toast.
+                                                                        Toast
                                                                     </p>
                                                                     <p>
-                                                                        <strong> Example of Buttons </strong>
+                                                                        <strong> Example of Toast </strong>
                                                                     </p>
                                                                     <p>
-                                                                        To use this badge just use class name badge-box
-                                                                        and also add class according to badge
-                                                                        type-
-                                                                        badge-primary, badge-secondary, badge-danger,
-                                                                        badge-success, badge-warning.
-                                                                        (e.g.class="badge-box
-                                                                        badge-primary"). You can copy html part from
-                                                                        below code snippet.
+                                                                        This component can be used for toast or
+                                                                        snackbar component. Toast is mostly used to
+                                                                        show feedback message. Snackbar is to used
+                                                                        show message that need user action.
                                                                     </p>
                                                                 </article>
                                                                 <div class="example-container">
-
-                                                                    <div class="success-toast">This is an example of
+                                                                    <div class="success-toast">This is an
+                                                                        example of
                                                                         success toast
                                                                         <span class="material-icons">
                                                                             close
@@ -1157,57 +809,21 @@ window.onclick = function (event) {
                                                                             close
                                                                         </span>
                                                                     </div>
-
-                                                                    <div class="error-toast">This is an example of error
+                                                                    <div class="error-toast">This is an example
+                                                                        of error
                                                                         toast
                                                                         <span class="material-icons">
                                                                             close
                                                                         </span>
-
                                                                     </div>
                                                                 </div>
-                                                                <div class="code-container">
-                                                                    <pre><code class="language-html">
-                                                       
-                                                       
-                                                                        &ltdiv class="success-toast">This is an example of
-                                                                            success toast
-                                                                            &ltspan class="material-icons">
-                                                                                close
-                                                                            &lt/span>
-                                                                        &lt/div>
-                                                                        &ltdiv class="warning-toast">This
-                                                                            is an example of warning toast
-                                                                            &ltspan class="material-icons">
-                                                                                close
-                                                                            &lt/span>
-                                                                        &lt/div>
-    
-                                                                        &ltdiv class="error-toast">This is an example of error
-                                                                            toast
-                                                                            &ltspan class="material-icons">
-                                                                                close
-                                                                            &lt/span>
-    
-                                                                        &lt/div>
-                                                                    </div>
-                                        
-                                                        
-                                                        </pre>
-                                                                </div>
-
+                                                                <!-- <div class="code-container"> -->
+                                                                <script
+                                                                    src="https://gist.github.com/iprankurpandey/db638931cc6a12a81cdf613d97f04db3.js">
+                                                                </script>
+                                                                <!-- </div> -->
                                                             </section>
     </div>
-
-
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"
-        integrity="sha512-IaaKO80nPNs5j+VLxd42eK/7sYuXQmr+fyywCNA0e+C6gtQnuCXNtORe9xR4LqGPz5U9VpH+ff41wKs/ZmC3iA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        hljs.highlightAll();
-    </script>
     <script src="/components/Modal/app.js"></script>
 </body>
 

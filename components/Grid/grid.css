@@ -1,8 +1,8 @@
 @import '/css/main.css';
 
-img {
-    height: 15em;
-    width: 15rem;
+.image-items{
+    height: 8em;
+    width: 8rem;
     max-width: 100%;
     object-fit: cover;
 }
@@ -24,8 +24,6 @@ img {
     grid-template-columns: 70% 30%;
   
 } 
-
-
   
   .grid-container-30-70{
       display: grid; 
