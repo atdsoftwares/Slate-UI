@@ -12,10 +12,11 @@
     height: 5rem;
     width: 25rem;
     background-color: var(--background-universal-color);
+    font-size: 1.5rem;
 }
 
 /* material icon for icons */
-.material-icons {
+.rmtrl {
     font-size: 2rem;
     cursor: pointer;
 }
@@ -41,6 +42,7 @@
     height: 5rem;
     width: 25rem;
     background-color: var(--background-universal-color);
+    
 }
 
 .checked {
