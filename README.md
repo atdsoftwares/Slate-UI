@@ -1,6 +1,4 @@
-# agri-component-library [![wakatime](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/99836ca1-f806-4485-9a57-7d1df69ba485.svg)](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/99836ca1-f806-4485-9a57-7d1df69ba485)
-
-# FasterUI Component Library
+# Agri-component-library [![wakatime](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/99836ca1-f806-4485-9a57-7d1df69ba485.svg)](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/99836ca1-f806-4485-9a57-7d1df69ba485)
 
 Agri UI CSS library to easily build UI with pre-customized structures.
 Live Hosted Link - **[Agri UI](https://agri-component.netlify.app/)**
@@ -89,7 +87,3 @@ Live Hosted Link - **[Agri UI](https://agri-component.netlify.app/)**
 ![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283880384.png)
 
 ![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
