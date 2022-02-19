@@ -1,7 +1,7 @@
 @import '/css/main.css';
 
 .header-container {
-    height: 5rem;
+    height: 4rem;
     width: 100%;
     background-color: rgb(248, 247, 247);
     display: flex;
@@ -12,8 +12,8 @@
 }
 
 .logo-icon {
-    height: 7rem;
-    width: 7rem;
+    height: 4rem;
+    width: 4rem;
 }
 
 .left-items,
@@ -25,7 +25,7 @@
 a {
 
     color: black;
-    margin: 3rem;
+    margin-left: 2rem;
 }
 
 .section-1-items {
@@ -88,7 +88,7 @@ img {
 
 .footer-items {
 
-    height: 5rem;
+    height: 4rem;
     width: 100%;
     background-color: rgb(248, 247, 247);
     display: flex;
@@ -112,11 +112,6 @@ button {
     font-weight: bold;
 }
 
-iframe {
-    margin-top: 7rem;
-    width: 100%;
-
-}
 
 h1 {
     margin-left: 1.2rem;
