@@ -3,7 +3,7 @@
 # FasterUI Component Library
 
 Agri UI CSS library to easily build UI with pre-customized structures.
-Live Hosted Link - [Agri UI](agri-component.netlify.app/)
+Live Hosted Link - **[Agri UI](https://agri-component.netlify.app/)**
 
 ## Technology Used
 
