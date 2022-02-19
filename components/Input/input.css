@@ -48,21 +48,34 @@ input:invalid {
   background-color: rgb(230, 235, 234);
 }
 
-input:valid {
-  border: 2px solid rgb(30, 216, 101);
-  margin: 0.2rem;
-  background-color: rgb(247, 252, 251);
-}
-
-input:invalid+span::before {
-  /* content: '✖'; */
-  color: red;
-  font-size: 1.5rem;
-
-}
-
-input:valid+span::before {
-  /* content: '✓'; */
-  color: green;
-  font-size: 1.5rem;
-}
+input + span {
+    position: relative;
+  }
+  
+  input + span::before {
+    right: -20px;
+    top: 5px;
+  }
+  
+  input:invalid {
+    border: 2px solid red;
+    background-color: red;
+  }
+  input:valid{
+      border: 2px solid greenyellow;
+      background-color: green;
+  }
+  
+  
+  input:invalid + span::before {
+    /* content: '✖'; */
+    color: red;
+    font-size: 1.5rem;
+  }
+  
+  input:valid + span::before {
+    /* content: '✓'; */
+    color: green;
+    font-size: 1.5rem;
+  }
+ 
