@@ -3,7 +3,7 @@
 .header-container {
     height: 4rem;
     width: 100%;
-    background-color: rgb(248, 247, 247);
+    background-color: var(--secondary-alert-bgcolor);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,78 +24,65 @@
 
 a {
 
-    color: black;
+    color: var(--dark-black-color);
     margin-left: 2rem;
 }
 
 .section-1-items {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
 .content {
-    height: 25rem;
-    width: 35rem;
+    height: 18rem;
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(143 141 141);
-    margin: 1rem;
-    padding: 1rem;
 }
 
-.hero-image {
-    height: 25rem;
-    width: 35rem;
-}
 
-img {
-    width: 100%;
-}
 
 .section-2-items {
     display: flex;
     justify-content: space-around;
     align-items: center;
-
-
+    height: 18rem;
 }
 
 .text-content {
-    height: 25rem;
-    width: 25rem;
+    height: auto;
+    width:20rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(143 141 141);
-    margin: 1rem;
-    padding: 1rem;
 }
 
 .code-box {
     height: 25rem;
     width: 35rem;
-    background-color: rgb(150, 150, 145);
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-direction: column;
 }
+
 
 .footer-items {
 
     height: 4rem;
     width: 100%;
-    background-color: rgb(248, 247, 247);
+    background-color: var(--secondary-alert-bgcolor);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    
 }
 
 button {
@@ -103,8 +90,8 @@ button {
     height: 3rem;
     width: 6rem;
     border: none;
-    background-color: brown;
-    color: white;
+    background-color: var( --shopping-card-button-bgcolor);
+    color: var(--background-universal-color);
     cursor: pointer;
     border-radius: 1rem;
     font-size: 1rem;

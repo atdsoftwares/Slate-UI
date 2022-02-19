@@ -4,6 +4,9 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 /* font awesome library */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/cobalt.css');
+
 /* universal color and font properties*/
 * {
     word-wrap: break-word;
@@ -70,4 +73,6 @@ html {
     --button-font-color: #fff;
     /* shopping button background color */
     --shopping-button-color: #ad1c2f;
+    /* dark black color */
+    --dark-black-color: #0c0c0c;
 }
