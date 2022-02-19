@@ -2,32 +2,24 @@
 @import '/css/main.css';
 
 /* main global avatar class */
-.avatar {
+.badge-ui {
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-}
-
-/* avatar container */
-.container {
-    height: 28rem;
-    width: 35rem;
-    border: 2px solid var(--universal-border-color);
-
+    margin: 0.5rem;
 }
 
 /* avatar size class */
 .lg-avatar-size {
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: 7rem;
     font-size: 3rem;
 }
 
 .md-avatar-size {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 6rem;
+    height: 6rem;
     font-size: 2rem;
 }
 
@@ -60,13 +52,7 @@
     background-color: var(--avatar-background-color);
 }
 
-.text-responsive {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    margin: 0.1rem;
-}
+
 
 /* badge status class  */
 .badge-status {
@@ -94,9 +80,9 @@
 
 /* badge size class */
 .lg-badge {
-    width: 2rem;
-    height: 2rem;
-    left: 8rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 6rem;
     bottom: 1rem;
 }
 
@@ -136,18 +122,29 @@
     align-items: center;
     height: 10rem;
     width: 15rem;
+
 }
 
+.mtrl {
+    font-size: 2rem;
+}
 
 .lg-number-badge {
-    bottom: 0.5rem;
-    right: 2rem;
+    bottom: 1rem;
+    right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -3px;
 }
 
-
-
-
+/* badge container */
+.badge-ui-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: auto;
+    max-width: 100%;
+    width: 35rem;
+}

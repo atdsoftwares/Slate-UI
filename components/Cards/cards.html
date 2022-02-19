@@ -10,8 +10,10 @@
 </head>
 
 <body>
-    <h1>Card Horizontal with button ,image ,text and icons</h1>
 
+    <h1>Card Horizontal with button ,image ,text and icons</h1>
+    <!-- <div class="main-hv-card-container">
+    <div class="horizontal-card-container"> -->
     <div class="card horizontal-card">
         <div class="card-image">
             <img class="cimage" src="https://i.ibb.co/rf2Sn3Q/raphael-rychetsky-li9-Jf-UHQf-OY-unsplash.jpg">
@@ -25,7 +27,7 @@
                 </p>
                 <p class="amount">$5000</p>
                 <div class="hcard-btn">
-                    <button class="hcard button-cart">Add to cart
+                    <button class="hcard button-cart">Cart
                         <span class="material-icons">
                             shopping_cart
                         </span>
@@ -52,9 +54,6 @@
     </div>
 
 
-
-
-
     <h1>Card Horizontal for cart</h1>
 
     <div class="card horizontal-card">
@@ -69,7 +68,9 @@
                     rich with nutrients and high in protein.
                 </p>
                 <div class="hcard-btn">
-
+                    <div class="text-overlay">
+                        <h3 class="stock-text"> out of stock  </h3>  
+                         </div>
                     <button class="hcard increase">
                         <span class="material-icons">
                             add
@@ -85,83 +86,97 @@
             </div>
         </div>
     </div>
+</div>
+    
 
+    <div class="card-container">
 
-
-
-    <h1>card vertical</h1>
-    <div class=" vcard card-vertical">
-        <img class="vcard-image-inside" src="/images/green.jpg" alt="scorpio">
-        <div class="card-content">
-            <h3>Scorpio</h3>
-            <div class="text">The Car</div>
-            <span class="text-light">By : Astro</span>
-            <div class="about-text">Lorem ipsum dolor sit amet consectetu
-                sit amet conse sectetur adipisicing elit. it amet ips
-
-                hiccsdsrat qorruptidolor tetur adcorrupti.</div>
-            <div class="btn-icons-vcard">
-                <button class="btn-add-to-vcart btn-class-vcard">cart
-                    <span class="material-icons ">shopping_cart</span>
-                </button>
-                <button class="btn-add-to-vwishlist btn-class-vcard""><span
-                        class=" material-icons">favorite_border</span></button>
-            </div>
-            <div class="text-overlay-over-card">
-            </div>
-
-        </div>
-    </div>
-    <h1> card box shadow</h1>
-    <div class="vcard card-with-shadow">
-        <img class="vcard-image-inside" src="/images/green.jpg" alt="scorpio">
-        <div class="card-content">
-            <h3>Scorpio</h3>
-            <div class="text">The Car</div>
-            <span class="text-light">By : Astro</span>
-            <div class="about-text">Lorem ipsum dolor sit amet consectetu
-                sit amet conse sectetur adipisicing elit. it amet ips
-                hiccsdsrat qorruptidolor tetur adcorrupti.</div>
-            <div class="btn-icons-vcard">
-                <button class="btn-add-to-vcart btn-class-vcard">cart<span
-                        class="material-icons">shopping_cart</span></button>
-                <button class="btn-add-to-vwishlist btn-class-vcard"><span
-                        class="material-icons">favorite_border</span></button>
-            </div>
-        </div>
-    </div>
-
-
-    <h1> card with rating and price</h1>
-    <div class="vcard card-with-shadow">
-        <img class="vcard-image-inside" src="/images/wheat.jpg" alt="scorpio">
-        <div class="card-content">
-            <h3>Scorpio</h3>
-            <div class="text">The Car</div>
-            <span class="text-light">By : Astro</span>
-            <div class="about-text">Lorem ipsum dolor sit amet consectetu
-                sit amet conse sectetur adipisicing elit. it amet ips
-                hiccsdsrat qorruptidolor tetur adcorrupti.</div>
-
-            <div class="item-rate">
-                <span> &#8377 <div class="price"> 5000</div></span>
-                <div class="ratings-in-card">
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
+        <div class="vcard card-with-shadow">
+            <img class="vcard-image-inside" src="/images/green.jpg" alt="scorpio">
+            <div class="card-content">
+                <div class="head-with-icon">
+                    <h3>Scorpio</h3>
+                    <span class="material-icons dismiss" title="dismiss">
+                        close
+                    </span>
+                </div>
+                <div class="text">The Car</div>
+                <span class="text-light">By : Astro</span>
+                <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                    sit amet conse sectetur adipisicing elit. it amet ips
+                    hiccsdsrat qorruptidolor tetur adcorrupti.
+                </div>
+               
+                
+                <div class="btn-icons-vcard">
+                    
+                    <button class="btn-add-to-vcart btn-class-vcard">cart<span
+                            class="material-icons">shopping_cart</span></button>
+                    <button class="btn-add-to-vwishlist btn-class-vcard"><span
+                            class="material-icons">favorite_border</span></button>
                 </div>
             </div>
-            <div class="btn-icons-vcard">
-                <button class="btn-add-to-vcart btn-class-vcard">cart<span
-                        class="material-icons">shopping_cart</span></button>
-                <button class="btn-add-to-vwishlist btn-class-vcard"><span
-                        class="material-icons">favorite_border</span></button>
+        </div>
+
+
+
+        <div class="vcard card-with-shadow">
+            <img class="vcard-image-inside" src="/images/green.jpg" alt="scorpio">
+            <div class="card-content">
+                <div class="head-with-icon">
+                    <h3>Scorpio</h3>
+                    <span class="material-icons mright" title="verfied">
+                        check_circle
+                    </span>
+                </div>
+                <div class="text">The Car</div>
+                <span class="text-light">By : Astro</span>
+                <div class="about-text">Lorem ipsum dolor sit amet consectetu
+                    sit amet conse sectetur adipisicing elit. it amet ips
+                    hiccsdsrat qorruptidolor tetur adcorrupti.
+                </div>
+                <div class="btn-icons-vcard">
+                    <button class="btn-add-to-vcart btn-class-vcard">cart<span
+                            class="material-icons">shopping_cart</span></button>
+                    <button class="btn-add-to-vwishlist btn-class-vcard"><span
+                            class="material-icons">favorite_border</span></button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="vcard card-with-shadow">
+            <img class="vcard-image-inside" src="/images/wheat.jpg" alt="scorpio">
+            <div class="card-content">
+                <h3>Scorpio</h3>
+                <div class="text">The Car</div>
+                <span class="text-light">By : Astro</span>
+                <div class="about-text">
+                    Lorem ipsum dolor sit amet consectetu
+                    sit amet conse sectetur adipisicing elit. it amet ips
+                    hiccsdsrat qorruptidolor tetur adcorrupti.
+
+                </div>
+
+                <div class="item-rate">
+                    <span> &#8377 <div class="price"> 5000</div></span>
+                    <div class="ratings-in-card">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                </div>
+                <div class="btn-icons-vcard">
+                    <button class="btn-add-to-vcart btn-class-vcard">cart<span
+                            class="material-icons">shopping_cart</span></button>
+                    <button class="btn-add-to-vwishlist btn-class-vcard"><span
+                            class="material-icons">favorite_border</span></button>
+                </div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
