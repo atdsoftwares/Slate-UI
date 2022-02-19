@@ -24,15 +24,11 @@
 /* right side panel */
 .right-side-panel {
     display: flex;
-    /* width: 100%; */
 }
 /* main material icons class */
 .navmtrl {
     font-size: 2rem;
-    display: flex;
     margin: 1rem;
-    align-items: center;
-    justify-content: center;
 }
 /* html5  global input element */
 .input-in-nav {
