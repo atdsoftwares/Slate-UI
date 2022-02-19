@@ -86,9 +86,7 @@ Live Hosted Link - [Agri UI](agri-component.netlify.app/)
 
 ![1645283915282.png](image/README/1645283915282.png)
 
- `<br /><br />``<br /><br />`
 
-
-![1645283962852.png](image/README/1645283962852.png) `<br /><br />``<br /><br />`
+![1645283962852.png](image/README/1645283962852.png) 
 
     ![1645283880384.png](image/README/1645283880384.png)	 `<br /><br />``<br /><br />`
