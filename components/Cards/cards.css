@@ -1,7 +1,7 @@
 @import '/css/main.css';
 
 .card {
-    width: 28rem;
+    width: 34rem;
     /* height: 13rem; */
     background-color: rgb(240, 132, 132);
     border-radius: 0.2rem;
@@ -11,7 +11,7 @@
 }
 
 .cimage {
-    width: 12rem;
+    width: 14rem;
     height: auto;
     padding: 1rem;
 }
@@ -221,6 +221,8 @@
 
 .card-container {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .head-with-icon {
