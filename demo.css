@@ -38,11 +38,8 @@
 
 li,a {
     text-decoration: none;
-    /* list-style: none; */
     padding-right: 1rem;
-    font-weight: bold;
     color: black;
-    margin-left: 0.5rem;
 }
 
 .nav-items{
@@ -51,15 +48,15 @@ li,a {
     color: black;
 
 }
-li{
+li[class="list-item"]{
     margin: 1rem;
     padding: 0 10px;
-    display: block;
+    list-style: none;
 }
 
 .aside {
-    width: 12rem;
-    margin-top: 4rem;
+    width: 9rem;
+    margin-top: 3rem;
     height: 100%;
     overflow: auto;
     background-color: rgb(255, 255, 255);
@@ -82,6 +79,7 @@ li{
     background-color: rgb(253, 251, 251);
     flex-wrap: wrap;
     padding: 1rem;
+    justify-content: space-around;
 }
 
 .logo-icon{
