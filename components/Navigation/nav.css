@@ -19,24 +19,31 @@
     display: flex;
 }
 
+
 /* right side panel */
 .right-side-panel {
     display: flex;
 }
-
 /* main material icons class */
-.material-icons {
-    font-size: 1.5rem;
+.navmtrl {
+    font-size: 2rem;
     display: flex;
     margin: 1rem;
     align-items: center;
-    color: var(--underline-text-color:);
+    justify-content: center;
+    /* color: var(--underline-text-color); */
 }
 /* html5  global input element */
-input {
+.input-in-nav {
     width: 20rem;
     height: 2rem;
     border-radius: 0.4rem;
     cursor: pointer;
 }
+.logo-icon-head{
+    height: 4.5rem;
+    width: 4.5rem;
+    /* display: flex; */
+}
+
 

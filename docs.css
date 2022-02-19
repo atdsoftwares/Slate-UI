@@ -31,22 +31,20 @@ body{
 }
 
 a {
-
-    color: black;
+    color: rgb(48, 46, 46);
     margin: 3rem;
+    text-decoration: none;
 }
 
 .nav-bar {
-
- 
     align-items: center;
-   
     height: 100%;
-    background-color: rgb(241, 229, 227);
+    /* background-color: rgb(241, 229, 227); */
     overflow: scroll;
     position: fixed;
     display: inline-block;
     padding: 0px;
+    color: white;
 
 }
 
@@ -62,26 +60,29 @@ a {
     max-width: 100%;
     overflow: auto;
     grid-gap: 1rem;
-    /* overflow: scroll; */
 }
 
-li,
-a {
-    /* list-style: none;
-    text-decoration: none; */
-}
 
-.example-container,.code-container {
+.example-container {
     width: 96.5%;
     max-width: 100%;
     margin: 1rem 0rem;
     border: 2px solid black;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .code-container{
     overflow: scroll;
     max-width: 100%;
-    max-height: 15rem;
+    max-height: 12rem;
+    width: 96.5%;
+    border: 2px solid black;
+ 
 }
+
+
+
+
