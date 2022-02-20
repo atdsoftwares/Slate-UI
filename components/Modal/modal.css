@@ -21,19 +21,17 @@
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color:var(--background-universal-color);
   margin: auto;
   padding: 14px;
-  border: 1px solid #888;
+  border: 1px solid var(--silver-color);
   width: 28%;
- background: rgb(2, 0, 36);
-  background-image: linear-gradient(red, yellow, blue)
+  background: var(--tomato-color);
 }
 
 /* The Close Button */
 .close {
-  color: #e00e0e;
-  
+  color: var(--red-color);
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -42,7 +40,7 @@
 
 .close:hover,
 .close:focus {
-  color: #000;
+  color: var(--dark-black-color);
   text-decoration: none;
   cursor: pointer;
 }
@@ -52,8 +50,5 @@
   width: 10rem;
   margin: 0.2rem;
   border-radius: 0.4rem;
-  /* color: var(--button-font-color); */
   font-size: 1rem;
-  /* background-color: #888; */
-  
 }

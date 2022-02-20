@@ -23,15 +23,15 @@
 
 /* different type of ratings */
 .good-rating {
-    color: green;
+    color: var(--badge-online-color);
 }
 
 .bad-rating {
-    color: red;
+    color: var(--badge-offline-color);
 }
 
 .average-rating {
-    color: orange;
+    color: var(--badge-away-color);
 }
 
 .star-ratings {
@@ -46,5 +46,5 @@
 }
 
 .checked {
-    color: yellow;
+    color: var(--golden-color);
 }

@@ -10,7 +10,7 @@
     align-items: center;
     flex-wrap: wrap; 
 
-    border: 1px solid black;
+    border: 1px solid var(--dark-black-color);
     margin: 0.5rem;
     padding-left: 20px;
     border-radius: 5px;

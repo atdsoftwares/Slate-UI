@@ -5,7 +5,7 @@
 .toast-container {
     height: 25rem;
     width: 30rem;
-    background-color: blueviolet;
+    background-color: var(--avatar-background-color);
     display: flex;
     flex-direction: column;
     justify-content: center;

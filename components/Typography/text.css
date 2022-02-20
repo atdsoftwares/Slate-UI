@@ -37,7 +37,7 @@
 }
 
 .gray-text {
-    color: #828282;
+    color: var(--secondary-alert-bgcolor);
 }
 .center-text{
     text-align: center;

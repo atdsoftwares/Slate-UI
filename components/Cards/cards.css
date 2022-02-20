@@ -42,7 +42,7 @@
     cursor: pointer;
     padding: 0.3rem;
     margin: 0.2rem;
-    color: rgb(255, 251, 255);
+    color: var(--background-universal-color)
 }
 
 .button-cart {
@@ -86,7 +86,7 @@
     height: auto;
     width: 13rem;
     max-width: 100%;
-    border: 2px solid black;
+    border: 2px solid var(--dark-black-color);
     padding: 1rem;
     /* max-width: 100%;
     max-height: 100% */
@@ -125,7 +125,7 @@
     border-radius: 0.4rem;
     color: purple;
     font-size: 1rem;
-    background-color: antiquewhite;
+    background-color: var(--warning-alert-bgcolor);
 }
 
 .btn-add-to-vwishlist {
@@ -139,7 +139,7 @@
     border-radius: 0.4rem;
     color: purple;
     font-size: 1rem;
-    background-color: antiquewhite;
+    background-color: var(--warning-alert-bgcolor);
 }
 
 .btn-icons {
@@ -161,7 +161,7 @@
     border-radius: 0.4rem;
     color: purple;
     font-size: 1rem;
-    background-color: antiquewhite;
+    background-color:  var(--warning-alert-bgcolor);
 
 }
 
@@ -177,7 +177,7 @@
     border-radius: 0.4rem;
     color: purple;
     font-size: 1rem;
-    background-color: antiquewhite;
+    background-color:  var(--warning-alert-bgcolor);
 }
 
 .ratings-in-card {
@@ -188,7 +188,7 @@
 }
 
 .checked {
-    color: yellow;
+    color: var(--golden-color);
 }
 
 .price {
@@ -211,7 +211,7 @@
     max-width: 100%;
     width: 3rem;
     border-radius: 50%;
-    background-color: aquamarine;
+    background-color: var(--success-alert-icon-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -231,18 +231,16 @@
 }
 
 .mright {
-    color: green;
+    color: var(--badge-online-color);
 }
 
 .dismiss {
-    color: red;
+    color:var(--red-color);
     font-weight: bold;
     cursor: pointer;
 }
 .text-overlay {
-     /* height: 5rem; */
-    /* width: 11rem; */
-    background-color: #757272;
+    background-color: var(--secondary-alert-icon-color);
     text-align: center;
     opacity: 0.7;
     display: flex;
@@ -251,7 +249,7 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
-    color: rgb(247, 10, 10);
+    color: var(--red-color);
     overflow: hidden;
     cursor: not-allowed;
     
