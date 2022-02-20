@@ -35,7 +35,7 @@ html {
     /* span white color silver */
     --secondary-alert-bgcolor: #eaeaec;
     /* light green color  */
-    --success-alert-bgcolor: #84F1C9;
+    --success-alert-bgcolor: #399b0c;
     /* light pink color */
     --danger-alert-bgcolor: #fcc5c5;
     /* light cream color */
@@ -91,6 +91,6 @@ html {
     /* golden color */
     --golden-color:rgb(255, 204, 0);
     /* purple color */
-    --purple-color:#800080;
+    --purple-color:rgb(128, 0, 128);
 
 }
