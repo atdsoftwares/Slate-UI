@@ -30,10 +30,15 @@ html {
     /* universal background color for all components */
     --background-universal-color: #f7fafb;
     /* background colors for alert components */
+    /* skyblue color */
     --primary-alert-bgcolor: #7FD2E6;
+    /* span white color silver */
     --secondary-alert-bgcolor: #eaeaec;
+    /* light green color  */
     --success-alert-bgcolor: #84F1C9;
+    /* light pink color */
     --danger-alert-bgcolor: #fcc5c5;
+    /* light cream color */
     --warning-alert-bgcolor: #ffe7c5;
     /* icons/fonts colors for alert components */
     --primary-alert-icon-color: #29438b;
@@ -75,4 +80,15 @@ html {
     --shopping-button-color: #ad1c2f;
     /* dark black color */
     --dark-black-color: #0c0c0c;
+    /* tomato color  */
+    --tomato-color:  rgb(252, 104, 78);
+    /* silver color */
+    --silver-color: #c4c4c4;
+    /*pink color */
+    --pink-color:rgb(247, 2, 96);
+    /* voilet color */
+    --violet-color:rgb(248, 2, 166);
+    /* golden color */
+    --golden-color:rgb(255, 204, 0);
+
 }
