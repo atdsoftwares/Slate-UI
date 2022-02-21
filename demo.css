@@ -40,14 +40,15 @@
 
 li,a {
     text-decoration: none;
-    padding-right: 1rem;
-    color: rgb(8, 8, 8);
+    padding-right: 2rem;
+    color: var(--dark-black-color);
 }
 
 .nav-items{
     height: 100%;
     font-weight: 500;
-    color: rgb(8, 8, 8);
+    color: var(--dark-black-color);
+    padding: 0;
 
 }
 li[class="list-item"]{
@@ -57,16 +58,16 @@ li[class="list-item"]{
 }
 
 .aside {
-    width: 13rem;
+    width: 10rem;
     margin-top: 3rem;
     height: 100%;
     overflow: auto;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--background-universal-color);
     padding-top: 1rem;
 }
 .footer {
     width: 100%;
-    background-color: yellow;
+    background-color: var(--golden-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +80,7 @@ li[class="list-item"]{
     display: flex;
     width: auto;
     align-items: center;
-    background-color: rgb(253, 251, 251);
+    background-color: var(--background-universal-color);
     flex-wrap: wrap;
     padding: 1rem;
     justify-content: space-around;
@@ -100,8 +101,8 @@ li[class="list-item"]{
 .code-highlighter{
     height: 2rem;
     width: 2rem;
-    background-color: rgb(241, 90, 110);
-    box-shadow: 0 0 0 1px rgb(130, 229, 247);
+    background-color: var(--shopping-card-button-bgcolor);
+    box-shadow: 0 0 0 1px var(--primary-alert-bgcolor);
     border-radius: 0.3rem;
     padding: 0.2rem;
 }
