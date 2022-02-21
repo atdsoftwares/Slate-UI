@@ -19,9 +19,6 @@
     border-radius: 0.4rem;
     color: var(--button-font-color);
     font-size: 1rem;
-    /* display: flex;
-    align-items: center;
-    justify-content: flex-start; */
 }
 
 .btni {
@@ -30,7 +27,7 @@
     margin: 0.2rem;
     border-radius: 0.4rem;
     color: var(--button-font-color);
-    font-size: 1rem;
+    padding: 0.3rem;
 }
 
 /* solid head button class */
@@ -170,8 +167,8 @@
 /* add icon for small size */
 .btni-sm-icon-add {
     border-radius: 50%;
-    background-color: var(--button-secondary-color);
-    color: var(--button-success-color);
+    background-color: var(--shopping-button-color);
+    color: var(--button-font-color);
     height: 3rem;
     width: 3rem;
 }
@@ -180,7 +177,7 @@
 .btni-lg-icon-add {
     border-radius: 50%;
     background-color: var(--button-secondary-color);
-    color: var(--button-success-color);
+    color: var(--button-font-color);
     height: 4rem;
     width: 4rem;
 }
@@ -189,4 +186,9 @@
 .mtrli {
     font-size: 2rem;
     margin: 1rem;
+}
+.mtrlip{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
