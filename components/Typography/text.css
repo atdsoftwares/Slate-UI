@@ -37,7 +37,7 @@
 }
 
 .gray-text {
-    color: var(--secondary-alert-bgcolor);
+    color: var(--secondary-alert-icon-color);
 }
 .center-text{
     text-align: center;
