@@ -3,7 +3,9 @@
 .alert {
   display: flex;
   height: 3.2rem;
+  max-height: auto;
   width: 30rem;
+  max-width: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;

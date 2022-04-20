@@ -100,9 +100,8 @@ ul.nav__items {
   max-width: 70rem;
   background-color: mediumseagreen;
   padding: 1rem;
-  margin: 1rem 0rem 0rem 10rem;
+  margin: 5rem 0rem 0rem 10rem;
   border-radius: 0.5rem;
-  padding: 1rem;
   box-shadow: 2px 2px 2px 2px rgb(240, 228, 228);
 }
 
@@ -114,14 +113,17 @@ ul.nav__items {
 .article__subheading {
   padding: 0.5rem;
   background-color: orange;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .section,
 .details {
-  margin: 01rem 0rem 1rem 10rem;
+  margin: 01rem 0rem 0rem 10rem;
 }
 
+.details {
+  margin-bottom: 5rem;
+}
 .summary {
   font-size: 1.2rem;
   font-weight: bold;
