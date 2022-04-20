@@ -1,30 +1,5 @@
-/* https://github.com/lonekorean/gist-syntax-themes */
-@import url("https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/one-dark.css");
-
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-body .gist .gist-file {
-  border: none;
-  border-bottom: none;
-}
-
-body .gist .gist-data {
-  background: mediumseagreen;
-  border-radius: 4px 4px 0 0;
-  color: rgb(160, 46, 46);
-  font-size: 1.5rem;
-  line-height: 1.4;
-  padding: 16px 16px 0;
-}
-
-body .gist .highlight {
-  background: rgb(0, 0, 0);
-  max-width: 800px;
-  overflow-x: scroll;
-  border: none;
-}
-
-body .gist .gist-meta {
-  background: rgb(230, 227, 227);
-  border-radius: 0 0 4px 4px;
-  font-size: 0.8rem;
+tbody > tr > td {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: blue;
 }
