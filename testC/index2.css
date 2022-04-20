@@ -1,21 +1,28 @@
+@import "../css//main.css";
+@import "../css//components.css";
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 .header {
   width: 100%;
   height: 4rem;
-  background-color: orangered;
+  background-color: orange;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: sticky; */
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%;
 }
 .header__logo {
   font-size: 2rem;
   font-weight: bold;
+  margin-left: 4rem;
 }
 
 ul.nav__items {
@@ -40,18 +47,26 @@ ul.nav__items {
 }
 
 .aside {
-  height: auto;
-  width: 7rem;
-  background-color: orange;
+  height: 100%;
+  width: 10rem;
+  background-color: rgb(255, 255, 255);
   overflow: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  border: 1px solid rgb(0, 0, 0);
 }
 .aside__items {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 1rem;
+  overflow: auto;
   font-weight: 600;
+  margin-top: 0rem;
 }
 .aside__list {
   list-style: none;
@@ -61,54 +76,64 @@ ul.nav__items {
   text-decoration: none;
 }
 .aside__links:active {
-  color: red;
+  color: rgb(0, 255, 85);
   background-color: white;
 }
 .aside__links:visited {
-  color: white;
-  background-color: rebeccapurple;
+  color: rgb(243, 61, 61);
+  background-color: rgb(116, 10, 223);
 }
 
 .main {
   height: auto;
-  width: 100%;
-  background-color: wheat;
+  max-width: 100%;
+  overflow: auto;
+  margin-left: 8rem;
+  overflow: auto;
 }
-.article {
-  position: absolute;
-  top: 5rem;
-  left: 9rem;
-  height: 15rem;
+.article,
+.section,
+.details {
+  height: auto;
+  max-width: 45rem;
+  background-color: mediumseagreen;
+  padding: 1rem;
+  margin: 05rem 0rem 0rem 10rem;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 2px 2px rgb(240, 228, 228);
+}
+
+.article__text,
+.article__subheading {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: orange;
+}
+.code-section {
+  height: auto;
   max-width: 45rem;
   background-color: mediumseagreen;
 }
-article___heading {
-  font-weight: 2rem;
-}
-.article__subheading {
-  font-weight: 2rem;
-}
-.article__text {
-  font-weight: bold;
+
+.section,
+.details {
+  margin: 01rem 0rem 0rem 10rem;
 }
 
-.section {
-  font-weight: bold;
-}
-.section__code {
-  position: absolute;
-  top: 10rem;
-  left: 9rem;
+.section__samples {
+  background-color: red;
 }
 
 .footer {
   width: 100%;
   height: 4rem;
-  background-color: orangered;
+  background-color: orange;
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: fixed;
+  bottom: 0;
 }
 .footer__items {
   display: flex;
