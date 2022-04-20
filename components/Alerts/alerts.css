@@ -1,64 +1,61 @@
-@import '/css/main.css';
+@import "/css/main.css";
 /* common alert oocss  */
 .alert {
-    display: flex;
-    height:3rem;
-
-    width:18rem;
-
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap; 
-
-    border: 1px solid var(--dark-black-color);
-    margin: 0.5rem;
-    padding-left: 20px;
-    border-radius: 5px;
-    font-size: 0.8rem;
+  display: flex;
+  height: 3.2rem;
+  width: 30rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: 3px solid var(--dark-black-color);
+  margin: 0.5rem;
+  padding-left: 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
 }
 /* material icons */
-.m{
-    font-size: 1.5rem;
-    margin-right: 0.5rem;
+.alertmi {
+  font-size: 2rem;
+  margin-right: 1rem;
 }
 /*  primary alert button  */
 .primary-alert {
-    background-color: var(--primary-alert-bgcolor);
-    color:var(--primary-alert-icon-color)
+  background-color: var(--primary-alert-bgcolor);
+  color: var(--primary-alert-icon-color);
 }
 
 /* secondary alert button */
 .secondary-alert {
-    background-color: var(--secondary-alert-bgcolor);
-    color: var(--secondary-alert-icon-color);
+  background-color: var(--secondary-alert-bgcolor);
+  color: var(--secondary-alert-icon-color);
 }
 
 /* success alert button */
 .success-alert {
-    background-color: var(--success-alert-bgcolor);
-    color: var(--success-alert-icon-color);
+  background-color: var(--success-alert-bgcolor);
+  color: var(--success-alert-icon-color);
 }
 
 /* danger alert button */
 .danger-alert {
-    background-color: var(--danger-alert-bgcolor);
-    color: var(--danger-alert-icon-color);
+  background-color: var(--danger-alert-bgcolor);
+  color: var(--danger-alert-icon-color);
 }
 
 /* warning alert button */
 .warning-alert {
-    background-color: var(--warning-alert-bgcolor);
-    color: var(--warning-alert-icon-color);
+  background-color: var(--warning-alert-bgcolor);
+  color: var(--warning-alert-icon-color);
 }
 
-.link-active
-{
-    text-decoration: underline;
-    font-weight: 500;
-    text-underline-position: under;
-    margin-left: 0.3rem;
+.link-active {
+  text-decoration: underline;
+  font-weight: 500;
+  text-underline-position: under;
+  margin-left: 0.3rem;
 }
-.link-active:hover{
-    color: var(--underline-text-color);
-    cursor: pointer;
+.link-active:hover {
+  color: var(--underline-text-color);
+  cursor: pointer;
 }
