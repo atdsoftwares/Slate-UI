@@ -1,51 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>navigation menu</title>
-    <link rel="stylesheet" href="nav.css">
-</head>
+    <link rel="stylesheet" href="nav.css" />
+  </head>
 
-<body>
+  <body>
     <nav class="navigation-menu">
-        <div class="left-side-panel" title="menu-item">
-
-            <div class="menu"> <span class="material-icons navmtrl">
-                    menu
-                </span>
-            
-            </div>
-            <img src="https://i.ibb.co/BwmMLhj/logo.png" alt="logo" class="logo-icon-head">
-          <span class="home">
-            <span class="material-icons navmtrl">
-                home
-                </span>
-          </span>      
-          
-        </div>
-        <div class="search-panel" title="search items">
-
-            <input class="input-in-nav" type="search" name="search" id="search" placeholder="search item">
-          
-        </div>
-
-        <div class="right-side-panel">
-
-            <div class="shopping-cart" title="shopping cart"> <span class="material-icons navmtrl">
-                    shopping_cart
-                </span></div>
-            <div class="favorites-item" title="favorite items"><span class="material-icons navmtrl">
-                    favorite_border
-                </span></div>
-            <div class="user-account" title="your account details"><span class="material-icons navmtrl">
-                    account_circle
-                </span>
-            </div>
-        </div>
+      <div class="navigation__left">
+        <div class="navigation__logo">Agri UI</div>
+      </div>
+      <input type="text" class="navigation__input" placeholder="search item" />
+      <div class="navigation__right">
+        <span class="material-icons navigationmi"> shopping_cart </span>
+        <span class="material-icons navigationmi"> favorite</span>
+        <span class="material-icons navigationmi"> account_circle</span>
+      </div>
     </nav>
-</body>
-
+  </body>
 </html>
