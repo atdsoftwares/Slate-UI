@@ -1,4 +1,4 @@
-@import '/css/main.css';
+@import "/css/main.css";
 
 .modal {
   display: none;
@@ -15,18 +15,16 @@
   height: 100%;
   /* Full height */
   overflow: auto;
-
-
 }
 
 /* Modal Content */
 .modal-content {
-  background-color:var(--background-universal-color);
+  background-color: var(--background-universal-color);
   margin: auto;
   padding: 14px;
   border: 1px solid var(--silver-color);
   width: 28%;
-  background: var(--tomato-color);
+  background: greenyellow;
 }
 
 /* The Close Button */

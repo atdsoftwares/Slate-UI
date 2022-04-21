@@ -1,50 +1,47 @@
 /* universal css sheet for icons and fonts */
-@import '/css/main.css';
+@import "/css/main.css";
 
 /* main rating components */
 .star-rating,
-.rating
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    height: 5rem;
-    width: 25rem;
-    background-color: var(--background-universal-color);
-    font-size: 1.5rem;
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  height: 5rem;
+  width: 25rem;
+  background-color: var(--background-universal-color);
+  font-size: 1.5rem;
 }
 
 /* material icon for icons */
-.rmtrl {
-    font-size: 2rem;
-    cursor: pointer;
-}
 
+span.material-icons.ratingmi {
+  font-size: 2rem;
+}
 /* different type of ratings */
 .good-rating {
-    color: var(--badge-online-color);
+  color: var(--badge-online-color);
 }
 
 .bad-rating {
-    color: var(--badge-offline-color);
+  color: var(--badge-offline-color);
 }
 
 .average-rating {
-    color: var(--badge-away-color);
+  color: var(--badge-away-color);
 }
 
 .star-ratings {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    height: 5rem;
-    width: 25rem;
-    background-color: var(--background-universal-color);
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  height: 5rem;
+  width: 25rem;
+  background-color: var(--background-universal-color);
 }
 
 .checked {
-    color: var(--golden-color);
+  color: var(--golden-color);
 }

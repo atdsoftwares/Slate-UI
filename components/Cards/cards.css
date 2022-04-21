@@ -1,260 +1,91 @@
-@import '/css/main.css';
+@import "/css/main.css";
+@import "/css//components.css";
 
-.card {
-    width: 34rem;
-    /* height: 13rem; */
-    background-color: rgb(240, 132, 132);
-    border-radius: 0.2rem;
-    height: auto;
-    max-width: 100%;
-    /* margin: 1rem; */
+/* Horizontal card */
+.horizontal-card {
+  height: auto;
+  width: 15rem;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  text-overflow: clip;
+  margin: 1rem;
+}
+.horizontal-card__image {
+  height: 12rem;
+  width: 12rem;
+  background-color: white;
+  border-radius: 0.2rem;
 }
 
-.cimage {
-    width: 14rem;
-    height: auto;
-    padding: 1rem;
+.horizontal-card__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 0.2rem;
 }
 
-.amount {
-    font-size: 1.2rem;
-    font-weight: bold;
+/* vertical cards */
+
+.vertical-card {
+  height: 14rem;
+  width: auto;
+  max-width: 38rem;
+  background-color: tomato;
+  display: flex;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  word-wrap: break-word;
+}
+.vertical-card__image {
+  height: 11rem;
+  width: 11rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.4rem;
+}
+.vertical-card__content {
+  margin: 1rem;
+}
+.vertical-card__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
 }
 
-.input-cart {
-    height: 2rem;
-    width: 2rem;
-    border-radius: 0.3rem;
-    text-align: center;
+.cardmi {
+  color: green;
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
 }
 
-.button-cart,
-.button-like,
-.increase,
-.decrease {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2rem;
-    width: fit-content;
-    border-radius: 0.3rem;
-    background-color: rgb(178, 68, 241);
-    cursor: pointer;
-    padding: 0.3rem;
-    margin: 0.2rem;
-    color: var(--background-universal-color)
+.cardmi:hover {
+  content: "Authentic Product";
+  cursor: pointer;
 }
-
-.button-cart {
-    /* width: 5rem; */
+.horizontal-card__outofstock {
+  height: 4rem;
+  width: 10rem;
+  background-color: thistle;
+  display: flex;
+  justify-content: center;
+  align-items: centers;
+  font-size: 1.4rem;
+  color: red;
 }
-
-.hcard-btn {
-    display: flex;
-    padding: 0.5rem;
-    justify-content: center;
-    align-items: center;
-}
-
-.hcard-text {
-    padding: 1rem 0 0 0;
-}
-
-.card-image {
-    display: flex;
-}
-
-
-
-/* other card classes */
-.card-vertical,
-.card-with-shadow {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-}
-
-.input-cart {
-    height: 2rem;
-    width: 2rem;
-    border-radius: 0.3rem;
-    text-align: center;
-}
-
-/* vertical card class */
-.vcard {
-    height: auto;
-    width: 13rem;
-    max-width: 100%;
-    border: 2px solid var(--dark-black-color);
-    padding: 1rem;
-    /* max-width: 100%;
-    max-height: 100% */
-}
-
-/* shadow class */
-.card-with-shadow {
-    box-shadow: rgba(172, 170, 170, 0.35) 1px 1px 1px 1px;
-}
-
-.btn-class-vcard {
-    height: 2rem;
-    margin: 0.3rem 0.3rem 0 0;
-    display: flex;
-    align-items: center;
-    border-radius: 0.3rem;
-    cursor: pointer;
-
-}
-
-.btn-icons-vcard {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.btn-add-to-vcart {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 2rem;
-    width: 5rem;
-    max-width: 100%;
-    margin: 0.2rem;
-    border-radius: 0.4rem;
-    color: purple;
-    font-size: 1rem;
-    background-color: var(--warning-alert-bgcolor);
-}
-
-.btn-add-to-vwishlist {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 2rem;
-    width: 3rem;
-    max-width: 100%;
-    margin: 0.2rem;
-    border-radius: 0.4rem;
-    color: purple;
-    font-size: 1rem;
-    background-color: var(--warning-alert-bgcolor);
-}
-
-.btn-icons {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.btn-add-to-hcart {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 3rem;
-    width: 8rem;
-    max-width: 100%;
-    margin: 0.2rem;
-    border-radius: 0.4rem;
-    color: purple;
-    font-size: 1rem;
-    background-color:  var(--warning-alert-bgcolor);
-
-}
-
-.btn-add-to-hwishlist {
-
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 3rem;
-    width: 4rem;
-    max-width: 100%;
-    margin: 0.2rem;
-    border-radius: 0.4rem;
-    color: purple;
-    font-size: 1rem;
-    background-color:  var(--warning-alert-bgcolor);
-}
-
-.ratings-in-card {
-    /* display: flex; */
-    font-size: 1.2rem;
-    cursor: pointer;
-
-}
-
-.checked {
-    color: var(--golden-color);
-}
-
-.price {
-    display: inline;
-    font-size: 1.2rem;
-    font-weight: bold;
-    left: 5rem;
-
-}
-
-.item-rate {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.new-icon {
-    height: 3rem;
-    max-width: 100%;
-    width: 3rem;
-    border-radius: 50%;
-    background-color: var(--success-alert-icon-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-
-}
-
-.card-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.head-with-icon {
-    display: flex;
-    justify-content: space-between;
-}
-
-.mright {
-    color: var(--badge-online-color);
-}
-
-.dismiss {
-    color:var(--red-color);
-    font-weight: bold;
-    cursor: pointer;
-}
-.text-overlay {
-    background-color: var(--secondary-alert-icon-color);
-    text-align: center;
-    opacity: 0.7;
-    display: flex;
-    position: relative;
-    left: 7rem;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    color: var(--red-color);
-    overflow: hidden;
-    cursor: not-allowed;
-    
-}
-
-.main-hv-card-container{
-    display: flex;
+.vertical-card__stock,
+.horizontal-card__stock {
+  width: 8rem;
+  color: rgb(2, 2, 2);
+  font-size: 1.1rem;
+  background-color: rgb(255, 47, 220);
 }

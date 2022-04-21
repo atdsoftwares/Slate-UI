@@ -1,41 +1,30 @@
 /* global css file for icons and fonts */
 @import "/css/main.css";
 
-/* main navigation menu class */
 .navigation-menu {
-  height: 5rem;
+  height: 4rem;
   width: 100%;
-  max-width: 100%;
-  background-color: var(--background-universal-color);
+  background-color: rgb(107, 171, 255);
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.3rem;
 }
-
-/* left side panel */
-.left-side-panel {
-  display: flex;
-  align-items: center;
-}
-
-/* right side panel */
-.right-side-panel {
-  display: flex;
-}
-/* main material icons class */
-.navmtrl {
+.navigation__right {
   margin: 1rem;
 }
-/* html5  global input element */
-.input-in-nav {
-  width: 20rem;
-  height: 2rem;
-  border-radius: 0.4rem;
-  cursor: pointer;
+.navigationmi {
+  font-size: 2rem;
+  margin: 1rem;
 }
-.logo-icon-head {
-  height: 4.5rem;
-  width: 4.5rem;
+.navigation__logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  background-color: white;
+}
+.navigation__input {
+  border-radius: 0.4rem;
+  width: auto;
+  height: 2rem;
 }

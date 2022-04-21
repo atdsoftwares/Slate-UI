@@ -58,7 +58,7 @@ ul.nav__items {
   margin-left: 2rem;
   border: 1px solid #000000;
   border-radius: 0.5rem;
-  box-shadow: 2px 1px 2px 1px rgb(104, 104, 104);
+  box-shadow: 1px 1px 1px 1px rgb(236, 232, 232);
 }
 .aside__items {
   display: flex;
@@ -114,6 +114,7 @@ ul.nav__items {
   padding: 0.5rem;
   background-color: orange;
   font-size: 1.3rem;
+  border-radius: 0.3rem;
 }
 
 .section,
@@ -161,4 +162,10 @@ ul.nav__items {
 }
 .footer__links {
   text-decoration: none;
+}
+.section-other-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
