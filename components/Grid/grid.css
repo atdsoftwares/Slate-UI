@@ -6,13 +6,13 @@
 }
 
 .item1 {
-  height: 2rem;
+  height: 3rem;
   width: auto;
   background-color: blue;
 }
 
 .item2 {
-  height: 2rem;
+  height: 3rem;
   width: auto;
   background-color: rgb(255, 51, 0);
 }
