@@ -4,62 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Agri UI</title>
-    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/index.css" />
+    <title>AgriUI</title>
   </head>
-
   <body>
-    <header class="header-container">
-      <div class="left-items">
-        <img src="/images/logo_transparent.png " alt="Logo" class="logo-icon" />
-      </div>
-      <div class="right-items">
-        <a href="/index.html">Home</a>
-        <a href="/testC/index.html">Docs</a>
-      </div>
+    <!-- Header -->
+    <header class="header">
+      <div class="header__logo">StyleX</div>
+      <nav class="nav">
+        <ul class="nav__items">
+          <li class="nav__list"><a href="#" class="nav__links">Home</a></li>
+          <li class="nav__list">
+            <a href="./testC/docs.html" class="nav__links">Docs</a>
+          </li>
+          <li class="nav__list">
+            <a href="https://github.com/iprankurpandey" class="nav__links"
+              >Github</a
+            >
+          </li>
+        </ul>
+      </nav>
     </header>
-    <section class="section-1-items">
-      <div class="content">
-        <h1>Build Your UI faster</h1>
-        <p>
-          Copy and paste the components at one click. It is user-friendly and
-          customizable. Spend less time in designing and concentrate more on
-          logic without hustling on UI.
-        </p>
-        <button class="install">Install</button>
-        <button class="docs">Docs</button>
-      </div>
 
-      <div class="hero-image">
-        <!-- <img src="/images/undraw_programming_re_kg9v.svg" alt=""> -->
-      </div>
-    </section>
-    <h1 id="Installation">Installation</h1>
-    <section class="section-2-items" id="section-2-items">
-      <div class="text-content">
-        Copy and paste the code in the head tag of your html document. So that
-        you can style your components by just adding class names to your html
-        elements. To know about the styled components, their variations, read
-        the documentaion <button>Docs</button>
-      </div>
-      <div class="code-box">
-        <script src="https://gist.github.com/iprankurpandey/1288b69914d6c179f0f0fa1f1b530f3b.js"></script>
-      </div>
-    </section>
+    <!-- data container -->
+    <main class="main">
+      <section class="main__section-1">
+        <article class="main__article">
+          AgriUI is a combination of multiple small web components that are used
+          in daily basis to surf the web, every website/app is made of such
+          small components and when combined together it makes a complete
+          WebApp.
 
-    <footer class="footer-items">
-      <a href="https://github.com/iprankurpandey"
-        >Github
-        <i class="fa fa-github"></i>
-      </a>
-      <a href="https://linkedin.com/in/iprankurpandey"
-        >Linkedin
-        <i class="fa fa-linkedin"></i>
-      </a>
-      <a href="https://twitter.com/iprankurpandey">
-        Twitter <i class="fa fa-twitter"></i
-      ></a>
+          <p class="paragraph">How to use :</p>
+
+          You just have to import this css libray code(below) into your css file
+          and start copying and pasting seperate components code into your app
+          from library .
+          <br />
+          <div class="code-url">
+            @import "https://agriui.netlify.app/css/components.css";
+          </div>
+        </article>
+      </section>
+      <section class="main__section-2">
+        <a href="./testC/docs.html">
+          <button class="main__section-btn">Explore</button></a
+        >
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="footer__items">
+        <li class="footer__list">
+          <a href="#" class="footer__links">Home</a>
+        </li>
+        <li class="footer__list">
+          <a href="#" class="footer__links">About</a>
+        </li>
+        <li class="footer__list">
+          <a href="#" class="footer__links">Contact</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>
