@@ -47,6 +47,14 @@ ul.nav__items {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
+.copy-btn {
+  height: 2rem;
+  width: 5rem;
+  background-color: #f7797d;
+  border-radius: 0.3rem;
+  border: 2px solid rgb(243, 242, 242);
+  cursor: pointer;
+}
 
 .main {
   height: auto;
@@ -61,10 +69,9 @@ ul.nav__items {
   height: 46rem;
   width: 50%;
   background: #c6ffdd;
-
   background: linear-gradient(to right, #f7797d, #f5c554, #55e68f);
 
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -77,28 +84,20 @@ ul.nav__items {
   justify-content: center;
   align-items: center;
 }
-.code-url {
+.btn-code-copy {
   height: 3rem;
   width: 44rem;
   border-radius: 0.4rem;
-  padding: 1rem;
   margin-top: 1rem;
-  background-color: #c8e0d2;
+  background-color: #a1f0c2;
+  color: #000000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.code-url:hover::after {
-  content: "copy this code and paste it into your css, explore more components";
-  cursor: pointer;
-  background-color: red;
-  padding: 0.5rem;
-  position: relative;
-  top: 2rem;
-  font-size: 1rem;
-  height: 2rem;
-  border-radius: 0.4rem;
-}
 .paragraph {
-  background-color: aqua;
+  background-color: rgb(206, 199, 194);
   width: 10rem;
 }
 .main__article {
