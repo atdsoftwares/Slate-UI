@@ -10,7 +10,7 @@
   width: 100%;
   height: 4rem;
   background-color: orange;
-  color: white;
+  color: rgb(250, 250, 250);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,7 +22,7 @@
   font-size: 3rem;
   font-weight: bold;
   margin-left: 4rem;
-  color: black;
+  color: rgb(229, 226, 226);
 }
 
 ul.nav__items {
@@ -39,11 +39,24 @@ ul.nav__items {
 .nav__links {
   text-decoration: none;
 }
-
 .nav__links:visited {
-  color: rgb(0, 0, 0);
+  color: white;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
+.dark-mode-btn {
+  height: 2rem;
+  width: 8rem;
+  background-color: #000000;
+  color: white;
+  border-radius: 0.2rem;
+  font-weight: 800;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
 .aside {
   height: 100%;
   width: 14rem;
@@ -74,11 +87,6 @@ ul.nav__items {
 }
 .aside__links {
   text-decoration: none;
-}
-
-.aside__links:visited {
-  color: rgb(11, 12, 12);
-  background-color: rgb(40, 223, 223);
 }
 
 .main {
@@ -125,7 +133,7 @@ ul.nav__items {
   font-weight: bold;
 }
 .section__samples {
-  background-color: rgb(236, 229, 229);
+  background-color: rgb(148, 145, 145);
   padding: 0.5rem;
   font-size: 1.2rem;
   display: flex;

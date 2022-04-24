@@ -1,491 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-      <link rel="stylesheet" href="docs.css" />
-      <link rel="stylesheet" href="./gist.css" />
-   </head>
-   <body>
-      <!-- Navigational Heder -->
-      <header class="header">
-         <div class="header__logo">StyleX</div>
-         <nav class="nav">
-            <ul class="nav__items">
-               <li class="nav__list"><a href="/index.html" class="nav__links">Home</a></li>
-               <li class="nav__list"><a href="https://github.com/iprankurpandey" class="nav__links">Github</a></li>
-            </ul>
-         </nav>
-      </header>
-      <!-- Aside bar items -->
-      <aside class="aside">
-         <ul class="aside__items">
-            <li class="aside__list">
-               <a href="#Alert" class="aside__links">Alert</a>
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Document</title>
+   <link rel="stylesheet" href="docs.css" />
+   <link rel="stylesheet" href="./gist.css" />
+</head>
+
+<body>
+   <!-- Navigational Heder -->
+   <header class="header">
+      <div class="header__logo">StyleX</div>
+      <nav class="nav">
+         <ul class="nav__items">
+            <li class="nav__list">
+               <button class="nav__links dark-mode-btn"> Dark Mode</button>
             </li>
-            <li class="aside__list">
-               <a href="#Avatar" class="aside__links">Avatar</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Badge" class="aside__links">Badge</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Button" class="aside__links">Button</a>
-            </li>
-            <li class="aside__list"><a href="#Card" class="aside__links">Card</a></li>
-            <li class="aside__list">
-               <a href="#Image" class="aside__links">Image</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Input" class="aside__links">Input</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Lists" class="aside__links">Lists</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Text-Utils" class="aside__links">Text Utils</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Nav" class="aside__links">Nav</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Modal" class="aside__links">Modal</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Rating" class="aside__links">Rating</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Grid" class="aside__links">Grid</a>
-            </li>
-            <li class="aside__list">
-               <a href="#Toast" class="aside__links">Toast</a>
-            </li>
+
+            <li class="nav__list"><a href="/index.html" class="nav__links">Home</a></li>
+            <li class="nav__list"><a href="https://github.com/iprankurpandey" class="nav__links">Github</a></li>
          </ul>
-      </aside>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Alert">
-            <h2 class="article__heading">Alert</h2>
-            <h5 class="article__subheading">
-               Alerts are used to attract user's attention for important information
-               without interrupting the user's flow.
-            </h5>
-            <p class="article__text">
-               Alerts are available in 5 types- success alert, error alert, warning
-               alert, primary alert, secondary alert. To use this alert just use
-               class name alert-box and also add class according to alert type-
-               alert-primary, alert-secondary, alert-danger, alert-success,
-               alert-warning. (e.g.class="alert-box alert-primary"). You can copy
-               html part from below code snippet.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <div class="alert primary-alert">A primary alert example with a text link. <span
+      </nav>
+   </header>
+   <!-- Aside bar items -->
+   <aside class="aside">
+      <ul class="aside__items">
+         <li class="aside__list">
+            <a href="#Alert" class="aside__links">Alert</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Avatar" class="aside__links">Avatar</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Badge" class="aside__links">Badge</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Button" class="aside__links">Button</a>
+         </li>
+         <li class="aside__list"><a href="#Card" class="aside__links">Card</a></li>
+         <li class="aside__list">
+            <a href="#Image" class="aside__links">Image</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Input" class="aside__links">Input</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Lists" class="aside__links">Lists</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Text-Utils" class="aside__links">Text Utils</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Nav" class="aside__links">Nav</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Modal" class="aside__links">Modal</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Rating" class="aside__links">Rating</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Grid" class="aside__links">Grid</a>
+         </li>
+         <li class="aside__list">
+            <a href="#Toast" class="aside__links">Toast</a>
+         </li>
+      </ul>
+   </aside>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Alert">
+         <h2 class="article__heading">Alert</h2>
+         <h5 class="article__subheading">
+            Alerts are used to attract user's attention for important information
+            without interrupting the user's flow.
+         </h5>
+         <p class="article__text">
+            Alerts are available in 5 types- success alert, error alert, warning
+            alert, primary alert, secondary alert. To use this alert just use
+            class name alert-box and also add class according to alert type-
+            alert-primary, alert-secondary, alert-danger, alert-success,
+            alert-warning. (e.g.class="alert-box alert-primary"). You can copy
+            html part from below code snippet.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <div class="alert primary-alert">A primary alert example with a text link. <span
                   class="link link-active">Check
                   it out</a><span>
-               </div>
-               <div class="alert secondary-alert">A secondary alert example.</div>
-               <div class="alert success-alert"><span class="alertmi material-icons">check_circle</span>A success
-                  alert
-                  example.
-               </div>
-               <div class="alert danger-alert"><span class="alertmi material-icons">dangerous</span>A danger alert
-                  example.
-               </div>
-               <div class="alert warning-alert"><span class="alertmi material-icons">warning</span> A warning alert
-                  example.
-               </div>
             </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Alert code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/9bcc73d78f5ddbf863f2dfede254a0df.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Avatar -->
-      <main class="main" >
-         <article class="article" id="Avatar">
-            <h2 class="article__heading">Avatar</h2>
-            <h5 class="article__subheading">
-               Avatar is used to display user's profile picture. It is available in four different types- circle and square.
-               Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs grid items
-            </h5>
-            <p class="article__text">
-               Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class avatar and for size add class according to size avatar-lg-size, avatar-md-size, avatar-sm-size, avatar-xs-size (e.g. class="avatar avatar-lg-size") Don't forget to add Responsive Image class names for img element.
-               Example of Text Avatar
-               You can use initial letters of user in Avatar as well. You need to include class avatar-text along with avatar and size class. (e.g. class="avatar avatar-lg-size avatar-text")
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <div class="avatar">
-                  <div class="avatar lg-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
+            <div class="alert secondary-alert">A secondary alert example.</div>
+            <div class="alert success-alert"><span class="alertmi material-icons">check_circle</span>A success
+               alert
+               example.
+            </div>
+            <div class="alert danger-alert"><span class="alertmi material-icons">dangerous</span>A danger alert
+               example.
+            </div>
+            <div class="alert warning-alert"><span class="alertmi material-icons">warning</span> A warning alert
+               example.
+            </div>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Alert code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/9bcc73d78f5ddbf863f2dfede254a0df.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Avatar -->
+   <main class="main">
+      <article class="article" id="Avatar">
+         <h2 class="article__heading">Avatar</h2>
+         <h5 class="article__subheading">
+            Avatar is used to display user's profile picture. It is available in four different types- circle and
+            square.
+            Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs
+            grid items
+         </h5>
+         <p class="article__text">
+            Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class avatar and
+            for size add class according to size avatar-lg-size, avatar-md-size, avatar-sm-size, avatar-xs-size (e.g.
+            class="avatar avatar-lg-size") Don't forget to add Responsive Image class names for img element.
+            Example of Text Avatar
+            You can use initial letters of user in Avatar as well. You need to include class avatar-text along with
+            avatar and size class. (e.g. class="avatar avatar-lg-size avatar-text")
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <div class="avatar">
+               <div class="avatar lg-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
                      class="image-round image-responsive"><img /> </div>
-                  <div class="avatar md-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
+               <div class="avatar md-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
                      class="image-round image-responsive"><img /> </div>
-                  <div class="avatar sm-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
+               <div class="avatar sm-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
                      class="image-round image-responsive"><img /> </div>
-                  <div class="avatar xs-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
+               <div class="avatar xs-avatar-size"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
                      class="image-round image-responsive"><img /></div>
-               </div>
-               <div class="text-responsive">
-                  <div class="avatar lg-avatar-size text-round">PP</div>
-                  <div class="avatar md-avatar-size text-round">PP</div>
-                  <div class="avatar sm-avatar-size text-round">PP</div>
-                  <div class="avatar xs-avatar-size text-round">PP</div>
-               </div>
             </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Avatar code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/32455c181029be441e44982a16f9f8e9.js">
-            </script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Badge">
-            <h2 class="article__heading">Badge</h2>
-            <h5 class="article__subheading">
-               Badges are being used to display a notification count or status information
-            </h5>
-            <p class="article__text">
-               We have 2 types of status badges that can be integrated with Avatars. You can show colors to show the online status of user. And to show cart or notification count, you can use number badge. Check code below to copy the html part as is. We have multiple sizes of text-badges for using these you can use text-badge-large, text-badge-medium-large, text-badge-medium, text-badge-small, text-badge-medium-very-small classes.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
+            <div class="text-responsive">
+               <div class="avatar lg-avatar-size text-round">PP</div>
+               <div class="avatar md-avatar-size text-round">PP</div>
+               <div class="avatar sm-avatar-size text-round">PP</div>
+               <div class="avatar xs-avatar-size text-round">PP</div>
+            </div>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Avatar code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/32455c181029be441e44982a16f9f8e9.js">
+         </script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Badge">
+         <h2 class="article__heading">Badge</h2>
+         <h5 class="article__subheading">
+            Badges are being used to display a notification count or status information
+         </h5>
+         <p class="article__text">
+            We have 2 types of status badges that can be integrated with Avatars. You can show colors to show the online
+            status of user. And to show cart or notification count, you can use number badge. Check code below to copy
+            the html part as is. We have multiple sizes of text-badges for using these you can use text-badge-large,
+            text-badge-medium-large, text-badge-medium, text-badge-small, text-badge-medium-very-small classes.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
             <div class="badge-ui">
                <!-- large image with  online badge -->
-               <div class="badge-ui lg-avatar-size  badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
-                  class="image-round image-responsive"><img />
+               <div class="badge-ui lg-avatar-size  badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg"
+                     alt="avatar" class="image-round image-responsive"><img />
                   <span class=" badge lg-badge badge-online"></span>
                </div>
                <!-- medium image with  offline badge -->
-               <div class="badge-ui md-avatar-size badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
-                  class="image-round image-responsive"><img />
-                  <span class=" badge md-badge badge-offline"></span> 
+               <div class="badge-ui md-avatar-size badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg"
+                     alt="avatar" class="image-round image-responsive"><img />
+                  <span class=" badge md-badge badge-offline"></span>
                </div>
                <!-- small image with  ready badge -->
-               <div class="badge-ui sm-avatar-size badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
-                  class="image-round image-responsive"><img />
+               <div class="badge-ui sm-avatar-size badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg"
+                     alt="avatar" class="image-round image-responsive"><img />
                   <span class=" badge sm-badge badge-away"></span>
                </div>
                <!-- extra small image with  blue badge -->
-               <div class="badge-ui xs-avatar-size badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="avatar"
-                  class="image-round image-responsive"><img />
+               <div class="badge-ui xs-avatar-size badge-status"> <img src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg"
+                     alt="avatar" class="image-round image-responsive"><img />
                   <span class=" badge xs-badge badge-offline"></span>
                </div>
             </div>
             <div class="number-badges-container">
                <div class="shopping__cart">
                   <span class="material-icons badgemi">
-                  shopping_cart
+                     shopping_cart
                   </span>
                </div>
                <span class="number-badge lg-number-badge">5</span>
                <div class="favorite_border">
                   <span class="material-icons badgemi">
-                  favorite_border
+                     favorite_border
                   </span>
                </div>
                <span class="number-badge lg-number-badge">99+</span>
             </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Badge code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/2149546082d2312c5fde92fba293b086.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Button">
-            <h2 class="article__heading">Button</h2>
-            <h5 class="article__subheading">
-               Buttons are used to trigger and action by clicking on them.
-            </h5>
-            <p class="article__text">
-               Example of Buttons
-               Example of Primary Button Styles
-               Whenever you want your user to click on a link or button, use primary style buttons.
-               Example of Secondary Button Styles
-               If you want user not to pay attention to buttons then use Secondary buttons.
-               Example of Button with icon and Floating action Button
-               Button with icon can be used in cards to complete the UI. For class and html, check below code. Floating-action buttons can be customized by adding the font-awesome icon of your choice.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <div class="section">
-            <div class="section__samples">
-               <div class="btn btn-solid">
-                  <button class="btn btn-primary">Primary</button>
-                  <button class="btn btn-secondary">Secondary</button>
-                  <button class="btn btn-success">Success</button>
-                  <button class="btn btn-warning">Warning</button>
-                  <button class="btn btn-danger">Danger</button>
-                  <a href="/" class="btn-link">Link</a>
-               </div>
-               <div class="btn btn-outline">
-                  <button class="btn btn-primary-outline">Primary</button>
-                  <button class="btn btn-secondary-outline">Secondary</button>
-                  <button class="btn btn-success-outline">Success</button>
-                  <button class="btn btn-warning-outline">Warning</button>
-                  <button class="btn btn-danger-outline">Danger</button>
-               </div>
-               <div class="btn btn-with-icons">
-                  <button class="btn btn-primary icon">
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Badge code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/2149546082d2312c5fde92fba293b086.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Button">
+         <h2 class="article__heading">Button</h2>
+         <h5 class="article__subheading">
+            Buttons are used to trigger and action by clicking on them.
+         </h5>
+         <p class="article__text">
+            Example of Buttons
+            Example of Primary Button Styles
+            Whenever you want your user to click on a link or button, use primary style buttons.
+            Example of Secondary Button Styles
+            If you want user not to pay attention to buttons then use Secondary buttons.
+            Example of Button with icon and Floating action Button
+            Button with icon can be used in cards to complete the UI. For class and html, check below code.
+            Floating-action buttons can be customized by adding the font-awesome icon of your choice.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <div class="section">
+         <div class="section__samples">
+            <div class="btn btn-solid">
+               <button class="btn btn-primary">Primary</button>
+               <button class="btn btn-secondary">Secondary</button>
+               <button class="btn btn-success">Success</button>
+               <button class="btn btn-warning">Warning</button>
+               <button class="btn btn-danger">Danger</button>
+               <a href="/" class="btn-link">Link</a>
+            </div>
+            <div class="btn btn-outline">
+               <button class="btn btn-primary-outline">Primary</button>
+               <button class="btn btn-secondary-outline">Secondary</button>
+               <button class="btn btn-success-outline">Success</button>
+               <button class="btn btn-warning-outline">Warning</button>
+               <button class="btn btn-danger-outline">Danger</button>
+            </div>
+            <div class="btn btn-with-icons">
+               <button class="btn btn-primary icon">
                   Add to cart
                   <span class="material-icons buttonmi"> shopping_cart </span>
-                  </button>
-                  <button class="btn btn-success icon">
+               </button>
+               <button class="btn btn-success icon">
                   Add to list
                   <span class="material-icons buttonmi"> favorite_border </span>
-                  </button>
-                  <button class="btn-lg-icon add">
+               </button>
+               <button class="btn-lg-icon add">
                   <span class="material-icons buttonmi"> add </span>
-                  </button>
-                  <button class="btn-lg-icon remove">
+               </button>
+               <button class="btn-lg-icon remove">
                   <span class="material-icons buttonmi"> remove </span>
+               </button>
+            </div>
+         </div>
+      </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Button code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/f2931094346cd22b46b5445a9ff004c4.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Card">
+         <h2 class="article__heading">Card</h2>
+         <h5 class="article__subheading">
+            Cards contain content and actions about a single subject. Cards are surfaces that display content and
+            actions on a single topic.
+         </h5>
+         <p class="article__text">
+            Example of Cards
+            Example of Horizontal Cards
+            Horizontal cards contains the content and actions about a single subject. Cards are surfaces that display
+            content and actions on a single topic.It focuses on the content, while presenting actions inline with the
+            content.
+            Example of Vertical Cards
+            Vertical cards contains the content and actions about a single subject. Cards are surfaces that display
+            content and actions on a single topic.It focuses on the content, while presenting actions in column form
+            with the content.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples section-other-items">
+            <!-- Horizontal card with buttons and images -->
+            <div class="horizontal-card">
+               <img class="horizontal-card__image" src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png" alt="image" />
+               <div class="horizontal-card__content">
+                  <h2 class="horizontal-card__title">HTML Rice</h2>
+                  <h3 class="horizontal-card__price">$5000</h3>
+                  <p class="horizontal-card__description">
+                     This is Rice is purely crafted and grown organically.
+                  </p>
+                  <h3 class="horizontal-card__ratings">5 Star</h3>
+                  <h4 class="horizontal-card__stock">Stock: InStock</h4>
+               </div>
+               <div class="horizontal-card__add-to-cart">
+                  <button class="btn btn-primary icon">
+                     Add to Cart
+                     <span class="material-icons buttonmi"> shopping_cart </span>
+                  </button>
+               </div>
+               <div class="horizontal-card__add-to-wishlist">
+                  <button class="btn btn-success icon">
+                     Add to Wish
+                     <span class="material-icons buttonmi"> favorite_border </span>
                   </button>
                </div>
             </div>
-         </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Button code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/f2931094346cd22b46b5445a9ff004c4.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Card">
-            <h2 class="article__heading">Card</h2>
-            <h5 class="article__subheading">
-               Cards contain content and actions about a single subject. Cards are surfaces that display content and actions on a single topic.
-            </h5>
-            <p class="article__text">
-               Example of Cards
-               Example of Horizontal Cards
-               Horizontal cards contains the content and actions about a single subject. Cards are surfaces that display content and actions on a single topic.It focuses on the content, while presenting actions inline with the content.
-               Example of Vertical Cards
-               Vertical cards contains the content and actions about a single subject. Cards are surfaces that display content and actions on a single topic.It focuses on the content, while presenting actions in column form with the content.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples section-other-items">
-               <!-- Horizontal card with buttons and images -->
-               <div class="horizontal-card">
-                  <img
-                     class="horizontal-card__image"
-                     src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png"
-                     alt="image"
-                     />
-                  <div class="horizontal-card__content">
-                     <h2 class="horizontal-card__title">HTML Rice</h2>
-                     <h3 class="horizontal-card__price">$5000</h3>
-                     <p class="horizontal-card__description">
-                        This is Rice is purely crafted and grown organically.
-                     </p>
-                     <h3 class="horizontal-card__ratings">5 Star</h3>
-                     <h4 class="horizontal-card__stock">Stock: InStock</h4>
-                  </div>
-                  <div class="horizontal-card__add-to-cart">
-                     <button class="btn btn-primary icon">
+            <!-- Horizontal card with out of stock and no image  -->
+            <div class="horizontal-card">
+
+               <div class="horizontal-card__content">
+                  <h2 class="horizontal-card__title">HTML Rice</h2>
+                  <h3 class="horizontal-card__price">$5000</h3>
+                  <p class="horizontal-card__description">
+                     This is Rice is purely crafted and grown organically.
+                  </p>
+                  <h3 class="horizontal-card__ratings">5 Star</h3>
+                  <h4 class="horizontal-card__stock">Stock:No Stock</h4>
+                  </h4>
+               </div>
+               <div class="horizontal-card__add-to-cart">
+                  <button class="btn btn-primary icon" disabled>
                      Add to Cart
                      <span class="material-icons buttonmi"> shopping_cart </span>
-                     </button>
-                  </div>
-                  <div class="horizontal-card__add-to-wishlist">
-                     <button class="btn btn-success icon">
+                  </button>
+               </div>
+               <div class="horizontal-card__add-to-wishlist">
+                  <button class="btn btn-success icon" disabled>
                      Add to Wish
                      <span class="material-icons buttonmi"> favorite_border </span>
-                     </button>
-                  </div>
+                  </button>
                </div>
-               <!-- Horizontal card with out of stock and no image  -->
-               <div class="horizontal-card">
-  
-                  <div class="horizontal-card__content">
-                     <h2 class="horizontal-card__title">HTML Rice</h2>
-                     <h3 class="horizontal-card__price">$5000</h3>
-                     <p class="horizontal-card__description">
-                        This is Rice is purely crafted and grown organically.
-                     </p>
-                     <h3 class="horizontal-card__ratings">5 Star</h3>
-                     <h4 class="horizontal-card__stock">Stock:No Stock</h4>
-                     </h4>
-                  </div>
-                  <div class="horizontal-card__add-to-cart">
-                     <button class="btn btn-primary icon" disabled>
-                     Add to Cart
-                     <span class="material-icons buttonmi"> shopping_cart </span>
-                     </button>
-                  </div>
-                  <div class="horizontal-card__add-to-wishlist">
-                     <button class="btn btn-success icon" disabled>
-                     Add to Wish
-                     <span class="material-icons buttonmi"> favorite_border </span>
-                     </button>
-                  </div>
-               </div>
-               <!-- Vertical Card with icons -->
-               <div class="vertical-card">
-                  <img
-                     class="vertical-card__image"
-                     src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png"
-                     alt="image"
-                     />
-                  <div class="vertical-card__content">
-                     <h2 class="vertical-card__title">
-                        HTML Rice
-                        <span class="material-icons cardmi" title="Authentic Product">
+            </div>
+            <!-- Vertical Card with icons -->
+            <div class="vertical-card">
+               <img class="vertical-card__image" src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png" alt="image" />
+               <div class="vertical-card__content">
+                  <h2 class="vertical-card__title">
+                     HTML Rice
+                     <span class="material-icons cardmi" title="Authentic Product">
                         check_circle
-                        </span>
-                     </h2>
-                     <h3 class="vertical-card__price">$5000</h3>
-                     <p class="vertical-card__description">
-                        This is Rice is purely crafted and grown organically.
-                     </p>
-                     <h3 class="vertical-card__ratings">5 Star</h3>
-                     <h4 class="vertical-card__stock">Stock: InStock</h4>
-                     <div class="vertical-card__buttons">
-                        <div class="vertical-card__add-to-cart">
-                           <button class="btn btn-primary icon">
+                     </span>
+                  </h2>
+                  <h3 class="vertical-card__price">$5000</h3>
+                  <p class="vertical-card__description">
+                     This is Rice is purely crafted and grown organically.
+                  </p>
+                  <h3 class="vertical-card__ratings">5 Star</h3>
+                  <h4 class="vertical-card__stock">Stock: InStock</h4>
+                  <div class="vertical-card__buttons">
+                     <div class="vertical-card__add-to-cart">
+                        <button class="btn btn-primary icon">
                            Add to Cart
                            <span class="material-icons buttonmi"> shopping_cart </span>
-                           </button>
-                        </div>
-                        <div class="vertical-card__add-to-wishlist">
-                           <button class="btn btn-success icon">
+                        </button>
+                     </div>
+                     <div class="vertical-card__add-to-wishlist">
+                        <button class="btn btn-success icon">
                            Add to Wish
                            <span class="material-icons buttonmi"> favorite_border </span>
-                           </button>
-                        </div>
+                        </button>
                      </div>
                   </div>
                </div>
             </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Cards code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/2248c375975c682754e6196241710237.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Image">
-            <h2 class="article__heading">Image</h2>
-            <h5 class="article__subheading">
-               Images can be responsive to fit the parent's width, and also can be customized to be round shaped
-            </h5>
-            <p class="article__text">
-               Example of Responsive Images
-               You can add class responsive-image to make your image fit the width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the image
-               Example of Responsive Images
-               It's height will get adjusted by keeping the aspect ratio same, use class class="responsive-image" to make image responsive.
-               Example of Round Images
-               round images can be added by adding class class="round-image" to the image.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <img class="image-item responsive-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
-               <img class="image-item round-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
-            </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Image code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/26841f60b3d150c95f9169e2f2786f8b.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Input">
-            <h2 class="article__heading">Input</h2>
-            <h5 class="article__subheading">
-               Input let users enter and edit text.
-            </h5>
-            <p class="article__text">
-               Example of Inputs
-               Inputs are used to collect data from the user. They are used to collect text, numbers, and other data. There are different type of Input that we can use to collect data such as calander to collect date, text to collect text, number to collect number, etc.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <input
-                  class="input__field"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  required
-                  />
-               <input
-                  class="input__field"
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                  required
-                  />
-               <input
-                  class="input__field"
-                  type="tel"
-                  name="input telnumber"
-                  inputmode="numeric"
-                  pattern="[0-9]*"
-                  placeholder="Phone Number"
-                  required
-                  />
-               <input
-                  class="input__field"
-                  type="password"
-                  name="input password"
-                  placeholder="Password"
-                  required
-                  minlength="6"
-                  />
-               <input
-                  class="input__field"
-                  type="submit"
-                  name="input submit"
-                  required
-                  />
-            </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Inputs code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/154aaa7ebe3e940efb89bab0a3f2c62c.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Lists -->
-      <main class="main">
-         <article class="article" id="Lists">
-            <h2 class="article__heading">Lists</h2>
-            <h5 class="article__subheading">
-               A list is a series of items, grouped together, separated by some delimiter. It can be used at so many places, navigation bar, stacked notifications, article pages, etc.
-            </h5>
-            <p class="article__text">
-               Add class according to bullet style. Copy html code below and add your desired list items.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Cards code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/2248c375975c682754e6196241710237.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Image">
+         <h2 class="article__heading">Image</h2>
+         <h5 class="article__subheading">
+            Images can be responsive to fit the parent's width, and also can be customized to be round shaped
+         </h5>
+         <p class="article__text">
+            Example of Responsive Images
+            You can add class responsive-image to make your image fit the width of container. It's height will get
+            adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the
+            image
+            Example of Responsive Images
+            It's height will get adjusted by keeping the aspect ratio same, use class class="responsive-image" to make
+            image responsive.
+            Example of Round Images
+            round images can be added by adding class class="round-image" to the image.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <img class="image-item responsive-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
+            <img class="image-item round-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Image code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/26841f60b3d150c95f9169e2f2786f8b.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Input">
+         <h2 class="article__heading">Input</h2>
+         <h5 class="article__subheading">
+            Input let users enter and edit text.
+         </h5>
+         <p class="article__text">
+            Example of Inputs
+            Inputs are used to collect data from the user. They are used to collect text, numbers, and other data. There
+            are different type of Input that we can use to collect data such as calander to collect date, text to
+            collect text, number to collect number, etc.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <input class="input__field" type="text" name="name" placeholder="Name" required />
+            <input class="input__field" type="email" name="email" placeholder="Email" required />
+            <input class="input__field" type="tel" name="input telnumber" inputmode="numeric" pattern="[0-9]*"
+               placeholder="Phone Number" required />
+            <input class="input__field" type="password" name="input password" placeholder="Password" required
+               minlength="6" />
+            <input class="input__field" type="submit" name="input submit" required />
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Inputs code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/154aaa7ebe3e940efb89bab0a3f2c62c.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Lists -->
+   <main class="main">
+      <article class="article" id="Lists">
+         <h2 class="article__heading">Lists</h2>
+         <h5 class="article__subheading">
+            A list is a series of items, grouped together, separated by some delimiter. It can be used at so many
+            places, navigation bar, stacked notifications, article pages, etc.
+         </h5>
+         <p class="article__text">
+            Add class according to bullet style. Copy html code below and add your desired list items.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
             <div class="list-container">
                <ul>
                   <li>Item-1</li>
@@ -541,253 +529,263 @@
                   <li>List item with upper roman</li>
                </ol>
             </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">List code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/6b294fb0f31b3af0df3546f378e6e840.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Text-Utils">
-            <h2 class="article__heading">Text Utils (Typography)</h2>
-            <h5 class="article__subheading">
-               Check out below text utilities.
-            </h5>
-            <p class="article__text">
-               For heading u can use h1, h2, h3, h4, h5, h6 elements. The same font-styling is present for class names h1, h2, h3, h4, h5, h6 class. You can add one of these classes to style the text.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <div class="h1">Heading-1</div>
-               <div class="h2">Heading-2</div>
-               <div class="h3">Heading-3</div>
-               <div class="h4">Heading-4</div>
-               <div class="h5">Heading-5</div>
-               <div class="h6">Heading-6</div>
-               <div class="bold-text">This is bold text</div>
-               <div class="striked-text">This is stricked text</div>
-               <div class="small-text">This is extra small text</div>
-               <div class="gray-text">This is gray text</div>
-               <div class="center-text">This is center text</div>
-            </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Typography code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/fb65780793cae62c6318bc93f2eac09f.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts Alert-->
-      <main class="main">
-         <article class="article" id="Nav">
-            <h2 class="article__heading">Navigation</h2>
-            <h5 class="article__subheading">
-               Navigation is a component that is used to navigate between different pages.
-            </h5>
-            <p class="article__text">
-               Navigation can contain links, buttons, icons, and other elements, 
-               and when clicked on will navigate to a different page or section of the application.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <nav class="navigation-menu">
-                  <div class="navigation__left">
-                     <div class="navigation__logo">Agri UI</div>
-                  </div>
-                  <input type="text" class="navigation__input" placeholder="search item" />
-                  <div class="navigation__right">
-                     <span class="material-icons navigationmi"> shopping_cart </span>
-                     <span class="material-icons navigationmi"> favorite</span>
-                     <span class="material-icons navigationmi"> account_circle</span>
-                  </div>
-               </nav>
-            </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Navbar code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/6b44e8c04fce8c11821f09f17692cc17.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Modal">
-            <h2 class="article__heading">Modal</h2>
-            <h5 class="article__subheading">
-               Model is a component that is used to display a modal window. Modal can be used to display a confirmation or a information
-            </h5>
-            <p class="article__text">
-               Example of Model
-               The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <button class="modal-btn" id="myBtn">Open Modal</button>
-               <!-- The Modal -->
-               <div id="myModal" class="modal">
-                  <!-- Modal content -->
-                  <div class="modal-content">
-                     <span class="close">&times;</span>
-                     <p>this is a demo of  modal  => example</p>
-                  </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">List code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/6b294fb0f31b3af0df3546f378e6e840.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Text-Utils">
+         <h2 class="article__heading">Text Utils (Typography)</h2>
+         <h5 class="article__subheading">
+            Check out below text utilities.
+         </h5>
+         <p class="article__text">
+            For heading u can use h1, h2, h3, h4, h5, h6 elements. The same font-styling is present for class names h1,
+            h2, h3, h4, h5, h6 class. You can add one of these classes to style the text.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <div class="h1">Heading-1</div>
+            <div class="h2">Heading-2</div>
+            <div class="h3">Heading-3</div>
+            <div class="h4">Heading-4</div>
+            <div class="h5">Heading-5</div>
+            <div class="h6">Heading-6</div>
+            <div class="bold-text">This is bold text</div>
+            <div class="striked-text">This is stricked text</div>
+            <div class="small-text">This is extra small text</div>
+            <div class="gray-text">This is gray text</div>
+            <div class="center-text">This is center text</div>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Typography code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/fb65780793cae62c6318bc93f2eac09f.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts Alert-->
+   <main class="main">
+      <article class="article" id="Nav">
+         <h2 class="article__heading">Navigation</h2>
+         <h5 class="article__subheading">
+            Navigation is a component that is used to navigate between different pages.
+         </h5>
+         <p class="article__text">
+            Navigation can contain links, buttons, icons, and other elements,
+            and when clicked on will navigate to a different page or section of the application.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <nav class="navigation-menu">
+               <div class="navigation__left">
+                  <div class="navigation__logo">Agri UI</div>
+               </div>
+               <input type="text" class="navigation__input" placeholder="search item" />
+               <div class="navigation__right">
+                  <span class="material-icons navigationmi"> shopping_cart </span>
+                  <span class="material-icons navigationmi"> favorite</span>
+                  <span class="material-icons navigationmi"> account_circle</span>
+               </div>
+            </nav>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Navbar code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/6b44e8c04fce8c11821f09f17692cc17.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Modal">
+         <h2 class="article__heading">Modal</h2>
+         <h5 class="article__subheading">
+            Model is a component that is used to display a modal window. Modal can be used to display a confirmation or
+            a information
+         </h5>
+         <p class="article__text">
+            Example of Model
+            The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever
+            else.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <button class="modal-btn" id="myBtn">Open Modal</button>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+               <!-- Modal content -->
+               <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>this is a demo of modal => example</p>
                </div>
             </div>
-            <script src="../components/Modal/app.js"></script>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Modal code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/58be0f97a9dec9706c7997696ba78991.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Rating">
-            <h2 class="article__heading">Rating</h2>
-            <h5 class="article__subheading">
-               Ratings are used to indicate the rating of a product or service.
-            </h5>
-            <p class="article__text">
-               Ratings are used to indicate the rating of a product or service.
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <h4>Mood Rating</h4>
-               <div class="rating">
-                  <div class="good-rating" title="Good"><span class="material-icons ratingmi">
+         </div>
+         <script src="../components/Modal/app.js"></script>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Modal code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/58be0f97a9dec9706c7997696ba78991.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Rating">
+         <h2 class="article__heading">Rating</h2>
+         <h5 class="article__subheading">
+            Ratings are used to indicate the rating of a product or service.
+         </h5>
+         <p class="article__text">
+            Ratings are used to indicate the rating of a product or service.
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <h4>Mood Rating</h4>
+            <div class="rating">
+               <div class="good-rating" title="Good"><span class="material-icons ratingmi">
                      mood
-                     </span>
-                  </div>
-                  <div class="average-rating" title="Average"><span class="material-icons ratingmi">
+                  </span>
+               </div>
+               <div class="average-rating" title="Average"><span class="material-icons ratingmi">
                      sentiment_satisfied
-                     </span>
-                  </div>
-                  <div class="bad-rating" title="Bad"> <span class="material-icons ratingmi">
+                  </span>
+               </div>
+               <div class="bad-rating" title="Bad"> <span class="material-icons ratingmi">
                      mood_bad
-                     </span>
-                  </div>
-               </div>
-               <h4>Star Rating </h4>
-               <div class="star-rating">
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star checked"></span>
-                  <span class="fa fa-star"></span>
-                  <span class="fa fa-star"></span>
-               </div>
-            </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Rating code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/1532ffbbd812836eef52f126873c6db0.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Grid">
-            <h2 class="article__heading">Grid</h2>
-            <h5 class="article__subheading">
-               Grid can be used to create different responsive layouts and to align elements.
-            </h5>
-            <p class="article__text">
-               Example of Grids
-               There are different type of grids available in the grid component and are used to create different layouts . some of examples are as follows:
-               50:50 GridsAlert
-               50:50 Grids are used to create equal width and height grids. use the following code to create 50:50 grids. class="grid-50-50"
-               70:30 Grids
-               70:30 Grids are used to create 70% width and 30% height grids. use the following code to create 50:50:50 grids. class="container-70-30"
-               30:70 Grids
-               30:70 Grids are used to create 30% width and 70% height grids. use the following code to create 50:50:50 grids. class="container-30-70"
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples " >
-               <div class="grid-50-50">
-                  <div class="item1">Item-1</div>
-                  <div class="item2">Item-2</div>
-               </div>
-               <div class="grid-30-70">
-                  <div class="item1">Item-1</div>
-                  <div class="item2">Item-2</div>
-               </div>
-               <div class="grid-70-30">
-                  <div class="item1">Item-1</div>
-                  <div class="item2">Item-2</div>
-               </div>
-            </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Grid code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/a6dddbdaa8f4ba33654ed2ded449b38c.js"></script>
-         </details>
-      </main>
-      <!-- Code Item Description ==Alerts -->
-      <main class="main">
-         <article class="article" id="Toast">
-            <h2 class="article__heading">Toast</h2>
-            <h5 class="article__subheading">
-               Alerts are used to attract user's attention for important information
-               without interrupting the user's flow.
-            </h5>
-            <p class="article__text">
-               This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action .
-            </p>
-         </article>
-         <!-- Code demo items UI -->
-         <section class="section">
-            <div class="section__samples">
-               <div class="success-toast">This is an example of success toast
-                  <span class="material-icons toastmi">
-                  close
-                  </span>
-               </div>
-               <div class="warning-toast">This 
-                  is an example of warning toast
-                  <span 
-                     class="material-icons toastmi">
-                  close
-                  </span>
-               </div>
-               <div class="error-toast">
-                  This is an example of error toast
-                  <span class="material-icons toastmi">
-                  close
                   </span>
                </div>
             </div>
-         </section>
-         <!-- Code Github Gist Controller -->
-         <details class="details">
-            <summary class="summary">Toast code example</summary>
-            <script src="https://gist.github.com/iprankurpandey/db638931cc6a12a81cdf613d97f04db3.js"></script>
-         </details>
-      </main>
-      <!-- Footer -->
-      <footer class="footer">
-         <ul class="footer__items">
-            <li class="footer__list">
-               <a href="#" class="footer__links">Home</a>
-            </li>
-            <li class="footer__list">
-               <a href="#" class="footer__links">About</a>
-            </li>
-            <li class="footer__list">
-               <a href="#" class="footer__links">Contact</a>
-            </li>
-         </ul>
-      </footer>
-   </body>
+            <h4>Star Rating </h4>
+            <div class="star-rating">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star"></span>
+               <span class="fa fa-star"></span>
+            </div>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Rating code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/1532ffbbd812836eef52f126873c6db0.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Grid">
+         <h2 class="article__heading">Grid</h2>
+         <h5 class="article__subheading">
+            Grid can be used to create different responsive layouts and to align elements.
+         </h5>
+         <p class="article__text">
+            Example of Grids
+            There are different type of grids available in the grid component and are used to create different layouts .
+            some of examples are as follows:
+            50:50 GridsAlert
+            50:50 Grids are used to create equal width and height grids. use the following code to create 50:50 grids.
+            class="grid-50-50"
+            70:30 Grids
+            70:30 Grids are used to create 70% width and 30% height grids. use the following code to create 50:50:50
+            grids. class="container-70-30"
+            30:70 Grids
+            30:70 Grids are used to create 30% width and 70% height grids. use the following code to create 50:50:50
+            grids. class="container-30-70"
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples ">
+            <div class="grid-50-50">
+               <div class="item1">Item-1</div>
+               <div class="item2">Item-2</div>
+            </div>
+            <div class="grid-30-70">
+               <div class="item1">Item-1</div>
+               <div class="item2">Item-2</div>
+            </div>
+            <div class="grid-70-30">
+               <div class="item1">Item-1</div>
+               <div class="item2">Item-2</div>
+            </div>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Grid code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/a6dddbdaa8f4ba33654ed2ded449b38c.js"></script>
+      </details>
+   </main>
+   <!-- Code Item Description ==Alerts -->
+   <main class="main">
+      <article class="article" id="Toast">
+         <h2 class="article__heading">Toast</h2>
+         <h5 class="article__subheading">
+            Alerts are used to attract user's attention for important information
+            without interrupting the user's flow.
+         </h5>
+         <p class="article__text">
+            This component can be used for toast or snackbar component. Toast is mostly used to show feedback message.
+            Snackbar is to used show message that need user action .
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+            <div class="success-toast">This is an example of success toast
+               <span class="material-icons toastmi">
+                  close
+               </span>
+            </div>
+            <div class="warning-toast">This
+               is an example of warning toast
+               <span class="material-icons toastmi">
+                  close
+               </span>
+            </div>
+            <div class="error-toast">
+               This is an example of error toast
+               <span class="material-icons toastmi">
+                  close
+               </span>
+            </div>
+         </div>
+      </section>
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Toast code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/db638931cc6a12a81cdf613d97f04db3.js"></script>
+      </details>
+   </main>
+   <!-- Footer -->
+   <footer class="footer">
+      <ul class="footer__items">
+         <li class="footer__list">
+            <a href="#" class="footer__links">Home</a>
+         </li>
+         <li class="footer__list">
+            <a href="#" class="footer__links">About</a>
+         </li>
+         <li class="footer__list">
+            <a href="#" class="footer__links">Contact</a>
+         </li>
+      </ul>
+   </footer>
+
+   <script src="/darkmode.js"></script>
+</body>
+
 </html>
