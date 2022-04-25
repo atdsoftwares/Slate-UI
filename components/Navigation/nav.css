@@ -21,10 +21,32 @@
 .navigation__logo {
   font-size: 1.5rem;
   font-weight: 800;
-  background-color: white;
 }
 .navigation__input {
   border-radius: 0.4rem;
   width: auto;
   height: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+  .navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation__input {
+    width: 4rem;
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+  .navigation__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation__logo {
+    font-size: 1rem;
+  }
 }
