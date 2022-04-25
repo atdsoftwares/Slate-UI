@@ -37,6 +37,7 @@ ul.nav__items {
 .nav__links {
   text-decoration: none;
   font-size: 1.2rem;
+  color: black;
 }
 
 .nav__links:active {
@@ -57,27 +58,27 @@ ul.nav__items {
 }
 
 .main {
-  height: auto;
+  height: 100vh;
   background-color: aqua;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.main__section-1 {
-  height: 46rem;
-  width: 50%;
-  background: #c6ffdd;
-  background: linear-gradient(to right, #f7797d, #f5c554, #55e68f);
-
-  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.main__section-1 {
+  height: 100vh;
+  width: 50%;
+  background: #c6ffdd;
+  background: linear-gradient(to right, #f7797d, #f5c554, #55e68f);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .main__section-2 {
-  height: 46rem;
+  height: 100vh;
   width: 50%;
   background-color: rgb(16, 40, 85);
   display: flex;
@@ -86,26 +87,31 @@ ul.nav__items {
 }
 .btn-code-copy {
   height: 3rem;
-  width: 44rem;
+  width: auto;
   border-radius: 0.4rem;
   margin-top: 1rem;
-  background-color: #a1f0c2;
+  background-color: rgb(206, 199, 194);
   color: #000000;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  word-wrap: break-word;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 .paragraph {
   background-color: rgb(206, 199, 194);
-  width: 10rem;
+  word-wrap: break-word;
+  padding: 1rem;
+  margin: 1rem;
 }
 .main__article {
   padding: 1rem;
   margin: 1rem;
   color: #020202;
-  word-break: normal;
-  word-spacing: 0.4rem;
+  word-wrap: break-word;
+  word-spacing: 0.5rem;
 }
 .main__section-btn {
   height: 3rem;
@@ -150,4 +156,29 @@ ul.nav__items {
 }
 .paragraph {
   margin: 1rem;
+}
+.nav-menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: auto;
+    font-size: 1rem;
+    margin-top: 4rem;
+  }
+  .main__section-1,
+  .main__section-2 {
+    width: 100%;
+  }
+  .header__logo {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  .nav-menu-icon {
+    display: block;
+    font-size: 2rem;
+  }
 }
