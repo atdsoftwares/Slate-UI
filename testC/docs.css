@@ -97,6 +97,10 @@ ul.nav__items {
   margin-left: 8rem;
   overflow: auto;
 }
+
+.first-index {
+  margin-top: 5rem;
+}
 .article,
 .section,
 .details {
@@ -104,7 +108,7 @@ ul.nav__items {
   max-width: 70rem;
   background-color: mediumseagreen;
   padding: 1rem;
-  margin: 5rem 0rem 0rem 10rem;
+  margin: 0rem 0rem 0rem 10rem;
   border-radius: 0.5rem;
   box-shadow: 2px 2px 2px 2px rgb(240, 228, 228);
 }
@@ -172,4 +176,56 @@ ul.nav__items {
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+.nav-menu-icon {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .header__logo {
+    font-size: 1.2rem;
+    color: black;
+  }
+  .nav-menu-icon {
+    display: block;
+    font-size: 2rem;
+    color: black;
+  }
+
+  .dark-mode-btn {
+    display: none;
+  }
+
+  .main {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+  .article,
+  .details,
+  .section {
+    height: auto;
+    width: 100%;
+    background-color: mediumseagreen;
+    padding: 1rem;
+    margin: 1rem 0 1rem 0;
+    overflow: auto;
+    border-radius: 0.5rem;
+    word-wrap: break-word;
+    box-shadow: 2px 2px 2px 2px rgb(240, 228, 228);
+  }
+  .first-index {
+    margin-top: 5rem;
+  }
+  .section__samples {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: auto;
+  }
 }
