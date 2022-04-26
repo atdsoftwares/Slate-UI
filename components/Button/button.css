@@ -21,6 +21,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
+  border: none;
 }
 
 /* outline button class */
@@ -31,6 +32,7 @@
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
+  border: none;
 }
 
 /* button with icon class */
@@ -41,6 +43,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 1rem;
+  border: none;
 }
 
 /* primary solid button class */
@@ -167,4 +170,17 @@ span.material-icons.buttonmi {
   background-color: rgb(197, 7, 245);
   color: white;
   font-weight: bold;
+}
+@media only screen and (max-width: 700px) {
+  .btn-solid,
+  .btn,
+  .btn-outline,
+  .btn-with-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 2rem;
+    border: 0 0 1px 0 solid black;
+  }
 }
