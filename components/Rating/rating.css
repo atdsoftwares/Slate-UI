@@ -45,3 +45,10 @@ span.material-icons.ratingmi {
 .checked {
   color: var(--golden-color);
 }
+@media only screen and (max-width: 700px) {
+  .star-rating,
+  .rating {
+    height: 3rem;
+    width: 100%;
+  }
+}
