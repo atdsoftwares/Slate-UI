@@ -9,7 +9,7 @@
 .header {
   width: 100%;
   height: 4rem;
-  background-color: rgb(70, 231, 83);
+  background-color: hsl(224, 87%, 76%);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -69,8 +69,9 @@ ul.nav__items {
 .main__section-1 {
   height: 100vh;
   width: 50%;
-  background: #c6ffdd;
-  background: linear-gradient(to right, #f7797d, #f5c554, #55e68f);
+  background-color: hsl(223, 48%, 89%);
+  /* background: #c6ffdd;
+  background: linear-gradient(to right, #f7797d, #f5c554, #55e68f); */
   font-size: 1.2rem;
   display: flex;
   justify-content: center;
@@ -80,10 +81,11 @@ ul.nav__items {
 .main__section-2 {
   height: 100vh;
   width: 50%;
-  background-color: rgb(16, 40, 85);
+  background-color: hsl(223, 48%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid black;
 }
 .btn-code-copy {
   height: 3rem;
@@ -129,7 +131,7 @@ ul.nav__items {
 .footer {
   width: 100%;
   height: 4rem;
-  background-color: rgb(80, 241, 80);
+  background-color: hsl(224, 87%, 76%);
   color: white;
   display: flex;
   justify-content: space-around;
