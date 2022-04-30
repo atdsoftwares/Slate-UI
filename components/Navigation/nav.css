@@ -17,6 +17,7 @@
 .navigationmi {
   font-size: 2rem;
   margin: 1rem;
+  cursor: pointer;
 }
 .navigation__logo {
   font-size: 1.5rem;
@@ -27,13 +28,21 @@
   width: auto;
   height: 2rem;
 }
-
+.nav__number-badge {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  background-color: tomato;
+  bottom: 1rem;
+  right: 1rem;
+}
 @media only screen and (max-width: 700px) {
   .navigation-menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 50vh;
   }
 
   .navigation__input {
@@ -47,6 +56,8 @@
     align-items: center;
   }
   .navigation__logo {
-    font-size: 1rem;
+    /* font-size: 1rem;
+    margin-left: 1rem; */
+    display: none;
   }
 }
