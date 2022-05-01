@@ -11,13 +11,29 @@
   padding: 1rem;
   border-radius: 0.3rem;
 }
+/* only used for responsive design */
+.header-responsive {
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(107, 171, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  display: none;
+}
 .navigation__right {
   margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .navigationmi {
   font-size: 2rem;
   margin: 1rem;
   cursor: pointer;
+  color: white;
 }
 .navigation__logo {
   font-size: 1.5rem;
@@ -25,39 +41,67 @@
 }
 .navigation__input {
   border-radius: 0.4rem;
-  width: auto;
-  height: 2rem;
+  width: 25rem;
+  height: 2.4rem;
 }
 .nav__number-badge {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
   position: relative;
   background-color: tomato;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 0.8rem;
+  right: 1.5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 800;
+}
+
+.navbadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 700px) {
   .navigation-menu {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 50vh;
+    width: 46vh;
+    position: absolute;
+    bottom: 0;
   }
 
   .navigation__input {
-    width: 4rem;
-    margin-left: 2rem;
-    padding: 1rem;
+    display: none;
   }
   .navigation__right {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
   }
   .navigation__logo {
-    /* font-size: 1rem;
-    margin-left: 1rem; */
     display: none;
+  }
+  .header-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-color: rgb(107, 171, 255);
+  }
+  .header__input-responsive {
+    height: 2.5rem;
+    width: 100%;
+    margin: 1.5rem;
+    border-radius: 0.4rem;
+    text-align: center;
   }
 }
