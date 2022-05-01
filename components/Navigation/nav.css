@@ -89,7 +89,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: 46vh;
     position: absolute;
     top: 0;
     color: rgb(0, 0, 0);
@@ -98,7 +98,7 @@
     background-color: rgb(107, 171, 255);
   }
   .header__input-responsive {
-    height: 2.5rem;
+    height: 2rem;
     width: 100%;
     margin: 1.5rem;
     border-radius: 0.4rem;
