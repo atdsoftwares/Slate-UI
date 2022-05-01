@@ -3,46 +3,50 @@
 
 /* head button class */
 .btn {
-  height: 2.5rem;
-  width: 15rem;
+  height: 2rem;
+  width: 6rem;
   margin: 0.2rem;
   border-radius: 0.4rem;
   color: var(--button-font-color);
   font-size: 1.2rem;
   font-weight: 800;
   cursor: pointer;
+  margin: 1rem;
 }
 
 /* solid head button class */
 .btn-solid {
-  height: 5rem;
-  width: 40rem;
+  height: 2rem;
+  width: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
   border: none;
 }
 
 /* outline button class */
 .btn-outline {
-  height: 5rem;
-  width: 40rem;
+  height: 2rem;
+  width: auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
   border: none;
 }
 
 /* button with icon class */
 .btn-with-icons {
-  height: 5rem;
-  width: 40rem;
+  height: 2rem;
+  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem;
+  padding: 1rem;
   border: none;
 }
 
@@ -150,14 +154,13 @@
 }
 
 .icon {
-  width: 10rem;
+  width: 7rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 span.material-icons.buttonmi {
-  font-size: 2rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,15 +175,54 @@ span.material-icons.buttonmi {
   font-weight: bold;
 }
 @media only screen and (max-width: 700px) {
-  .btn-solid,
-  .btn,
-  .btn-outline,
-  .btn-with-icons {
+  .btn-solid {
+    height: 3rem;
+    width: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
-    margin-left: 2rem;
-    border: 0 0 1px 0 solid black;
+    flex-direction: column;
+    margin: 4rem;
+    padding-left: 1rem;
+    border: none;
+  }
+  .btn-solid::before {
+    content: "Button Solid";
+    color: black;
+    margin-top: 4rem;
+  }
+  .btn-outline {
+    height: 3rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem;
+    padding-left: 1rem;
+    border: none;
+  }
+
+  .btn-outline::before {
+    content: "Button outline";
+    color: black;
+    margin-top: 8rem;
+  }
+  .btn-with-icons {
+    height: 3rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem;
+    padding-left: 1rem;
+    border: none;
+  }
+  .btn-with-icons::before {
+    content: "Button with Icon";
+    color: black;
+    margin-top: 6rem;
+    padding-top: 4rem;
   }
 }
