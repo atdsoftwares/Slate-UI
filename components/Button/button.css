@@ -175,54 +175,33 @@ span.material-icons.buttonmi {
   font-weight: bold;
 }
 @media only screen and (max-width: 700px) {
+  .btn {
+    margin: 0.4rem 0 0.2rem 0;
+  }
   .btn-solid {
-    height: 3rem;
+    height: auto;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 4rem;
-    padding-left: 1rem;
-    border: none;
-  }
-  .btn-solid::before {
-    content: "Button Solid";
-    color: black;
-    margin-top: 4rem;
-  }
-  .btn-outline {
-    height: 3rem;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 4rem;
-    padding-left: 1rem;
-    border: none;
   }
 
-  .btn-outline::before {
-    content: "Button outline";
-    color: black;
-    margin-top: 8rem;
-  }
-  .btn-with-icons {
-    height: 3rem;
+  .btn-outline {
+    height: auto;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 4rem;
-    padding-left: 1rem;
-    border: none;
   }
-  .btn-with-icons::before {
-    content: "Button with Icon";
-    color: black;
-    margin-top: 6rem;
-    padding-top: 4rem;
+
+  .btn-with-icons {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
