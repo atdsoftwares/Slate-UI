@@ -9,6 +9,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+  /* top: 0;
+  position: fixed; */
   border-radius: 0.3rem;
 }
 /* only used for responsive design */
@@ -70,8 +72,8 @@
     justify-content: flex-start;
     align-items: center;
     width: 46vh;
-    position: absolute;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
   }
 
   .navigation__input {
