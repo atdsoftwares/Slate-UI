@@ -8,21 +8,22 @@
 
 .header {
   width: 100%;
-  height: 4rem;
+  height: 3.5rem;
   background-color: hsl(224, 87%, 76%);
   color: rgb(250, 250, 250);
   display: flex;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  z-index: 1;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
 }
 .header__logo {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   margin-left: 4rem;
-  color: rgb(229, 226, 226);
+  color: rgb(236, 153, 153);
 }
 
 ul.nav__items {
@@ -68,8 +69,6 @@ ul.nav__items {
   bottom: 0;
   margin-top: 4rem;
   margin-left: 2rem;
-  border-radius: 0.2rem;
-  box-shadow: 1px 1px 1px 1px rgb(236, 232, 232);
 }
 .aside__items {
   display: flex;
@@ -211,13 +210,13 @@ ul.nav__items {
   .section {
     height: auto;
     width: 100%;
-    background-color: rgb(210, 241, 218);
+    /* background-color: rgb(210, 241, 218); */
     padding: 1rem;
     margin: 1rem 0 1rem 0;
     overflow: auto;
     border-radius: 0.5rem;
     word-wrap: break-word;
-    box-shadow: 2px 2px 2px 2px rgb(240, 228, 228);
+    box-shadow: 2px 2px 2px 2px rgb(255, 254, 254);
   }
   .first-index {
     margin-top: 5rem;
