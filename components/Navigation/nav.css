@@ -1,44 +1,81 @@
 /* global css file for icons and fonts */
-@import '/css/main.css';
+@import "/css/main.css";
 
-/* main navigation menu class */
 .navigation-menu {
-    height: 5rem;
-    width: 100%;
-    max-width: 100%;
-    background-color: var(--background-universal-color);
+  height: 4rem;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 1;
+  color: black;
+  border-radius: 0.3rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.navigation__right {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navigationmi {
+  font-size: 2rem;
+  margin: 1rem;
+  cursor: pointer;
+  color: rgb(105, 105, 105);
+}
+.navigation__logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.navigation__input {
+  border-radius: 0.4rem;
+  width: 25rem;
+  height: 2.4rem;
+  outline: none;
+  border: 1px solid rgb(105, 105, 105);
+  padding: 0.5rem;
+}
+.nav__number-badge {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  background-color: tomato;
+  bottom: 0.8rem;
+  right: 1.5rem;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 800;
+}
+
+.navbadge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 700px) {
+  .navigation-menu {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 46vh;
+  }
+
+  .navigation__input {
+    display: none;
+  }
+  .navigation__right {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    cursor: pointer;
+  }
+  .navigation__logo {
+    /* display: none; */
+  }
 }
-
-/* left side panel */
-.left-side-panel {
-    display: flex;
-    align-items: center;
-}
-
-
-/* right side panel */
-.right-side-panel {
-    display: flex;
-}
-/* main material icons class */
-.navmtrl {
-    margin: 1rem;
-}
-/* html5  global input element */
-.input-in-nav {
-    width: 20rem;
-    height: 2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-}
-.logo-icon-head{
-    height: 4.5rem;
-    width: 4.5rem;
-}
-
-

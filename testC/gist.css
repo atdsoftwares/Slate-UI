@@ -1,0 +1,11 @@
+.blob-code,
+.blob-num {
+  font-size: 1rem !important;
+  background-color: rgb(0, 0, 0) !important;
+  color: rgb(15, 197, 15) !important;
+  padding: 0.5rem !important;
+  margin: 0.5rem !important;
+}
+.gist-meta {
+  display: none;
+}

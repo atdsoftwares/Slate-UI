@@ -1,55 +1,103 @@
 /* global css file for fonts and icons  */
-@import '/css/main.css';
+@import "/css/main.css";
 
-/* input class main*/
-.input-types {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin: 2rem;
-  padding: 1rem;
-  height: auto;
-  width: auto;
-  background-color: var(--background-universal-color);
-}
-
-.input-in-input{
+.input__field {
   width: 20rem;
   height: 2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   padding: 1rem;
-  text-align: justify;
+  text-align: center;
   margin: 0.2rem;
+  display: flex;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
 }
 
 /* html5 input type submit button */
-input[type='submit'] {
-  height: 2rem;
+input[type="submit"] {
   width: 20rem;
+  height: 2rem;
+  border-radius: 0.4rem;
   cursor: pointer;
-  color: var(--avatar-background-color);
+  padding: 1rem;
+  text-align: center;
   padding: 0.2rem;
-  /* text-align: center; */
   display: flex;
-  align-items: center;
+  outline: none;
+  border: none;
   justify-content: center;
+  align-items: center;
+  background-color: blue;
 }
 
-input[type='submit']:hover{
-  background-color: rgb(243, 243, 94);
+input[type="submit"]:hover {
+  background-color: rgb(28, 0, 208);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 800;
 }
 
-  
-  
-  input:invalid {
-    border: 2px solid var(--red-color);
-    background-color:  var(--danger-alert-bgcolor);
-  }
-  input:valid{
-      border: 2px solid var(--badge-notification-color);
-      background-color: var(--button-font-color);
-  }
-  
+input:invalid {
+  border: 1px solid var(--red-color);
+  background-color: var(--danger-alert-bgcolor);
+}
+input:valid {
+  border-bottom: 1px solid green;
+  background-color: beige;
+}
+.other-input-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin: 1rem;
+  padding: 1rem;
+}
+input[type="radio"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.2rem;
+  display: flex;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
 
+input[type="checkbox"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.2rem;
+  display: flex;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="range"] {
+  width: 20rem;
+  height: 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: center;
+  margin: 0.2rem;
+  display: flex;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+}

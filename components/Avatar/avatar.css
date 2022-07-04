@@ -1,62 +1,59 @@
-@import '/css/main.css';
+@import "/css/main.css";
 
-.avatar{
-    border-radius: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 1rem;
+.avatar {
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
 }
-.container{
-    height:28rem;
-    width: 35rem;
-    border: 2px solid var(--universal-border-color);
-}
-
-.lg-avatar-size{
-    width: 10rem;
-    height: 10rem;
-    font-size: 3rem;
+.container {
+  height: 28rem;
+  width: 35rem;
+  border: 2px solid var(--universal-border-color);
 }
 
-.md-avatar-size{
-    width: 6.25rem;
-    height: 6.25rem;
-    font-size: 2rem;
+.lg-avatar-size {
+  width: 10rem;
+  height: 10rem;
+  font-size: 3rem;
 }
 
-.sm-avatar-size{
-    width: 3rem;
-    height: 3rem;
-    font-size: 1rem;
-
+.md-avatar-size {
+  width: 6.25rem;
+  height: 6.25rem;
+  font-size: 2rem;
 }
 
-.xs-avatar-size{
-    width: 2rem;
-    height: 2rem;
-    font-size: 0.8rem
+.sm-avatar-size {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1rem;
 }
 
-.image-round{
-    border-radius: 50%;
+.xs-avatar-size {
+  width: 2rem;
+  height: 2rem;
+  font-size: 0.8rem;
 }
 
-.image-responsive{
-    width: 100%;
-    height: auto;
+.image-round {
+  border-radius: 50%;
 }
 
-.text-round{
-    border-radius: 50%;
-    background-color: var(--avatar-background-color);
-
-    
+.image-responsive {
+  width: 100%;
+  height: auto;
 }
-.text-responsive{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    margin: 0.1rem;
+
+.text-round {
+  border-radius: 50%;
+  background-color: var(--avatar-background-color);
+}
+.text-responsive {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 0.1rem;
 }

@@ -1,0 +1,22 @@
+{
+  "name": "zeroui",
+  "version": "1.1.0",
+  "description": "zeroui is a set of ready to use web components to rapidly build ui without thinking about design.",
+  "main": "/home/prankur/Desktop/demo-neog projects/zeroui/css/components.css",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iprankurpandey/demo-agro.git"
+  },
+  "keywords": [
+    "zeroui"
+  ],
+  "author": "Prankur Pandey <pprankur@gmail.com> (https://github.com/iprankurpandey)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/iprankurpandey/demo-agro/issues"
+  },
+  "homepage": "https://github.com/iprankurpandey/demo-agro#readme"
+}

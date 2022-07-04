@@ -1,48 +1,49 @@
 /* main css sheet for icons and fonts */
-@import '/css/main.css';
+@import "/css/main.css";
 
 /* main toast container */
 .toast-container {
-    height: 25rem;
-    width: 30rem;
-    background-color: var(--avatar-background-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 25rem;
+  width: 30rem;
+  background-color: var(--avatar-background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 /* material icons */
-.tmtrl{
-    font-size: 2rem;
-    /* color: var(--background-universal-color); */
-    cursor: pointer;
+.toastmi {
+  font-size: 2rem;
+  /* color: var(--background-universal-color); */
+  cursor: pointer;
 }
 
 /* toast classes */
 .success-toast,
 .warning-toast,
 .error-toast {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    height: 3rem;
-    width: 25rem;
-    border-radius: 0.2rem;
-    margin: 1rem;
-    color: var(--background-universal-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 3rem;
+  width: 25rem;
+  max-width: 100%;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  color: var(--background-universal-color);
 }
 
 /* different background color for different toast classes */
 .success-toast {
-    background-color:var(--success-alert-icon-color);
+  background-color: var(--success-alert-icon-color);
 }
 
 .warning-toast {
-    background-color: var(--warning-alert-icon-color);
+  background-color: var(--warning-alert-icon-color);
 }
 
 .error-toast {
-    background-color:var(--danger-alert-icon-color);
+  background-color: var(--danger-alert-icon-color);
 }
