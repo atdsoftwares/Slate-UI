@@ -4,108 +4,103 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cards</title>
     <link rel="stylesheet" href="cards.css" />
+    <link rel="stylesheet" href="/components/Button//button.css" />
+    <title>cards</title>
   </head>
-
   <body>
-    <!-- Horizontal Card -->
-    <div class="horizontal-card">
-      <img
-        class="horizontal-card__image"
-        src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png"
-        alt="image"
-      />
-      <div class="horizontal-card__content">
-        <h2 class="horizontal-card__title">HTML Rice</h2>
-        <h3 class="horizontal-card__price">$5000</h3>
-        <p class="horizontal-card__description">
-          This is Rice is purely crafted and grown organically.
-        </p>
-        <h3 class="horizontal-card__ratings">5 Star</h3>
-        <h4 class="horizontal-card__stock">Stock: InStock</h4>
+    <!-- simple card -->
+    <div class="card-wrapper basic-card">
+      <div>
+        <img
+          src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+          class="card-img"
+          alt="demo"
+        />
+        <div class="card-heading">
+          Women Stylish Pencil Heel Sandal with Trendy Colour
+        </div>
       </div>
-      <div  class="horizontal-card__action-button"> 
-      <div class="horizontal-card__add-to-cart">
-        <button class="btn btn-success icon">
-        Cart
-        <span class="material-icons buttonmi"> shopping_cart </span>
-      </button>
+
+      <div class="card-content">
+        <div class="product-price">
+          <div class="price">&#8377; 699</div>
+          <div class="previous-price">&#8377; 1499</div>
+        </div>
+        <div class="discount">53% off</div>
       </div>
-      <div class="horizontal-card__add-to-wishlist">
-        <button class="btn btn-danger icon">
+
+      <div class="card-action">
+        <button class="btn btn-primary icon">
+          Cart
+          <span class="material-icons buttonmi"> shopping_cart </span>
+        </button>
+        <button class="btn btn-primary icon">
           Wishlist
           <span class="material-icons buttonmi"> favorite_border </span>
         </button>
       </div>
-      </div>
     </div>
-    <div class="horizontal-card">
-      <!-- <img
-        class="horizontal-card__image"
-        src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png"
-        alt="image"
-      /> -->
-      <div class="horizontal-card__content">
-        <h2 class="horizontal-card__title">HTML Rice</h2>
-        <h3 class="horizontal-card__price">$5000</h3>
-        <p class="horizontal-card__description">
-          This is Rice is purely crafted and grown organically.
-        </p>
-        <h3 class="horizontal-card__ratings">5 Star</h3>
-        <h4 class="horizontal-card__stock">Stock:No Stock</h4>
-        </h4>
+    <!-- card with icons -->
+
+    <div class="card-wrapper basic-card">
+      <div>
+        <img
+          src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+          class="card-img"
+          alt="demo"
+        />
+        <span class="card-dismiss">
+          <span class="material-icons close-card-icon"> close </span>
+        </span>
+
+        <div class="card-heading">
+          Women Stylish Pencil Heel Sandal with Trendy Colour
+        </div>
       </div>
 
-      <div class="horizontal-card__add-to-cart">
-        <button class="btn btn-primary icon" disabled>
-          Add to Cart
+      <div class="card-content">
+        <div class="product-price">
+          <div class="price">&#8377; 699</div>
+          <div class="previous-price">&#8377; 1499</div>
+          <span class="card-badge">
+            <div class="trending">
+              <span class="material-icons"> trending_up </span>
+              Trending
+            </div>
+          </span>
+        </div>
+        <div class="discount">53% off</div>
+      </div>
+
+      <div class="card-action">
+        <button class="btn btn-primary icon">
+          Cart
           <span class="material-icons buttonmi"> shopping_cart </span>
         </button>
-      </div>
-      <div class="horizontal-card__add-to-wishlist">
-        <button class="btn btn-success icon" disabled>
-          Add to Wish
+        <button class="btn btn-primary icon">
+          Wishlist
           <span class="material-icons buttonmi"> favorite_border </span>
         </button>
       </div>
     </div>
+    <!-- video card-->
+    <div class="card-wrapper video-card">
+      <div>
+        <iframe
+          class="iframe-video"
+          src="https://www.youtube.com/embed/vX2cDW8LUWk"
+        >
+        </iframe>
 
-    <!-- Vertical Card -->
-    <div class="vertical-card">
-      <img
-        class="vertical-card__image"
-        src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png"
-        alt="image"
-      />
-      <div class="vertical-card__content">
-        <h2 class="vertical-card__title">
-          HTML Rice
-          <span class="material-icons cardmi" title="Authentic Product">
-            check_circle
-          </span>
-        </h2>
-        <h3 class="vertical-card__price">$5000</h3>
-        <p class="vertical-card__description">
-          This is Rice is purely crafted and grown organically.
-        </p>
-        <h3 class="vertical-card__ratings">5 Star</h3>
-        <h4 class="vertical-card__stock">Stock: InStock</h4>
+        <h4 class="card-heading">Excuses -AP Dhillon</h4>
+      </div>
 
-        <div class="vertical-card__buttons">
-          <div class="vertical-card__add-to-cart">
-            <button class="btn btn-primary icon">
-              Add to Cart
-              <span class="material-icons buttonmi"> shopping_cart </span>
-            </button>
-          </div>
-          <div class="vertical-card__add-to-wishlist">
-            <button class="btn btn-success icon">
-              Add to Wish
-              <span class="material-icons buttonmi"> favorite_border </span>
-            </button>
-          </div>
-        </div>
+      <div class="card-action">
+        <button class="btn btn-primary icon">
+          Know More
+          <span class="material-icons buttonmi"> description </span>
+        </button>
       </div>
     </div>
   </body>
