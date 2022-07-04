@@ -5,9 +5,10 @@
    <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Docs-AgriUI</title>
+   <title>Docs-SlateUI</title>
    <link rel="stylesheet" href="docs.css" />
    <link rel="stylesheet" href="./gist.css" />
+   <link rel="icon" type="image/x-icon" href="https://andrewlock.net/content/images/2016/10/icon.png">
 </head>
 
 <body>
@@ -23,12 +24,16 @@
             <li class="nav__list"><a href="/index.html" class="nav__links">Home</a></li>
             <li class="nav__list"><a href="https://github.com/iprankurpandey" class="nav__links">Github</a></li>
 
+
          </ul>
       </nav>
    </header>
    <!-- Aside bar items -->
    <aside class="aside">
       <ul class="aside__items">
+          <li class="aside__list">
+            <a href="#Installation" class="aside__links">Installation</a>
+         </li>
          <li class="aside__list">
             <a href="#Alert" class="aside__links">Alert</a>
          </li>
@@ -69,10 +74,54 @@
          <li class="aside__list">
             <a href="#Toast" class="aside__links">Toast</a>
          </li>
+    
+         
       </ul>
    </aside>
    <!-- Code Item Description ==Alerts -->
-   <main class="main first-index">
+   <div class="component-container">
+
+
+      <!-- installation guide -->
+<main class="main">
+      <article class="article" id="Installation">
+         <h2 class="article__heading ">Installation</h2>
+         <h5 class="article__subheading">
+            To use SlateUI in your project, copy the CDN link and paste it in the head of the HTML file of your project.
+            OR 
+            Can Import the File in your project by using the following command:
+         </h5>
+         <p class="article__text">
+            <!-- <code class="code">
+               npm install slateui
+            </code> -->
+         </p>
+      </article>
+      <!-- Code demo items UI -->
+      <section class="section">
+         <div class="section__samples">
+         <div class="btn-code-copy">
+          <p class="code-url">
+            <code>
+               @import "https://agriui.netlify.app/css/components.css";
+            </code>
+          </p>
+          <button class="copy-btn">copy</button>
+        </div>
+
+       
+         </div>
+      </section>
+      
+      <!-- Code Github Gist Controller -->
+      <details class="details">
+         <summary class="summary">Installation Guide Code example</summary>
+         <script src="https://gist.github.com/iprankurpandey/1288b69914d6c179f0f0fa1f1b530f3b.js"></script>
+      </details>
+   </main>
+
+      <!-- Alert component -->
+   <main class="main">
       <article class="article" id="Alert">
          <h2 class="article__heading ">Alert</h2>
          <h5 class="article__subheading">
@@ -108,12 +157,14 @@
             </div>
          </div>
       </section>
+      
       <!-- Code Github Gist Controller -->
       <details class="details">
          <summary class="summary">Alert code example</summary>
          <script src="https://gist.github.com/iprankurpandey/9bcc73d78f5ddbf863f2dfede254a0df.js"></script>
       </details>
    </main>
+   
    <!-- Code Item Description ==Avatar -->
    <main class="main">
       <article class="article" id="Avatar">
@@ -304,91 +355,106 @@
       </article>
       <!-- Code demo items UI -->
       <section class="section">
-         <div class="section__samples section-other-items">
-            <!-- Horizontal card with buttons and images -->
-            <div class="horizontal-card">
-               <img class="horizontal-card__image" src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png" alt="image" />
-               <div class="horizontal-card__content">
-                  <h2 class="horizontal-card__title">HTML Rice</h2>
-                  <h3 class="horizontal-card__price">$5000</h3>
-                  <p class="horizontal-card__description">
-                     This is Rice is purely crafted and grown organically.
-                  </p>
-                  <h3 class="horizontal-card__ratings">5 Star</h3>
-                  <h4 class="horizontal-card__stock">Stock: InStock</h4>
-               </div>
-               <div class="horizontal-card__add-to-cart">
-                  <button class="btn btn-primary icon">
-                     Add to Cart
-                     <span class="material-icons buttonmi"> shopping_cart </span>
-                  </button>
-               </div>
-               <div class="horizontal-card__add-to-wishlist">
-                  <button class="btn btn-success icon">
-                     Add to Wish
-                     <span class="material-icons buttonmi"> favorite_border </span>
-                  </button>
-               </div>
-            </div>
-            <!-- Horizontal card with out of stock and no image  -->
-            <div class="horizontal-card">
+         <c class="section__samples section-other-items">
+            <!--Horizontal Cards  -->
+              <div class="card-wrapper basic-card">
+      <div>
+        <img
+          src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+          class="card-img"
+          alt="demo"
+        />
+        <div class="card-heading">
+          Women Stylish Pencil Heel Sandal with Trendy Colour
+        </div>
+      </div>
 
-               <div class="horizontal-card__content">
-                  <h2 class="horizontal-card__title">HTML Rice</h2>
-                  <h3 class="horizontal-card__price">$5000</h3>
-                  <p class="horizontal-card__description">
-                     This is Rice is purely crafted and grown organically.
-                  </p>
-                  <h3 class="horizontal-card__ratings">5 Star</h3>
-                  <h4 class="horizontal-card__stock">Stock:No Stock</h4>
-                  </h4>
-               </div>
-               <div class="horizontal-card__add-to-cart">
-                  <button class="btn btn-primary icon" disabled>
-                     Add to Cart
-                     <span class="material-icons buttonmi"> shopping_cart </span>
-                  </button>
-               </div>
-               <div class="horizontal-card__add-to-wishlist">
-                  <button class="btn btn-success icon" disabled>
-                     Add to Wish
-                     <span class="material-icons buttonmi"> favorite_border </span>
-                  </button>
-               </div>
+      <div class="card-content">
+        <div class="product-price">
+          <div class="price">&#8377; 699</div>
+          <div class="previous-price">&#8377; 1499</div>
+        </div>
+        <div class="discount">53% off</div>
+      </div>
+
+      <div class="card-action">
+        <button class="btn btn-primary icon">
+          Cart
+          <span class="material-icons buttonmi"> shopping_cart </span>
+        </button>
+        <button class="btn btn-primary icon">
+          Wishlist
+          <span class="material-icons buttonmi"> favorite_border </span>
+        </button>
+      </div>
+    </div>
+            <!-- Horizontal Cards with Icons and Shadow -->
+             <div class="card-wrapper basic-card">
+      <div>
+        <img
+          src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
+          class="card-img"
+          alt="demo"
+        />
+        <span class="card-dismiss">
+          <span class="material-icons close-card-icon"> close </span>
+        </span>
+
+        <div class="card-heading">
+          Women Stylish Pencil Heel Sandal with Trendy Colour
+        </div>
+      </div>
+
+      <div class="card-content">
+        <div class="product-price">
+          <div class="price">&#8377; 699</div>
+          <div class="previous-price">&#8377; 1499</div>
+          <span class="card-badge">
+            <div class="trending">
+              <span class="material-icons"> trending_up </span>
+              Trending
             </div>
-            <!-- Vertical Card with icons -->
-            <div class="vertical-card">
-               <img class="vertical-card__image" src="https://i.ibb.co/SRn0LwX/icons8-html-5-480.png" alt="image" />
-               <div class="vertical-card__content">
-                  <h2 class="vertical-card__title">
-                     HTML Rice
-                     <span class="material-icons cardmi" title="Authentic Product">
-                        check_circle
-                     </span>
-                  </h2>
-                  <h3 class="vertical-card__price">$5000</h3>
-                  <p class="vertical-card__description">
-                     This is Rice is purely crafted and grown organically.
-                  </p>
-                  <h3 class="vertical-card__ratings">5 Star</h3>
-                  <h4 class="vertical-card__stock">Stock: InStock</h4>
-                  <div class="vertical-card__buttons">
-                     <div class="vertical-card__add-to-cart">
-                        <button class="btn btn-primary icon">
-                           Add to Cart
-                           <span class="material-icons buttonmi"> shopping_cart </span>
-                        </button>
-                     </div>
-                     <div class="vertical-card__add-to-wishlist">
-                        <button class="btn btn-success icon">
-                           Add to Wish
-                           <span class="material-icons buttonmi"> favorite_border </span>
-                        </button>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+          </span>
+        </div>
+        <div class="discount">53% off</div>
+      </div>
+
+      <div class="card-action">
+        <button class="btn btn-primary icon">
+          Cart
+          <span class="material-icons buttonmi"> shopping_cart </span>
+        </button>
+        <button class="btn btn-primary icon">
+          Wishlist
+          <span class="material-icons buttonmi"> favorite_border </span>
+        </button>
+      </div>
+    </div>
+            <!-- video card  -->
+              <div class="card-wrapper basic-card">
+      <div>
+        <iframe
+          class="iframe-video"
+          src="https://www.youtube.com/embed/vX2cDW8LUWk"
+        >
+        </iframe>
+
+        <h4 class="card-heading">Excuses -AP Dhillon</h4>
+      </div>
+
+      <div class="card-action">
+        <button class="btn btn-primary icon">
+          Know More
+          <span class="material-icons buttonmi"> description </span>
+        </button>
+      </div>
+    </div>
+
+  
+    
+         
+         
+
       </section>
       <!-- Code Github Gist Controller -->
       <details class="details">
@@ -420,6 +486,7 @@
          <div class="section__samples">
             <img class="image-item responsive-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
             <img class="image-item round-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
+            <img class="image-item circle-image" src="https://i.ibb.co/pLVDGb2/scorpio-sign.jpg" alt="scorpio">
          </div>
       </section>
       <!-- Code Github Gist Controller -->
@@ -452,6 +519,14 @@
             <input class="input__field" type="password" name="input password" placeholder="Password" required
                minlength="6" />
             <input class="input__field" type="submit" name="input submit" required />
+
+             <div class="other-input-type">
+                <input  type="radio" class="input-radio-type"> Price Low to height </input>
+               <input  class="input-checkbox-type" type="checkbox"> Price height to low </input>
+               <input  class="input-range-type" type="range" name="price-range" id="range" >Slider
+            </div>
+
+    
          </div>
       </section>
       <!-- Code Github Gist Controller -->
@@ -784,22 +859,12 @@
          <script src="https://gist.github.com/iprankurpandey/db638931cc6a12a81cdf613d97f04db3.js"></script>
       </details>
    </main>
-   <!-- Footer -->
-   <footer class="footer">
-      <ul class="footer__items">
-        
-         <li class="footer__list">
-            <a href="https://linkedin.com/in/iprankurpandey" class="footer__links">Linkedin</a>
-         </li>
-         <li class="footer__list">
-            <a href="mailto: pprankur@gmail.com" class="footer__links">Email</a>
-         </li>
-         
-      </ul>
-   </footer>
 
+    </div>
+ 
    <script src="/darkmode.js"></script>
    <script src="/exc.js"></script>
+   <script src="/index.js"></script>
 </body>
 
 </html>
