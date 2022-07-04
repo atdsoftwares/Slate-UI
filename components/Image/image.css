@@ -4,9 +4,10 @@
 /* global image HTML5 tag */
 .image-item {
   width: 15rem;
+  max-height: auto;
+  max-width: auto;
   height: 15rem;
   margin: 1rem;
-  border: 1px solid tomato;
 }
 /* repsonsive class */
 .responsive-image {
@@ -18,4 +19,9 @@
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
+}
+.circle-image {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 0.5rem;
 }
