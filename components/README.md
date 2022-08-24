@@ -1,1 +1,1 @@
-# agri-component-library
+# slate-component-library

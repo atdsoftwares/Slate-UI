@@ -30,11 +30,11 @@
 /* different ordered list styles */
 .ordered-list-examples {
   display: flex;
-  margin: 2rem;
+  margin: 3rem;
   height: auto;
-  width: 45%;
+  width: 60%;
   background-color: rgb(253, 252, 252);
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   padding: 2rem;
