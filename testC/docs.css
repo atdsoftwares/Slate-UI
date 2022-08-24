@@ -6,8 +6,7 @@
   scroll-behavior: smooth;
 }
 body {
-  background-color: #d9afd9;
-  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  background-image: radial-gradient(circle farthest-side, #ffd363, #b1ab99);
 }
 
 .header {
@@ -19,15 +18,14 @@ body {
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
-  z-index: 1;
+  z-index: 2;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
 }
 .header__logo {
   font-size: 2rem;
-  font-weight: bold;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 ul.nav__items {
@@ -55,22 +53,21 @@ a.nav__links {
   color: white;
 }
 
-.dark-mode-btn {
+/* .dark-mode-btn {
   height: 2rem;
   width: 8rem;
   background-color: #000000;
   color: white;
   border-radius: 0.2rem;
   font-weight: 800;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border: 3px solid white;
   cursor: pointer;
-}
+} */
 .aside {
   height: 100%;
-  width: 10%;
-  background-color: #d9afd9;
-  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+  width: 12%;
+  background-image: linear-gradient(to right, #decba4, #728888);
   overflow: auto;
   position: fixed;
   top: 0;
@@ -81,20 +78,20 @@ a.nav__links {
 .aside__items {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   font-size: 1.2rem;
   overflow: auto;
-  font-weight: 800;
   padding-top: 1rem;
 }
+
 .aside__list {
   list-style: none;
   padding: 0.5rem;
 }
 .aside__links {
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .main {
@@ -112,26 +109,22 @@ a.nav__links {
 .section,
 .details {
   height: auto;
-  max-width: 90%;
+  max-width: 85%;
   background-color: rgb(255, 254, 254);
   padding: 1rem;
   color: black;
   margin: 0rem 0rem 0rem 10rem;
   border-radius: 0.5rem;
-  /* box-shadow: 2px 2px 2px 2px rgb(240, 228, 228); */
 }
 
 .article__heading {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .article__text,
 .article__subheading {
-  padding: 0.5rem;
-  /* background-color: whitesmoke; */
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   border-radius: 0.3rem;
-  margin-top: 1rem;
 }
 
 .section,
@@ -143,13 +136,13 @@ a.nav__links {
   margin-bottom: 1rem;
 }
 .summary {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 .section__samples {
   background-color: rgb(255, 255, 255);
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   display: flex;
   align-items: center;
   height: auto;
