@@ -85,13 +85,13 @@ Live Hosted Link - **[Slate UI](https://agri-component.netlify.app/)**
 
 - Copy lineIcons CDN, and fasterUI CSS link Put this links in your project head tag.
   - Material Icon CDN -> `<br />` `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` `<br />`
-  - fasterUI components.css -> `<br />` `<<link rel="stylesheet" href="https://agri-component.netlify.app/css/components.css">>` `<br />`
+  - fasterUI components.css -> `<br />` `<<link rel="stylesheet" href="https://slateui.netlify.app/css/components.css">>` `<br />`
 - Copy HTML of the component that you want to use in your project
 - And you are done! fasterUI Components will be available in your project! 😎 🥳
 
 ## Screenshots
 
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283915282.png)
+Video Preview : [https://www.loom.com/share/4a0f129c8fe142f4a60b582e42157fe7]()![img](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283915282.png)
 
 ![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283880384.png)
 
